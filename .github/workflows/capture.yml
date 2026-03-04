@@ -2,9 +2,10 @@ name: Capture Dune Dashboards
 
 on:
   schedule:
-    - cron: "*/15 * * * *" # every 15 minutes (UTC)
+    - cron: "*/15 * * * *"   # every 15 minutes (UTC)
   workflow_dispatch:
 
+# 防止定时 + 手动同时跑互相 push 打架
 concurrency:
   group: capture-dune-shots
   cancel-in-progress: true
@@ -42,15 +43,20 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # sync latest main to avoid "fetch first"
-          git pull --rebase origin main
-
+          # 先把截图加入暂存区（否则无法 rebase）
           git add shots/*.png || true
 
+          # 没变化就退出
           if git diff --cached --quiet; then
             echo "No screenshot changes."
             exit 0
           fi
 
-          git commit -m "update dashboard screenshots" || true
-          git push origin main
+          # 先提交本地改动
+          git commit -m "update dashboard screenshots"
+
+          # 再同步远端（保持线性历史）
+          git pull --rebase origin main
+
+          # 推送（如果又被抢先更新，就再 rebase 一次再推）
+          git push origin HEAD:main || (git pull --rebase origin main && git push origin HEAD:main)
