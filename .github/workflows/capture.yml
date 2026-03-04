@@ -2,7 +2,7 @@ name: Capture Dune Dashboards
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # every 15 minutes (UTC)
+    - cron: "*/15 * * * *" # every 15 minutes (UTC)
   workflow_dispatch:
 
 # 防止定时 + 手动同时跑互相 push 打架
@@ -31,32 +31,29 @@ jobs:
       - name: Install deps
         run: |
           npm ci || npm i
-          npx playwright install --with-deps chromium
 
       - name: Run capture
+        env:
+          DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
         run: |
           node capture.js
 
-      - name: Commit screenshots if changed
+      - name: Commit outputs if changed
         run: |
           set -e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # 先把截图加入暂存区（否则无法 rebase）
+          # 关键：先同步远端最新 main（避免 fetch first / 冲突）
+          git pull --rebase origin main
+
+          # ✅ 改动在这里：把 shots 目录下所有文件都提交（png + metrics.json）
           git add shots/* || true
 
-          # 没变化就退出
           if git diff --cached --quiet; then
-            echo "No screenshot changes."
+            echo "No changes."
             exit 0
           fi
 
-          # 先提交本地改动
-          git commit -m "update dashboard screenshots"
-
-          # 再同步远端（保持线性历史）
-          git pull --rebase origin main
-
-          # 推送（如果又被抢先更新，就再 rebase 一次再推）
-          git push origin HEAD:main || (git pull --rebase origin main && git push origin HEAD:main)
+          git commit -m "update dashboard data" || true
+          git push origin main
