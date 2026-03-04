@@ -5,7 +5,6 @@ on:
     - cron: "*/15 * * * *"   # every 15 minutes (UTC)
   workflow_dispatch:
 
-# 防止定时 + 手动同时跑互相 push 打架
 concurrency:
   group: capture-dune-shots
   cancel-in-progress: true
@@ -34,6 +33,8 @@ jobs:
           npx playwright install --with-deps chromium
 
       - name: Run capture
+        env:
+          DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
         run: |
           node capture.cjs
 
@@ -43,13 +44,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # 先把本次生成的内容加入暂存区（避免 pull --rebase 报 unstaged changes）
           git add shots/* || true
-
-          # 同步远端最新 main，避免 main -> main (fetch first)
           git pull --rebase origin main
-
-          # pull 之后再 add 一次，确保暂存区包含最新变更
           git add shots/* || true
 
           if git diff --cached --quiet; then
