@@ -1,53 +1,135 @@
-import fs from "fs";
-import path from "path";
-import { chromium } from "playwright";
+// capture.js
+// Fetch Dune query results via API and render to PNG charts (no browser screenshot, bypass Cloudflare)
 
-const OUT_DIR = path.join(process.cwd(), "shots");
+const fs = require("fs");
+const path = require("path");
+
+const DUNE_API_KEY = process.env.DUNE_API_KEY;
+if (!DUNE_API_KEY) {
+  console.error("Missing DUNE_API_KEY. Please set it in GitHub Secrets.");
+  process.exit(1);
+}
+
+const OUT_DIR = path.join(__dirname, "shots");
 if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });
 
-const TARGETS = [
-  { key:"polymarket", name:"Polymarket", url:"https://dune.com/datadashboards/polymarket-overview" },
-  { key:"kalshi", name:"Kalshi", url:"https://dune.com/datadashboards/kalshi-overview" },
-  { key:"opinion", name:"Opinion", url:"https://dune.com/datadashboards/opinion" },
-  { key:"myriad", name:"Myriad", url:"https://dune.com/datadashboards/myriad" },
-  { key:"predict", name:"Predict", url:"https://dune.com/datadashboards/predict-prediction-market-predictfun" },
-  { key:"ibkr", name:"IBKR ForecastEx", url:"https://dune.com/datadashboards/ibkr-forecastex" },
-  { key:"overtime", name:"Overtime", url:"https://dune.com/datadashboards/overtime" }
+/**
+ * Config: add more charts here later
+ * Each item:
+ * - name: output png filename
+ * - queryId: Dune query id
+ * - xKey: column name for x axis
+ * - yKey: column name for y axis
+ * - title: chart title
+ */
+const CHARTS = [
+  {
+    name: "polymarket.png",
+    queryId: 5756284,
+    xKey: "date",      // <-- 如果你的列名不是 date，后面我教你怎么改
+    yKey: "volume",    // <-- 如果你的列名不是 volume，后面我教你怎么改
+    title: "Polymarket (Query 5756284)"
+  },
 ];
 
-// 视口截图：更像“数据面板画面”，不是整页
-const VIEWPORT = { width: 1440, height: 900 };
+async function duneResults(queryId, limit = 1000) {
+  const url = `https://api.dune.com/api/v1/query/${queryId}/results?limit=${limit}`;
+  const res = await fetch(url, {
+    headers: { "x-dune-api-key": DUNE_API_KEY },
+  });
+  if (!res.ok) {
+    const text = await res.text().catch(() => "");
+    throw new Error(`Dune API error ${res.status}: ${text}`);
+  }
+  return res.json();
+}
 
-async function shotOne(page, t) {
-  await page.setViewportSize(VIEWPORT);
-  await page.goto(t.url, { waitUntil: "domcontentloaded" });
+function guessKeysFromFirstRow(rows) {
+  const first = rows?.[0];
+  if (!first) return [];
+  return Object.keys(first);
+}
 
-  // Dune 动态加载：等待 + 触发懒加载
-  await page.waitForTimeout(9000);
-  await page.mouse.wheel(0, 900);
-  await page.waitForTimeout(2000);
-  await page.mouse.wheel(0, -900);
-  await page.waitForTimeout(1500);
+/**
+ * Build a QuickChart URL for a line chart
+ * https://quickchart.io/documentation/
+ */
+function quickChartUrl({ labels, data, title }) {
+  const chart = {
+    type: "line",
+    data: {
+      labels,
+      datasets: [
+        {
+          label: title,
+          data,
+          fill: false,
+          borderWidth: 2,
+          pointRadius: 0,
+          tension: 0.25,
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { display: false },
+        title: { display: true, text: title },
+      },
+      scales: {
+        x: { ticks: { maxRotation: 0, autoSkip: true } },
+      },
+    },
+  };
 
-  const out = path.join(OUT_DIR, `${t.key}.png`);
-  await page.screenshot({ path: out, fullPage: false });
-  console.log("✅", t.name, "->", out);
+  const encoded = encodeURIComponent(JSON.stringify(chart));
+  // backgroundColor=white ensures clean export
+  return `https://quickchart.io/chart?backgroundColor=white&width=1400&height=800&format=png&c=${encoded}`;
+}
+
+async function download(url, outPath) {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`Download failed ${res.status} for ${url}`);
+  const buf = Buffer.from(await res.arrayBuffer());
+  fs.writeFileSync(outPath, buf);
 }
 
 async function main() {
-  const browser = await chromium.launch({ headless: true });
-  const page = await browser.newPage();
-  try {
-    for (const t of TARGETS) {
-      try {
-        await shotOne(page, t);
-      } catch (e) {
-        console.log("❌", t.name, e?.message || e);
-      }
+  for (const c of CHARTS) {
+    console.log(`Fetching Dune results: query ${c.queryId}`);
+    const json = await duneResults(c.queryId, 1000);
+
+    const rows = json?.result?.rows || [];
+    if (!rows.length) {
+      console.warn(`No rows for query ${c.queryId}. Available keys:`, json?.result?.metadata?.column_names);
+      continue;
     }
-  } finally {
-    await browser.close();
+
+    // if xKey/yKey wrong, print columns to logs to help you fix in 10 seconds
+    const keys = guessKeysFromFirstRow(rows);
+    console.log(`Query ${c.queryId} columns:`, keys);
+
+    if (!(c.xKey in rows[0]) || !(c.yKey in rows[0])) {
+      console.error(
+        `xKey/yKey not found for query ${c.queryId}. You set xKey=${c.xKey}, yKey=${c.yKey}. Actual columns=${keys.join(", ")}`
+      );
+      process.exit(1);
+    }
+
+    const labels = rows.map((r) => String(r[c.xKey]));
+    const data = rows.map((r) => {
+      const v = r[c.yKey];
+      return typeof v === "number" ? v : Number(v);
+    });
+
+    const chartUrl = quickChartUrl({ labels, data, title: c.title });
+    const outFile = path.join(OUT_DIR, c.name);
+
+    console.log(`Rendering chart -> ${outFile}`);
+    await download(chartUrl, outFile);
   }
+
+  console.log("Done.");
 }
 
 main().catch((e) => {
