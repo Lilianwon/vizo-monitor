@@ -1,59 +1,64 @@
 name: Capture Dune Dashboards
 
 on:
-  schedule:
-    - cron: "*/15 * * * *"   # every 15 minutes (UTC)
-  workflow_dispatch:
+schedule:
+- cron: "*/15 * * * *"   # every 15 minutes (UTC)
+workflow_dispatch:
 
 # 防止定时 + 手动同时跑互相 push 打架
+
 concurrency:
-  group: capture-dune-shots
-  cancel-in-progress: true
+group: capture-dune-shots
+cancel-in-progress: true
 
 permissions:
-  contents: write
+contents: write
 
 jobs:
-  capture:
-    runs-on: ubuntu-latest
+capture:
+runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+```
+steps:
+  - name: Checkout
+    uses: actions/checkout@v4
+    with:
+      fetch-depth: 0
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
+  - name: Setup Node
+    uses: actions/setup-node@v4
+    with:
+      node-version: "20"
 
-      - name: Install deps
-        run: |
-          npm ci || npm i
-          npx playwright install --with-deps chromium
+  - name: Install deps
+    run: |
+      npm ci || npm i
+      npx playwright install --with-deps chromium
 
-      - name: Run capture
-        run: |
-          node capture.js
+  - name: Run capture
+    run: |
+      node capture.js
 
-      - name: Commit screenshots if changed
-        run: |
-          set -e
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+  - name: Commit screenshots if changed
+    run: |
+      set -e
+      git config user.name "github-actions[bot]"
+      git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # 关键：先同步远端最新 main，避免 main -> main (fetch first)
-          git pull --rebase origin main
+      # ✅ 先同步一次远端，避免 main -> main (fetch first)
+      git pull --rebase origin main
 
-          git add shots/*.png || true
+      git add shots/*.png || true
 
-          if git diff --cached --quiet; then
-            echo "No screenshot changes."
-            exit 0
-          fi
+      if git diff --cached --quiet; then
+        echo "No screenshot changes."
+        exit 0
+      fi
 
-          git commit -m "update dashboard screenshots" || true
+      git commit -m "update dashboard screenshots"
 
-          # push 失败就再 pull/rebase 一次再 push（解决偶发并发）
-          git push origin HEAD:main || (git pull --rebase origin main && git push origin HEAD:main)
+      # ✅ 再同步一次：防止在你 commit 的这几十秒里远端又有新提交
+      git pull --rebase origin main
+
+      git push origin main
+```
