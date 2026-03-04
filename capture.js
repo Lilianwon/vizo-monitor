@@ -1,135 +1,133 @@
 // capture.js
-// Fetch Dune query results via API and render to PNG charts (no browser screenshot, bypass Cloudflare)
+// Fetch numeric metrics from Dune queries and write to shots/metrics.json
 
 const fs = require("fs");
 const path = require("path");
 
 const DUNE_API_KEY = process.env.DUNE_API_KEY;
-if (!DUNE_API_KEY) {
-  console.error("Missing DUNE_API_KEY. Please set it in GitHub Secrets.");
-  process.exit(1);
-}
 
-const OUT_DIR = path.join(__dirname, "shots");
-if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });
-
-/**
- * Config: add more charts here later
- * Each item:
- * - name: output png filename
- * - queryId: Dune query id
- * - xKey: column name for x axis
- * - yKey: column name for y axis
- * - title: chart title
- */
-const CHARTS = [
+// 你只需要改这里：每个市场填 1 个 queryId + 1 个 Dune 链接
+// 要求：该 query 的结果第一行要包含下面三个字段（字段名可以改，在 fieldMap 里改）：
+// daily_volume, weekly_volume, monthly_volume
+const MARKETS = [
   {
-    name: "polymarket.png",
-    queryId: 5756284,
-    xKey: "date",      // <-- 如果你的列名不是 date，后面我教你怎么改
-    yKey: "volume",    // <-- 如果你的列名不是 volume，后面我教你怎么改
-    title: "Polymarket (Query 5756284)"
+    key: "polymarket",
+    name: "Polymarket",
+    queryId: 5756284, // 你现在给我的这个先放这；如果它不是“日/周/月”那你就换成对应的 queryId
+    duneUrl: "https://dune.com/datadashboards/polymarket-overview",
+    fieldMap: {
+      daily: "daily_volume",
+      weekly: "weekly_volume",
+      monthly: "monthly_volume",
+    },
+  },
+  {
+    key: "kalshi",
+    name: "Kalshi",
+    queryId: 0, // TODO: 换成你的
+    duneUrl: "https://dune.com/xxx/kalshi",
+    fieldMap: { daily: "daily_volume", weekly: "weekly_volume", monthly: "monthly_volume" },
+  },
+  {
+    key: "opinion",
+    name: "Opinion",
+    queryId: 0, // TODO
+    duneUrl: "https://dune.com/xxx/opinion",
+    fieldMap: { daily: "daily_volume", weekly: "weekly_volume", monthly: "monthly_volume" },
+  },
+  {
+    key: "myriad",
+    name: "Myriad",
+    queryId: 0, // TODO
+    duneUrl: "https://dune.com/xxx/myriad",
+    fieldMap: { daily: "daily_volume", weekly: "weekly_volume", monthly: "monthly_volume" },
   },
 ];
 
-async function duneResults(queryId, limit = 1000) {
-  const url = `https://api.dune.com/api/v1/query/${queryId}/results?limit=${limit}`;
+function fmtNumber(n) {
+  const x = Number(n);
+  if (!Number.isFinite(x)) return null;
+  // 你可以按需改格式：这里是 K/M/B
+  const abs = Math.abs(x);
+  if (abs >= 1e9) return (x / 1e9).toFixed(2) + "B";
+  if (abs >= 1e6) return (x / 1e6).toFixed(2) + "M";
+  if (abs >= 1e3) return (x / 1e3).toFixed(2) + "K";
+  return x.toFixed(2);
+}
+
+async function fetchDuneResults(queryId) {
+  const url = `https://api.dune.com/api/v1/query/${queryId}/results?limit=1000`;
   const res = await fetch(url, {
     headers: { "x-dune-api-key": DUNE_API_KEY },
   });
   if (!res.ok) {
     const text = await res.text().catch(() => "");
-    throw new Error(`Dune API error ${res.status}: ${text}`);
+    throw new Error(`Dune API error ${res.status} for query ${queryId}: ${text.slice(0, 200)}`);
   }
   return res.json();
 }
 
-function guessKeysFromFirstRow(rows) {
-  const first = rows?.[0];
-  if (!first) return [];
-  return Object.keys(first);
-}
-
-/**
- * Build a QuickChart URL for a line chart
- * https://quickchart.io/documentation/
- */
-function quickChartUrl({ labels, data, title }) {
-  const chart = {
-    type: "line",
-    data: {
-      labels,
-      datasets: [
-        {
-          label: title,
-          data,
-          fill: false,
-          borderWidth: 2,
-          pointRadius: 0,
-          tension: 0.25,
-        },
-      ],
-    },
-    options: {
-      responsive: true,
-      plugins: {
-        legend: { display: false },
-        title: { display: true, text: title },
-      },
-      scales: {
-        x: { ticks: { maxRotation: 0, autoSkip: true } },
-      },
-    },
-  };
-
-  const encoded = encodeURIComponent(JSON.stringify(chart));
-  // backgroundColor=white ensures clean export
-  return `https://quickchart.io/chart?backgroundColor=white&width=1400&height=800&format=png&c=${encoded}`;
-}
-
-async function download(url, outPath) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`Download failed ${res.status} for ${url}`);
-  const buf = Buffer.from(await res.arrayBuffer());
-  fs.writeFileSync(outPath, buf);
-}
-
 async function main() {
-  for (const c of CHARTS) {
-    console.log(`Fetching Dune results: query ${c.queryId}`);
-    const json = await duneResults(c.queryId, 1000);
+  if (!DUNE_API_KEY) {
+    throw new Error("Missing DUNE_API_KEY (GitHub secret).");
+  }
 
-    const rows = json?.result?.rows || [];
-    if (!rows.length) {
-      console.warn(`No rows for query ${c.queryId}. Available keys:`, json?.result?.metadata?.column_names);
+  const outDir = path.join(__dirname, "shots");
+  if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
+
+  const results = [];
+
+  for (const m of MARKETS) {
+    if (!m.queryId || m.queryId === 0) {
+      results.push({
+        key: m.key,
+        name: m.name,
+        duneUrl: m.duneUrl,
+        error: "queryId not set",
+      });
       continue;
     }
 
-    // if xKey/yKey wrong, print columns to logs to help you fix in 10 seconds
-    const keys = guessKeysFromFirstRow(rows);
-    console.log(`Query ${c.queryId} columns:`, keys);
+    try {
+      const data = await fetchDuneResults(m.queryId);
 
-    if (!(c.xKey in rows[0]) || !(c.yKey in rows[0])) {
-      console.error(
-        `xKey/yKey not found for query ${c.queryId}. You set xKey=${c.xKey}, yKey=${c.yKey}. Actual columns=${keys.join(", ")}`
-      );
-      process.exit(1);
+      const rows = data?.result?.rows || [];
+      const row0 = rows[0] || {};
+
+      const dailyRaw = row0[m.fieldMap.daily];
+      const weeklyRaw = row0[m.fieldMap.weekly];
+      const monthlyRaw = row0[m.fieldMap.monthly];
+
+      results.push({
+        key: m.key,
+        name: m.name,
+        duneUrl: m.duneUrl,
+        queryId: m.queryId,
+        daily: fmtNumber(dailyRaw),
+        weekly: fmtNumber(weeklyRaw),
+        monthly: fmtNumber(monthlyRaw),
+        updatedAt: new Date().toISOString(),
+      });
+    } catch (e) {
+      results.push({
+        key: m.key,
+        name: m.name,
+        duneUrl: m.duneUrl,
+        queryId: m.queryId,
+        error: String(e?.message || e),
+        updatedAt: new Date().toISOString(),
+      });
     }
-
-    const labels = rows.map((r) => String(r[c.xKey]));
-    const data = rows.map((r) => {
-      const v = r[c.yKey];
-      return typeof v === "number" ? v : Number(v);
-    });
-
-    const chartUrl = quickChartUrl({ labels, data, title: c.title });
-    const outFile = path.join(OUT_DIR, c.name);
-
-    console.log(`Rendering chart -> ${outFile}`);
-    await download(chartUrl, outFile);
   }
 
-  console.log("Done.");
+  const payload = {
+    generatedAt: new Date().toISOString(),
+    markets: results,
+  };
+
+  fs.writeFileSync(path.join(outDir, "metrics.json"), JSON.stringify(payload, null, 2), "utf-8");
+
+  console.log("Wrote shots/metrics.json");
 }
 
 main().catch((e) => {
