@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: "*/15 * * * *"
 
+concurrency:
+  group: vizo-monitor
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
@@ -12,15 +16,15 @@ jobs:
   monitor:
     runs-on: ubuntu-latest
 
-    # ✅ 关键：在 job 级别把 key 同时导出成两个名字
     env:
-      DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
       DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: "20"
           cache: "npm"
