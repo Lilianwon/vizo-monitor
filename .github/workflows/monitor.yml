@@ -3,45 +3,42 @@ name: Monitor (Social + Dune + Analysis)
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *"
-
-permissions:
-  contents: write
+    - cron: "*/30 * * * *"   # 每30分钟跑一次（你想更频繁/更少都可以改）
 
 jobs:
-  run:
+  monitor:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          persist-credentials: true
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: "20"
 
       - name: Install deps
-        run: |
-          npm ci || npm install
+        run: npm ci
 
-      - name: Fetch social
-        run: node scripts/fetch_social.cjs
-
-      - name: Fetch dune metrics
+      - name: Run monitor
         env:
           DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
-        run: node scripts/fetch_dune.cjs
-
-      - name: Analyze
-        run: node scripts/analyze.cjs
+        run: node scripts/monitor.cjs
 
       - name: Commit outputs if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add shots/* || true
-          git diff --cached --quiet && echo "No changes" && exit 0
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
           git commit -m "update monitor outputs"
           git push
