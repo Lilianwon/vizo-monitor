@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-05T06:31:31.120Z",
+  "generatedAt": "2026-03-05T07:14:47.131Z",
   "markets": [
     {
       "key": "polymarket",
@@ -9,7 +9,7 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-03-05T06:31:31.120Z"
+      "updatedAt": "2026-03-05T07:14:47.131Z"
     },
     {
       "key": "kalshi",
