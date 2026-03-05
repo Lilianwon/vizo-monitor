@@ -3,74 +3,383 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>VIZO Monitor</title>
+  <title>VIZO Monitor — Daily/Weekly/Monthly Volume</title>
   <style>
-    body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system; background:#0b0b0f; color:#e8e8ef; }
-    .wrap { max-width:1100px; margin:0 auto; padding:24px; }
-    h1 { font-size:22px; margin:0 0 12px; }
-    .sub { opacity:.7; margin:0 0 18px; font-size:13px; }
-    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:14px; }
-    .card { background: #12121a; border:1px solid rgba(154,236,44,.18); border-radius:18px; padding:16px; box-shadow: 0 10px 30px rgba(0,0,0,.25); }
-    .top { display:flex; align-items:center; justify-content:space-between; gap:10px; }
-    .name { font-weight:700; }
-    a { color:#9aec2c; text-decoration:none; }
-    a:hover { text-decoration:underline; }
-    .nums { display:grid; grid-template-columns: 1fr 1fr 1fr; gap:10px; margin-top:12px; }
-    .pill { background:#0b0b0f; border:1px solid rgba(154,236,44,.22); border-radius:14px; padding:10px; }
-    .k { font-size:11px; opacity:.7; margin-bottom:6px; }
-    .v { font-size:18px; font-weight:800; }
-    .err { margin-top:10px; font-size:12px; color:#ff6b6b; white-space:pre-wrap; }
-    .foot { margin-top:18px; font-size:12px; opacity:.6; }
-  </style>
-</head>
-<body>
-  <div class="wrap">
-    <h1>Prediction Markets Volume Monitor</h1>
-    <p class="sub">Daily / Weekly / Monthly volume (numbers). Click Dune to view charts.</p>
-
-    <div id="grid" class="grid"></div>
-
-    <div class="foot" id="foot"></div>
-  </div>
-
-  <script>
-    async function load() {
-      const res = await fetch("./shots/metrics.json?ts=" + Date.now());
-      const data = await res.json();
-
-      const grid = document.getElementById("grid");
-      grid.innerHTML = "";
-
-      for (const m of (data.markets || [])) {
-        const card = document.createElement("div");
-        card.className = "card";
-
-        card.innerHTML = `
-          <div class="top">
-            <div class="name">${m.name || m.key}</div>
-            <div><a href="${m.duneUrl}" target="_blank" rel="noreferrer">Open on Dune ↗</a></div>
-          </div>
-
-          <div class="nums">
-            <div class="pill"><div class="k">Daily</div><div class="v">${m.daily ?? "-"}</div></div>
-            <div class="pill"><div class="k">Weekly</div><div class="v">${m.weekly ?? "-"}</div></div>
-            <div class="pill"><div class="k">Monthly</div><div class="v">${m.monthly ?? "-"}</div></div>
-          </div>
-
-          ${m.error ? `<div class="err">Error: ${m.error}</div>` : ""}
-        `;
-
-        grid.appendChild(card);
-      }
-
-      document.getElementById("foot").textContent =
-        "Last generated: " + (data.generatedAt || "-");
+    :root{
+      --bg:#0b0b0f;
+      --card:#12121a;
+      --card2:#0f0f16;
+      --text:#e9e9f1;
+      --muted:#9aa0ad;
+      --line:#222233;
+      --accent:#9aec2c;
+      --accent2:#7ddc1f;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --radius:18px;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:var(--sans);
+      background: radial-gradient(1200px 800px at 20% -10%, rgba(154,236,44,.18), transparent 55%),
+                  radial-gradient(900px 700px at 110% 10%, rgba(154,236,44,.10), transparent 60%),
+                  var(--bg);
+      color:var(--text);
+    }
+    header{
+      padding:26px 18px 10px;
+      max-width:1100px;
+      margin:0 auto;
+    }
+    .title{
+      display:flex;
+      align-items:flex-end;
+      gap:12px;
+      flex-wrap:wrap;
+    }
+    h1{
+      margin:0;
+      font-size:26px;
+      letter-spacing:.2px;
+    }
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:6px 10px;
+      border:1px solid rgba(154,236,44,.35);
+      color:var(--accent);
+      border-radius:999px;
+      font-size:12px;
+      background: rgba(154,236,44,.06);
+    }
+    .meta{
+      margin-top:10px;
+      color:var(--muted);
+      font-size:13px;
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:center;
+    }
+    .meta code{
+      font-family:var(--mono);
+      font-size:12px;
+      padding:2px 6px;
+      background: rgba(255,255,255,.06);
+      border:1px solid rgba(255,255,255,.10);
+      border-radius:8px;
+      color:#d6d6e6;
     }
 
-    load().catch(err => {
-      document.getElementById("grid").innerHTML =
-        `<div class="card"><div class="err">${String(err)}</div></div>`;
-    });
+    main{
+      max-width:1100px;
+      margin:0 auto;
+      padding:14px 18px 50px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap:14px;
+    }
+    @media (max-width: 860px){
+      .grid{ grid-template-columns: 1fr; }
+    }
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      border:1px solid rgba(255,255,255,.10);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+    }
+    .card-head{
+      padding:14px 14px 10px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:12px;
+      border-bottom:1px solid rgba(255,255,255,.08);
+      background: rgba(0,0,0,.14);
+    }
+    .name{
+      font-size:16px;
+      font-weight:650;
+      display:flex;
+      gap:10px;
+      align-items:center;
+    }
+    .badge{
+      font-size:12px;
+      color:var(--accent);
+      border:1px solid rgba(154,236,44,.35);
+      background: rgba(154,236,44,.06);
+      padding:4px 8px;
+      border-radius:999px;
+      font-weight:600;
+    }
+    .links{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:center;
+    }
+    a{
+      color:var(--accent);
+      text-decoration:none;
+    }
+    a:hover{ text-decoration:underline; }
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:8px 10px;
+      border-radius:12px;
+      border:1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.04);
+      color: var(--text);
+      font-size:12px;
+      text-decoration:none;
+    }
+    .btn:hover{
+      border-color: rgba(154,236,44,.35);
+      background: rgba(154,236,44,.06);
+      text-decoration:none;
+    }
+
+    .table{
+      width:100%;
+      border-collapse:collapse;
+    }
+    .table th, .table td{
+      padding:12px 14px;
+      border-bottom:1px solid rgba(255,255,255,.08);
+      font-size:13px;
+    }
+    .table th{
+      color:var(--muted);
+      font-weight:600;
+      text-align:left;
+      background: rgba(0,0,0,.10);
+    }
+    .num{
+      font-family:var(--mono);
+      font-size:13px;
+      white-space:nowrap;
+    }
+    .muted{ color:var(--muted); }
+    .footer{
+      margin-top:16px;
+      color:var(--muted);
+      font-size:12px;
+      display:flex;
+      justify-content:space-between;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:center;
+    }
+    pre{
+      white-space:pre-wrap;
+      word-break:break-word;
+      background: rgba(0,0,0,.28);
+      border:1px solid rgba(255,255,255,.10);
+      border-radius:14px;
+      padding:12px 14px;
+      color:#d7d7e7;
+      font-size:12px;
+      line-height:1.45;
+      font-family: var(--mono);
+      margin:0;
+    }
+    .error{
+      border-color: rgba(255,80,80,.35);
+      background: rgba(255,80,80,.06);
+      color:#ffd1d1;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="title">
+      <h1>VIZO Monitor</h1>
+      <span class="pill">Daily / Weekly / Monthly Volume</span>
+    </div>
+    <div class="meta">
+      <span class="muted">Data source:</span>
+      <code>shots/metrics.json</code>
+      <span id="updated" class="muted"></span>
+    </div>
+  </header>
+
+  <main>
+    <div id="status" class="muted" style="margin: 6px 0 14px;">Loading…</div>
+    <section id="grid" class="grid"></section>
+
+    <div class="footer">
+      <span>Tip: if numbers look stale, refresh once. GitHub Pages may cache briefly.</span>
+      <a class="btn" href="shots/metrics.json" target="_blank" rel="noreferrer">Open metrics.json</a>
+    </div>
+
+    <div id="debugWrap" style="margin-top:16px; display:none;">
+      <div class="card">
+        <div class="card-head">
+          <div class="name">Debug (raw JSON)</div>
+          <div class="links">
+            <a class="btn" href="shots/metrics.json" target="_blank" rel="noreferrer">Open JSON</a>
+          </div>
+        </div>
+        <div style="padding:12px 14px;">
+          <pre id="debug"></pre>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    // ---- helpers ----
+    function fmtNumber(n){
+      if(n === null || n === undefined || n === "") return "—";
+      const num = Number(n);
+      if(Number.isNaN(num)) return String(n);
+      // human format (k/m/b)
+      const abs = Math.abs(num);
+      const sign = num < 0 ? "-" : "";
+      const format = (x, suffix) => sign + x.toFixed(x >= 100 ? 0 : x >= 10 ? 1 : 2) + suffix;
+      if(abs >= 1e12) return format(abs/1e12, "T");
+      if(abs >= 1e9)  return format(abs/1e9, "B");
+      if(abs >= 1e6)  return format(abs/1e6, "M");
+      if(abs >= 1e3)  return format(abs/1e3, "K");
+      return sign + abs.toLocaleString();
+    }
+
+    function pick(obj, keys){
+      for(const k of keys){
+        if(obj && Object.prototype.hasOwnProperty.call(obj, k) && obj[k] != null) return obj[k];
+      }
+      return undefined;
+    }
+
+    // Normalize many possible metrics.json shapes into:
+    // [{ id, name, daily, weekly, monthly, duneUrl }]
+    function normalizeMetrics(data){
+      // Case A: { markets: [...] }
+      if(Array.isArray(data?.markets)){
+        return data.markets.map(m => ({
+          id: m.id || m.key || m.slug || m.name,
+          name: m.name || m.title || m.id || m.key || "Unknown",
+          daily: pick(m, ["daily","day","daily_volume","volume_1d","vol_1d"]),
+          weekly: pick(m, ["weekly","week","weekly_volume","volume_7d","vol_7d"]),
+          monthly: pick(m, ["monthly","month","monthly_volume","volume_30d","vol_30d"]),
+          duneUrl: pick(m, ["duneUrl","dune_url","url","dashboardUrl","dashboard_url"])
+        }));
+      }
+
+      // Case B: { polymarket: { daily:..., weekly:... }, kalshi: {...} }
+      if(data && typeof data === "object" && !Array.isArray(data)){
+        const ignoreKeys = new Set(["updatedAt","updated_at","timestamp","generatedAt","generated_at","meta","version"]);
+        const entries = Object.entries(data).filter(([k,v]) => !ignoreKeys.has(k) && v && typeof v === "object" && !Array.isArray(v));
+        if(entries.length){
+          return entries.map(([k,v]) => ({
+            id: k,
+            name: v.name || v.title || k,
+            daily: pick(v, ["daily","day","daily_volume","volume_1d","vol_1d"]),
+            weekly: pick(v, ["weekly","week","weekly_volume","volume_7d","vol_7d"]),
+            monthly: pick(v, ["monthly","month","monthly_volume","volume_30d","vol_30d"]),
+            duneUrl: pick(v, ["duneUrl","dune_url","url","dashboardUrl","dashboard_url"])
+          }));
+        }
+      }
+
+      // Case C: unknown → empty
+      return [];
+    }
+
+    function cardHTML(m){
+      const duneLink = m.duneUrl
+        ? `<a class="btn" href="${m.duneUrl}" target="_blank" rel="noreferrer">Dune dashboard ↗</a>`
+        : `<span class="muted" style="font-size:12px;">No Dune link found in JSON</span>`;
+
+      return `
+        <article class="card">
+          <div class="card-head">
+            <div class="name">
+              <span>${escapeHtml(m.name)}</span>
+              <span class="badge">Volume</span>
+            </div>
+            <div class="links">${duneLink}</div>
+          </div>
+
+          <table class="table">
+            <thead>
+              <tr>
+                <th style="width:34%;">Period</th>
+                <th>Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td class="muted">Daily</td><td class="num">${escapeHtml(fmtNumber(m.daily))}</td></tr>
+              <tr><td class="muted">Weekly</td><td class="num">${escapeHtml(fmtNumber(m.weekly))}</td></tr>
+              <tr><td class="muted">Monthly</td><td class="num">${escapeHtml(fmtNumber(m.monthly))}</td></tr>
+            </tbody>
+          </table>
+        </article>
+      `;
+    }
+
+    function escapeHtml(str){
+      return String(str ?? "")
+        .replaceAll("&","&amp;")
+        .replaceAll("<","&lt;")
+        .replaceAll(">","&gt;")
+        .replaceAll('"',"&quot;")
+        .replaceAll("'","&#039;");
+    }
+
+    // ---- main ----
+    (async function(){
+      const statusEl = document.getElementById("status");
+      const gridEl = document.getElementById("grid");
+      const updatedEl = document.getElementById("updated");
+      const debugWrap = document.getElementById("debugWrap");
+      const debugEl = document.getElementById("debug");
+
+      try{
+        // cache bust
+        const url = `shots/metrics.json?ts=${Date.now()}`;
+        const res = await fetch(url, { cache: "no-store" });
+        if(!res.ok) throw new Error(`Failed to load metrics.json (${res.status})`);
+
+        const data = await res.json();
+
+        const updatedAt = data.updatedAt || data.updated_at || data.generatedAt || data.generated_at || data.timestamp;
+        if(updatedAt){
+          updatedEl.textContent = `• updated: ${updatedAt}`;
+        }else{
+          updatedEl.textContent = "";
+        }
+
+        const markets = normalizeMetrics(data);
+
+        if(!markets.length){
+          statusEl.textContent = "Loaded metrics.json, but I can’t recognize its structure yet. Showing raw JSON below.";
+          debugWrap.style.display = "block";
+          debugEl.textContent = JSON.stringify(data, null, 2);
+          return;
+        }
+
+        // sort stable
+        markets.sort((a,b) => String(a.name).localeCompare(String(b.name)));
+
+        gridEl.innerHTML = markets.map(cardHTML).join("");
+        statusEl.textContent = `Loaded ${markets.length} markets.`;
+      }catch(err){
+        statusEl.innerHTML = `<span class="error" style="padding:8px 10px; border-radius:12px; display:inline-block; border:1px solid rgba(255,80,80,.35); background: rgba(255,80,80,.06);">Error: ${escapeHtml(err.message || String(err))}</span>`;
+      }
+    })();
   </script>
 </body>
 </html>
