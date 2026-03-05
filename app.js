@@ -1,94 +1,99 @@
-const fmt = (n) => {
+// app.js
+async function loadJson(url) {
+  const res = await fetch(url, { cache: "no-store" });
+  if (!res.ok) throw new Error(`Failed to load ${url}: ${res.status}`);
+  return res.json();
+}
+
+function fmt(n) {
   if (n === null || n === undefined) return "—";
-  const x = Number(n);
-  if (!Number.isFinite(x)) return "—";
-  if (x >= 1e9) return (x/1e9).toFixed(2) + "B";
-  if (x >= 1e6) return (x/1e6).toFixed(2) + "M";
-  if (x >= 1e3) return (x/1e3).toFixed(2) + "K";
-  return String(x.toFixed(2));
-};
-
-async function loadJSON(path){
-  const r = await fetch(path + `?t=${Date.now()}`);
-  if(!r.ok) throw new Error(`${path} ${r.status}`);
-  return r.json();
+  const num = Number(n);
+  if (!Number.isFinite(num)) return "—";
+  // human format
+  const abs = Math.abs(num);
+  if (abs >= 1e12) return (num / 1e12).toFixed(2) + "T";
+  if (abs >= 1e9) return (num / 1e9).toFixed(2) + "B";
+  if (abs >= 1e6) return (num / 1e6).toFixed(2) + "M";
+  if (abs >= 1e3) return (num / 1e3).toFixed(2) + "K";
+  return num.toLocaleString(undefined, { maximumFractionDigits: 2 });
 }
 
-function volumeCard(m){
-  const title = m.name || m.key;
-  const hot = (m.spikeScore && m.spikeScore >= 2.0) ? "hot" : "";
-  const hotText = hot ? "🔥 Hot" : "Volume";
-  const val = (v) => (v === null || v === undefined) ? "—" : fmt(v);
-
-  return `
-  <div class="card">
-    <div class="card-head">
-      <div style="font-weight:700;font-size:16px">${title}</div>
-      <span class="badge ${hot}">${hotText}</span>
-    </div>
-
-    <table class="table">
-      <tr><td>Daily</td><td>${val(m.daily)}</td></tr>
-      <tr><td>Weekly</td><td>${val(m.weekly)}</td></tr>
-      <tr><td>Monthly</td><td>${val(m.monthly)}</td></tr>
-    </table>
-
-    <div class="card-actions">
-      <a class="btn" href="${m.duneUrl}" target="_blank" rel="noreferrer">Dune dashboard ↗</a>
-    </div>
-  </div>`;
+function el(tag, cls) {
+  const x = document.createElement(tag);
+  if (cls) x.className = cls;
+  return x;
 }
 
-function socialCard(topic){
-  const hot = topic.spikeScore >= 2.0 ? "hot" : "";
-  const label = topic.spikeScore >= 2.0 ? `🔥 Spike x${topic.spikeScore.toFixed(2)}` : `Mentions`;
-  const items = (topic.items || []).slice(0,5).map(it => {
-    const src = it.source || "source";
-    const t = (it.title || "").replaceAll("<","&lt;");
-    return `<tr><td>${src}</td><td><a class="btn" style="padding:6px 10px" href="${it.url}" target="_blank" rel="noreferrer">Open ↗</a> ${t}</td></tr>`;
-  }).join("");
+function row(period, value) {
+  const tr = el("tr");
+  const td1 = el("td");
+  td1.textContent = period;
+  const td2 = el("td", "value");
+  td2.textContent = value;
+  if (value === "—") td2.classList.add("missing");
+  tr.append(td1, td2);
+  return tr;
+}
 
-  return `
-  <div class="card">
-    <div class="card-head">
-      <div style="font-weight:700;font-size:16px">${topic.keyword}</div>
-      <span class="badge ${hot}">${label}</span>
-    </div>
-    <div class="kv">
-      <span>last24h: ${topic.last24h}</span>
-      <span>baseline: ${topic.baseline7d}</span>
-    </div>
-    <table class="table" style="margin-top:12px">${items || `<tr><td colspan="2">No items yet</td></tr>`}</table>
-  </div>`;
+function card(m) {
+  const c = el("article", "card");
+
+  const head = el("div", "card-head");
+  const title = el("div", "card-title");
+  title.textContent = m.name;
+
+  const badge = el("span", "badge");
+  badge.textContent = "Volume";
+  title.appendChild(badge);
+
+  const right = el("div");
+  const a = el("a", "btn");
+  a.href = m.duneUrl;
+  a.target = "_blank";
+  a.rel = "noreferrer";
+  a.textContent = "Dune dashboard ↗";
+  right.appendChild(a);
+
+  head.append(title, right);
+
+  const table = el("table", "table");
+  const thead = el("thead");
+  const trh = el("tr");
+  const th1 = el("th"); th1.textContent = "Period";
+  const th2 = el("th"); th2.textContent = "Value";
+  trh.append(th1, th2);
+  thead.appendChild(trh);
+
+  const tbody = el("tbody");
+  tbody.appendChild(row("Daily", fmt(m.daily)));
+  tbody.appendChild(row("Weekly", fmt(m.weekly)));
+  tbody.appendChild(row("Monthly", fmt(m.monthly)));
+
+  table.append(thead, tbody);
+
+  c.append(head, table);
+  return c;
 }
 
 (async function main(){
-  const [metrics, social, analysis] = await Promise.all([
-    loadJSON("./shots/metrics.json").catch(()=>null),
-    loadJSON("./shots/social.json").catch(()=>null),
-    loadJSON("./shots/analysis.json").catch(()=>null),
-  ]);
+  const statusLine = document.getElementById("statusLine");
+  const grid = document.getElementById("grid");
+  const updatedAt = document.getElementById("updatedAt");
+  const openJson = document.getElementById("openJson");
 
-  const updated = metrics?.generatedAt || social?.generatedAt || analysis?.generatedAt;
-  document.getElementById("updatedChip").textContent = updated ? `updated: ${updated}` : "updated: —";
+  const jsonPath = "shots/metrics.json";
+  openJson.href = jsonPath;
 
-  const volumeGrid = document.getElementById("volumeGrid");
-  if(metrics?.markets?.length){
-    volumeGrid.innerHTML = metrics.markets.map(volumeCard).join("");
-  }else{
-    volumeGrid.innerHTML = `<div class="muted">No metrics yet.</div>`;
+  try{
+    const data = await loadJson(jsonPath);
+    updatedAt.textContent = data.generatedAt || "—";
+
+    const markets = Array.isArray(data.markets) ? data.markets : [];
+    statusLine.textContent = `Loaded ${markets.length} markets.`;
+
+    grid.innerHTML = "";
+    for (const m of markets) grid.appendChild(card(m));
+  }catch(e){
+    statusLine.textContent = `Error: ${e.message}`;
   }
-
-  const socialGrid = document.getElementById("socialGrid");
-  if(social?.topics?.length){
-    socialGrid.innerHTML = social.topics.map(socialCard).join("");
-  }else{
-    socialGrid.innerHTML = `<div class="muted">No social yet.</div>`;
-  }
-
-  const analysisBox = document.getElementById("analysisBox");
-  analysisBox.innerHTML = `<div>${(analysis?.summary || "No analysis yet.")}</div>`;
-
-  const vizoBox = document.getElementById("vizoBox");
-  vizoBox.innerHTML = `<div>${(analysis?.vizo || "No VIZO actions yet.")}</div>`;
 })();
