@@ -1,163 +1,81 @@
 {
-  "generatedAt": "2026-03-05T10:57:30.430Z",
+  "generatedAt": "2026-03-05T11:07:40.442Z",
   "markets": [
     {
       "key": "polymarket",
       "name": "Polymarket",
       "duneUrl": "https://dune.com/datadashboards/polymarket-overview",
-      "queryId": 5802915,
+      "queryId": 5756284,
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-03-05T10:57:30.430Z",
-      "_rows": 288,
-      "_hint": "No daily/weekly/monthly detected. Adjust Dune query output to include period/value or daily/weekly/monthly columns.",
-      "_sample": [
-        {
-          "Cumulative Volume": null,
-          "Volume": null,
-          "Week": "2020-08-31 00:00:00.000 UTC"
-        },
-        {
-          "Cumulative Volume": null,
-          "Volume": null,
-          "Week": "2020-09-07 00:00:00.000 UTC"
-        }
-      ]
+      "updatedAt": "2026-03-05T11:07:40.441Z"
     },
     {
       "key": "kalshi",
       "name": "Kalshi",
       "duneUrl": "https://dune.com/datadashboards/kalshi-overview",
-      "queryId": 5802836,
+      "queryId": null,
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-03-05T10:57:30.430Z",
-      "_rows": 245,
-      "_hint": "No daily/weekly/monthly detected. Adjust Dune query output to include period/value or daily/weekly/monthly columns.",
-      "_sample": [
-        {
-          "Cumulative Volume": 4057,
-          "Volume": 4057,
-          "Week": "2021-06-28"
-        },
-        {
-          "Cumulative Volume": 35650,
-          "Volume": 31593,
-          "Week": "2021-07-05"
-        }
-      ]
+      "updatedAt": "2026-03-05T11:07:40.441Z",
+      "error": "queryId not set"
     },
     {
       "key": "opinion",
       "name": "Opinion",
       "duneUrl": "https://dune.com/datadashboards/opinion",
-      "queryId": 6047958,
+      "queryId": null,
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-03-05T10:57:30.430Z",
-      "_rows": 133,
-      "_hint": "No daily/weekly/monthly detected. Adjust Dune query output to include period/value or daily/weekly/monthly columns.",
-      "_sample": [
-        {
-          "Cumulative Notional Volume": 11391456.731101267,
-          "Day": "2025-10-24 00:00:00.000 UTC",
-          "Notional Volume": 11391456.731101267
-        },
-        {
-          "Cumulative Notional Volume": 180567453.328898,
-          "Day": "2025-10-25 00:00:00.000 UTC",
-          "Notional Volume": 169175996.59779674
-        }
-      ]
+      "updatedAt": "2026-03-05T11:07:40.441Z",
+      "error": "queryId not set"
     },
     {
       "key": "myriad",
       "name": "Myriad",
       "duneUrl": "https://dune.com/datadashboards/myriad",
-      "queryId": 5756303,
+      "queryId": null,
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-03-05T10:57:30.430Z",
-      "_rows": 369,
-      "_hint": "No daily/weekly/monthly detected. Adjust Dune query output to include period/value or daily/weekly/monthly columns.",
-      "_sample": [
-        {
-          "Cumulative USD Volume": 109.32395830230001,
-          "USD Volume": 109.32395830230001,
-          "day": "2025-02-11 00:00:00.000 UTC"
-        },
-        {
-          "Cumulative USD Volume": 7117.932546197096,
-          "USD Volume": 7008.608587894796,
-          "day": "2025-02-12 00:00:00.000 UTC"
-        }
-      ]
+      "updatedAt": "2026-03-05T11:07:40.441Z",
+      "error": "queryId not set"
     },
     {
-      "key": "predict",
+      "key": "predictfun",
       "name": "Predict.fun",
       "duneUrl": "https://dune.com/datadashboards/predict-prediction-market-predictfun",
-      "queryId": 6365667,
+      "queryId": null,
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-03-05T10:57:30.430Z",
-      "_rows": 98,
-      "_hint": "No daily/weekly/monthly detected. Adjust Dune query output to include period/value or daily/weekly/monthly columns.",
-      "_sample": [
-        {
-          "Cumulative Notional Volume": 71.021,
-          "Day": "2025-11-25 00:00:00.000 UTC",
-          "Notional Volume": 71.021
-        },
-        {
-          "Cumulative Notional Volume": 85.7854,
-          "Day": "2025-11-26 00:00:00.000 UTC",
-          "Notional Volume": 14.7644
-        }
-      ]
+      "updatedAt": "2026-03-05T11:07:40.441Z",
+      "error": "queryId not set"
     },
     {
       "key": "ibkr",
       "name": "IBKR ForecastEx",
       "duneUrl": "https://dune.com/datadashboards/ibkr-forecastex",
-      "queryId": 6536996,
+      "queryId": null,
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-03-05T10:57:30.430Z",
-      "_rows": 579,
-      "_hint": "No daily/weekly/monthly detected. Adjust Dune query output to include period/value or daily/weekly/monthly columns.",
-      "_sample": [
-        {
-          "Cumulative Fees": 11459975.860000001,
-          "Cumulative Notional Volume": 1145997586,
-          "Cumulative Transactions": 3097073,
-          "Cumulative Volume": 1157457561.8600008,
-          "Fees": 17552.84,
-          "Notional Volume": 1755284,
-          "Open Interest": 4467559,
-          "Transactions": 12448,
-          "Volume": 1772836.84,
-          "date": "2026-03-02"
-        },
-        {
-          "Cumulative Fees": 11442423.020000001,
-          "Cumulative Notional Volume": 1144242302,
-          "Cumulative Transactions": 3084625,
-          "Cumulative Volume": 1155684725.020001,
-          "Fees": 15446.1,
-          "Notional Volume": 1544610,
-          "Open Interest": 4307528,
-          "Transactions": 12319,
-          "Volume": 1560056.1,
-          "date": "2026-03-01"
-        }
-      ]
+      "updatedAt": "2026-03-05T11:07:40.441Z",
+      "error": "queryId not set"
+    },
+    {
+      "key": "overtime",
+      "name": "Overtime",
+      "duneUrl": "https://dune.com/datadashboards/overtime",
+      "queryId": null,
+      "daily": null,
+      "weekly": null,
+      "monthly": null,
+      "updatedAt": "2026-03-05T11:07:40.441Z",
+      "error": "queryId not set"
     }
   ]
 }
