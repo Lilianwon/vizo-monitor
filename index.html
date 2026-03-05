@@ -7,56 +7,31 @@
   <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-  <header class="top">
-    <div class="brand">
-      <div class="title">VIZO Monitor</div>
-      <div class="subtitle">Social Pulse + Market Data + Analysis · Auto-updated</div>
-    </div>
-
-    <div class="chips">
-      <span class="chip">OKX Green</span>
-      <span class="chip" id="updatedChip">Loading…</span>
-      <a class="chip link" href="./shots/metrics.json" target="_blank" rel="noreferrer">metrics.json</a>
-      <a class="chip link" href="./shots/social.json" target="_blank" rel="noreferrer">social.json</a>
-      <a class="chip link" href="./shots/analysis.json" target="_blank" rel="noreferrer">analysis.json</a>
-    </div>
-  </header>
-
+  <div class="bg"></div>
   <main class="wrap">
-    <section class="glass panel">
-      <div class="panel-head">
-        <h2>🔥 Trending / Social Pulse</h2>
-        <div class="muted">No X API. Tracking via open sources (news/rss/forums). Spikes highlighted.</div>
+    <header class="hero">
+      <div class="hero-left">
+        <h1>VIZO Monitor</h1>
+        <div class="pill">Daily / Weekly / Monthly Volume</div>
+        <div class="sub">
+          Data source:
+          <code id="dataPath">shots/metrics.json</code>
+          <span class="dot">•</span>
+          updated:
+          <span id="updatedAt">—</span>
+        </div>
       </div>
-      <div id="socialGrid" class="grid-2"></div>
-    </section>
-
-    <section class="glass panel">
-      <div class="panel-head">
-        <h2>Market Volumes (Daily / Weekly / Monthly)</h2>
-        <div class="muted">Numbers from Dune queries. Click dashboard to view charts.</div>
+      <div class="hero-right">
+        <a class="btn" id="openJson" target="_blank" rel="noreferrer">Open metrics.json</a>
       </div>
-      <div id="volumeGrid" class="grid-2"></div>
-    </section>
+    </header>
 
-    <section class="glass panel">
-      <div class="panel-head">
-        <h2>Auto Analysis</h2>
-        <div class="muted">Correlation between social spikes and volume shifts.</div>
-      </div>
-      <div id="analysisBox" class="analysis"></div>
-    </section>
+    <section class="hint" id="statusLine">Loading…</section>
 
-    <section class="glass panel">
-      <div class="panel-head">
-        <h2>VIZO Recommendations</h2>
-        <div class="muted">Operator-grade actions & market ideas for VIZO.</div>
-      </div>
-      <div id="vizoBox" class="analysis"></div>
-    </section>
+    <section class="grid" id="grid"></section>
 
-    <footer class="foot muted">
-      Tip: GitHub Pages can cache briefly. Refresh once if data looks stale.
+    <footer class="foot">
+      Tip: if numbers look stale, refresh once. GitHub Pages may cache briefly.
     </footer>
   </main>
 
