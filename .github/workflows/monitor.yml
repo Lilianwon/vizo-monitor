@@ -3,27 +3,24 @@ name: Monitor (Social + Dune + Analysis)
 on:
   workflow_dispatch:
   schedule:
-    # every 15 minutes
     - cron: "*/15 * * * *"
 
 permissions:
   contents: write
 
-concurrency:
-  group: monitor
-  cancel-in-progress: false
-
 jobs:
   monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+
+    # ✅ 关键：在 job 级别把 key 同时导出成两个名字
+    env:
+      DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
+      DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: "20"
           cache: "npm"
@@ -32,14 +29,9 @@ jobs:
         run: npm ci
 
       - name: Fetch Dune (metrics.json)
-        env:
-          DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
         run: node scripts/fetch_dune.cjs
 
       - name: Fetch Social (social.json)
-        env:
-          # optional; keep empty if you don't use any social api keys
-          SOCIAL_SOURCES: ${{ vars.SOCIAL_SOURCES }}
         run: node scripts/fetch_social.cjs
 
       - name: Analyze (analysis.json)
@@ -47,7 +39,6 @@ jobs:
 
       - name: Commit outputs if changed
         run: |
-          git status --porcelain
           if [ -n "$(git status --porcelain shots)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
