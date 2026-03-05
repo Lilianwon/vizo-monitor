@@ -1,40 +1,71 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>VIZO Monitor</title>
-  <link rel="stylesheet" href="./style.css" />
-</head>
-<body>
-  <div class="bg"></div>
-  <main class="wrap">
-    <header class="hero">
-      <div class="hero-left">
-        <h1>VIZO Monitor</h1>
-        <div class="pill">Daily / Weekly / Monthly Volume</div>
-        <div class="sub">
-          Data source:
-          <code id="dataPath">shots/metrics.json</code>
-          <span class="dot">•</span>
-          updated:
-          <span id="updatedAt">—</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VIZO Monitor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bgGlow"></div>
+
+    <header class="top">
+      <div class="brand">
+        <div class="logoDot"></div>
+        <div>
+          <div class="h1">VIZO Monitor</div>
+          <div class="sub">Social pulse + Dune metrics + auto analysis (no Twitter API)</div>
         </div>
       </div>
-      <div class="hero-right">
-        <a class="btn" id="openJson" target="_blank" rel="noreferrer">Open metrics.json</a>
+
+      <div class="topRight">
+        <button id="hardRefresh" class="btnPrimary">Refresh</button>
       </div>
     </header>
 
-    <section class="hint" id="statusLine">Loading…</section>
+    <main class="wrap">
+      <section class="section">
+        <div class="secHead">
+          <div>
+            <div class="h2">1) Social tracking</div>
+            <div class="muted">Updated: <span id="socialUpdated">—</span></div>
+            <div id="socialErr" class="warnText"></div>
+          </div>
+          <div class="hint">Hot / rising topics are marked with <span class="hot">🔥</span></div>
+        </div>
 
-    <section class="grid" id="grid"></section>
+        <div id="socialList" class="socialList"></div>
+      </section>
 
-    <footer class="foot">
-      Tip: if numbers look stale, refresh once. GitHub Pages may cache briefly.
-    </footer>
-  </main>
+      <section class="section">
+        <div class="secHead">
+          <div>
+            <div class="h2">2) Market volume (Dune)</div>
+            <div class="muted">Updated: <span id="metricsUpdated">—</span></div>
+            <div id="metricsErr" class="warnText"></div>
+          </div>
+          <div class="hint">If values are “—”, it means metrics.json has null (collector didn’t parse Dune rows).</div>
+        </div>
 
-  <script src="./app.js"></script>
-</body>
+        <div id="metricsGrid" class="grid"></div>
+      </section>
+
+      <section class="section">
+        <div class="secHead">
+          <div>
+            <div class="h2">3) Auto analysis + suggestions for VIZO</div>
+            <div class="muted">Updated: <span id="analysisUpdated">—</span></div>
+            <div id="analysisErr" class="warnText"></div>
+          </div>
+          <div class="hint">This is rule-based analysis generated in Actions.</div>
+        </div>
+
+        <div id="analysisBox" class="grid"></div>
+      </section>
+
+      <div id="fatal" class="warnText"></div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
 </html>
