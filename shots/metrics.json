@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-05T10:05:21.834Z",
+  "generatedAt": "2026-03-05T10:22:29.877Z",
   "markets": [
     {
       "key": "polymarket",
@@ -9,24 +9,72 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-03-05T10:05:21.834Z"
+      "updatedAt": "2026-03-05T10:22:29.877Z"
     },
     {
       "key": "kalshi",
       "name": "Kalshi",
-      "duneUrl": "https://dune.com/xxx/kalshi",
+      "duneUrl": "https://dune.com/datadashboards/kalshi-overview",
+      "queryId": null,
+      "daily": null,
+      "weekly": null,
+      "monthly": null,
+      "updatedAt": "2026-03-05T10:22:29.877Z",
       "error": "queryId not set"
     },
     {
       "key": "opinion",
       "name": "Opinion",
-      "duneUrl": "https://dune.com/xxx/opinion",
+      "duneUrl": "https://dune.com/datadashboards/opinion",
+      "queryId": null,
+      "daily": null,
+      "weekly": null,
+      "monthly": null,
+      "updatedAt": "2026-03-05T10:22:29.877Z",
       "error": "queryId not set"
     },
     {
       "key": "myriad",
       "name": "Myriad",
-      "duneUrl": "https://dune.com/xxx/myriad",
+      "duneUrl": "https://dune.com/datadashboards/myriad",
+      "queryId": null,
+      "daily": null,
+      "weekly": null,
+      "monthly": null,
+      "updatedAt": "2026-03-05T10:22:29.877Z",
+      "error": "queryId not set"
+    },
+    {
+      "key": "predictfun",
+      "name": "Predict.fun",
+      "duneUrl": "https://dune.com/datadashboards/predict-prediction-market-predictfun",
+      "queryId": null,
+      "daily": null,
+      "weekly": null,
+      "monthly": null,
+      "updatedAt": "2026-03-05T10:22:29.877Z",
+      "error": "queryId not set"
+    },
+    {
+      "key": "ibkr",
+      "name": "IBKR ForecastEx",
+      "duneUrl": "https://dune.com/datadashboards/ibkr-forecastex",
+      "queryId": null,
+      "daily": null,
+      "weekly": null,
+      "monthly": null,
+      "updatedAt": "2026-03-05T10:22:29.877Z",
+      "error": "queryId not set"
+    },
+    {
+      "key": "overtime",
+      "name": "Overtime",
+      "duneUrl": "https://dune.com/datadashboards/overtime",
+      "queryId": null,
+      "daily": null,
+      "weekly": null,
+      "monthly": null,
+      "updatedAt": "2026-03-05T10:22:29.877Z",
       "error": "queryId not set"
     }
   ]
