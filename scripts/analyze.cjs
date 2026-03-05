@@ -1,49 +1,215 @@
-#!/usr/bin/env node
+// scripts/analyze.cjs
+// Generate shots/metrics.json from Dune query results (daily/weekly/monthly volume)
+
 const fs = require("fs");
 const path = require("path");
 
-const METRICS = JSON.parse(fs.readFileSync(path.join("shots","metrics.json"),"utf-8"));
-const SOCIAL = JSON.parse(fs.readFileSync(path.join("shots","social.json"),"utf-8"));
+const OUT_DIR = path.join(__dirname, "..", "shots");
+const OUT_FILE = path.join(OUT_DIR, "metrics.json");
 
-function topHotTopics(){
-  return (SOCIAL.topics||[])
-    .slice()
-    .sort((a,b)=> (b.spikeScore||0)-(a.spikeScore||0))
-    .slice(0,5);
+function mustGetEnv(name) {
+  const v = process.env[name];
+  if (!v) throw new Error(`Missing ${name} (GitHub secret).`);
+  return v;
 }
 
-(function main(){
-  const hot = topHotTopics();
+function toNumber(x) {
+  if (x === null || x === undefined) return null;
+  if (typeof x === "number") return Number.isFinite(x) ? x : null;
+  if (typeof x === "string") {
+    const n = Number(x.replace(/,/g, "").trim());
+    return Number.isFinite(n) ? n : null;
+  }
+  return null;
+}
 
-  const hotLines = hot.map(t=>{
-    const badge = (t.spikeScore>=2.0) ? "🔥" : "•";
-    return `${badge} ${t.keyword} (spike x${(t.spikeScore||0).toFixed(2)}, last24h=${t.last24h})`;
-  }).join("<br/>");
+function pickFromRow(row, patterns) {
+  if (!row || typeof row !== "object") return null;
 
-  const volumeLines = (METRICS.markets||[]).map(x=>{
-    const ok = (x.daily||x.weekly||x.monthly) ? "" : (x.error ? ` (error: ${x.error})` : "");
-    return `• ${x.name}: D=${x.daily ?? "—"}, W=${x.weekly ?? "—"}, M=${x.monthly ?? "—"}${ok}`;
-  }).join("<br/>");
+  // exact / fuzzy key match
+  const keys = Object.keys(row);
+  for (const p of patterns) {
+    // exact
+    for (const k of keys) {
+      if (k.toLowerCase() === p) {
+        const n = toNumber(row[k]);
+        if (n !== null) return n;
+      }
+    }
+    // includes
+    for (const k of keys) {
+      if (k.toLowerCase().includes(p)) {
+        const n = toNumber(row[k]);
+        if (n !== null) return n;
+      }
+    }
+  }
+  return null;
+}
 
-  const summary = `
-<b>Social pulse:</b><br/>${hotLines}<br/><br/>
-<b>Volumes snapshot:</b><br/>${volumeLines}<br/><br/>
-<b>Interpretation:</b><br/>
-If social spike (🔥) is real, volume usually reacts within 6–24 hours. If spike persists but volume stays flat, it’s often “talk > trade” (good for awareness, weaker for monetization).
-  `.trim();
+function extractPeriods(rows) {
+  // Support multiple Dune result shapes.
+  // We try:
+  // 1) one-row with daily/weekly/monthly columns
+  // 2) multiple rows with "period" / "value" (or similar)
+  if (!Array.isArray(rows) || rows.length === 0) {
+    return { daily: null, weekly: null, monthly: null, _note: "no rows" };
+  }
 
-  const vizo = `
-<b>What to do today (VIZO):</b><br/>
-1) Convert the top 1–2 trending topics into markets within <b>2 hours</b> (fresh attention converts best).<br/>
-2) Use <b>YES/NO</b> for event outcomes, <b>UP/DOWN</b> for momentum, and <b>RANGE</b> when distribution matters (e.g., weekly volume bands).<br/><br/>
-<b>Suggested templates:</b><br/>
-• YES/NO: “Will <i>[event]</i> be confirmed by <i>[official source]</i> before <i>[date]</i>?”<br/>
-• UP/DOWN: “Will <i>[platform]</i> 24h volume close UP or DOWN vs yesterday?”<br/>
-• RANGE: “Where will <i>[platform]</i> weekly volume land? (A/B/C)”<br/><br/>
-<b>Ops note:</b> Always define settlement source + time window clearly.
-  `.trim();
+  // case 1: one row summary columns
+  const r0 = rows[0];
 
-  const out = { generatedAt: new Date().toISOString(), summary, vizo };
-  fs.writeFileSync(path.join("shots","analysis.json"), JSON.stringify(out, null, 2));
-  console.log("Wrote shots/analysis.json");
-})();
+  const daily =
+    pickFromRow(r0, ["daily", "day", "24h", "volume_24h", "vol_24h", "daily_volume", "day_volume"]) ??
+    null;
+
+  const weekly =
+    pickFromRow(r0, ["weekly", "week", "7d", "volume_7d", "vol_7d", "weekly_volume", "week_volume"]) ??
+    null;
+
+  const monthly =
+    pickFromRow(r0, ["monthly", "month", "30d", "volume_30d", "vol_30d", "monthly_volume", "month_volume"]) ??
+    null;
+
+  if (daily !== null || weekly !== null || monthly !== null) {
+    return { daily, weekly, monthly, _note: "from summary columns" };
+  }
+
+  // case 2: period/value style rows
+  // Try to find fields like period / timeframe / window and value / volume / amount
+  const periodKey =
+    ["period", "timeframe", "window", "bucket"].find((k) => k in r0) ||
+    Object.keys(r0).find((k) => k.toLowerCase().includes("period") || k.toLowerCase().includes("time")) ||
+    null;
+
+  const valueKey =
+    ["value", "volume", "vol", "amount", "usd", "total"].find((k) => k in r0) ||
+    Object.keys(r0).find((k) => k.toLowerCase().includes("vol") || k.toLowerCase().includes("value")) ||
+    null;
+
+  if (!periodKey || !valueKey) {
+    return { daily: null, weekly: null, monthly: null, _note: "unknown schema" };
+  }
+
+  let d = null,
+    w = null,
+    m = null;
+
+  for (const row of rows) {
+    const p = String(row[periodKey] ?? "").toLowerCase();
+    const v = toNumber(row[valueKey]);
+
+    if (v === null) continue;
+
+    if (d === null && (p.includes("day") || p.includes("daily") || p.includes("24"))) d = v;
+    if (w === null && (p.includes("week") || p.includes("weekly") || p.includes("7"))) w = v;
+    if (m === null && (p.includes("month") || p.includes("monthly") || p.includes("30"))) m = v;
+  }
+
+  return { daily: d, weekly: w, monthly: m, _note: "from period/value rows" };
+}
+
+async function duneQueryResults(apiKey, queryId, limit = 1000) {
+  const url = `https://api.dune.com/api/v1/query/${queryId}/results?limit=${limit}`;
+  const res = await fetch(url, {
+    headers: { "x-dune-api-key": apiKey },
+  });
+  if (!res.ok) {
+    const text = await res.text().catch(() => "");
+    throw new Error(`Dune API ${res.status} for query ${queryId}: ${text.slice(0, 200)}`);
+  }
+  const json = await res.json();
+
+  // Dune response: { result: { rows: [...] }, execution_id, ... }
+  const rows = json?.result?.rows;
+  if (!Array.isArray(rows)) return [];
+  return rows;
+}
+
+async function main() {
+  const DUNE_API_KEY = mustGetEnv("DUNE_API_KEY");
+
+  const markets = [
+    {
+      key: "polymarket",
+      name: "Polymarket",
+      duneUrl: "https://dune.com/datadashboards/polymarket-overview",
+      queryId: 5802915,
+    },
+    {
+      key: "kalshi",
+      name: "Kalshi",
+      duneUrl: "https://dune.com/datadashboards/kalshi-overview",
+      queryId: 5802836,
+    },
+    {
+      key: "opinion",
+      name: "Opinion",
+      duneUrl: "https://dune.com/datadashboards/opinion",
+      queryId: 6047958,
+    },
+    {
+      key: "myriad",
+      name: "Myriad",
+      duneUrl: "https://dune.com/datadashboards/myriad",
+      queryId: 5756303,
+    },
+    {
+      key: "predict",
+      name: "Predict (predict.fun)",
+      duneUrl: "https://dune.com/datadashboards/predict-prediction-market-predictfun",
+      queryId: 6365667,
+    },
+    {
+      key: "ibkr",
+      name: "IBKR ForecastEx",
+      duneUrl: "https://dune.com/datadashboards/ibkr-forecastex",
+      queryId: 6536996,
+    },
+  ];
+
+  const out = {
+    generatedAt: new Date().toISOString(),
+    markets: [],
+  };
+
+  for (const m of markets) {
+    const item = {
+      key: m.key,
+      name: m.name,
+      duneUrl: m.duneUrl,
+      queryId: m.queryId,
+      daily: null,
+      weekly: null,
+      monthly: null,
+      updatedAt: null,
+    };
+
+    try {
+      const rows = await duneQueryResults(DUNE_API_KEY, m.queryId, 1000);
+      const periods = extractPeriods(rows);
+      item.daily = periods.daily;
+      item.weekly = periods.weekly;
+      item.monthly = periods.monthly;
+      item.updatedAt = new Date().toISOString();
+
+      // Optional debug in output (kept small)
+      if (item.daily === null && item.weekly === null && item.monthly === null) {
+        item.note = periods._note || "no matching fields";
+      }
+    } catch (e) {
+      item.error = String(e?.message || e);
+    }
+
+    out.markets.push(item);
+  }
+
+  fs.mkdirSync(OUT_DIR, { recursive: true });
+  fs.writeFileSync(OUT_FILE, JSON.stringify(out, null, 2));
+  console.log(`Wrote ${OUT_FILE}`);
+}
+
+main().catch((e) => {
+  console.error(e);
+  process.exit(1);
+});
