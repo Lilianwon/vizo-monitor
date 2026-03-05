@@ -1,13 +1,9 @@
 name: Capture Dune Dashboards
 
 on:
-  schedule:
-    - cron: "*/15 * * * *"   # every 15 minutes (UTC)
   workflow_dispatch:
-
-concurrency:
-  group: capture-dune-shots
-  cancel-in-progress: true
+  schedule:
+    - cron: "0 * * * *"   # every hour
 
 permissions:
   contents: write
@@ -15,18 +11,9 @@ permissions:
 jobs:
   capture:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      # ✅ 关键：在生成任何文件之前就把 main 同步到最新（此时工作区干净）
-      - name: Sync with origin/main
-        run: |
-          git fetch origin main
-          git reset --hard origin/main
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -34,28 +21,21 @@ jobs:
           node-version: "20"
 
       - name: Install deps
-        run: |
-          npm ci || npm i
-          npx playwright install --with-deps chromium
+        run: npm ci
 
       - name: Run capture
         env:
           DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
-        run: |
-          node capture.cjs
+        run: node capture.cjs
 
       - name: Commit outputs if changed
         run: |
-          set -e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           git add shots/* || true
-
           if git diff --cached --quiet; then
-            echo "No changes to commit."
-            exit 0
+            echo "No changes."
+          else
+            git commit -m "update dashboard outputs"
+            git push
           fi
-
-          git commit -m "update dashboard outputs"
-          git push origin HEAD:main
