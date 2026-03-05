@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-05T10:22:29.877Z",
+  "generatedAt": "2026-03-05T10:44:20.388Z",
   "markets": [
     {
       "key": "polymarket",
@@ -9,7 +9,7 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-03-05T10:22:29.877Z"
+      "updatedAt": "2026-03-05T10:44:20.388Z"
     },
     {
       "key": "kalshi",
@@ -19,7 +19,7 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-03-05T10:22:29.877Z",
+      "updatedAt": "2026-03-05T10:44:20.388Z",
       "error": "queryId not set"
     },
     {
@@ -30,7 +30,7 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-03-05T10:22:29.877Z",
+      "updatedAt": "2026-03-05T10:44:20.388Z",
       "error": "queryId not set"
     },
     {
@@ -41,7 +41,7 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-03-05T10:22:29.877Z",
+      "updatedAt": "2026-03-05T10:44:20.388Z",
       "error": "queryId not set"
     },
     {
@@ -52,7 +52,7 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-03-05T10:22:29.877Z",
+      "updatedAt": "2026-03-05T10:44:20.388Z",
       "error": "queryId not set"
     },
     {
@@ -63,7 +63,7 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-03-05T10:22:29.877Z",
+      "updatedAt": "2026-03-05T10:44:20.388Z",
       "error": "queryId not set"
     },
     {
@@ -74,7 +74,7 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-03-05T10:22:29.877Z",
+      "updatedAt": "2026-03-05T10:44:20.388Z",
       "error": "queryId not set"
     }
   ]
