@@ -1,20 +1,20 @@
-/**
- * capture.cjs
- * Fetch daily/weekly/monthly volumes from Dune query result endpoints
- * and write to shots/metrics.json
- *
- * Required env:
- *   DUNE_API_KEY (GitHub secret)
- */
+// capture.cjs
+// Fetch Dune query results and write shots/metrics.json
+// Required secret: DUNE_API_KEY
 
 const fs = require("fs");
 const path = require("path");
 
-const OUT_DIR = path.join(__dirname, "shots");
-const OUT_FILE = path.join(OUT_DIR, "metrics.json");
+const DUNE_API_KEY = process.env.DUNE_API_KEY;
+if (!DUNE_API_KEY) {
+  console.error("Error: Missing DUNE_API_KEY (GitHub secret).");
+  process.exit(1);
+}
 
-// ====== CONFIG (NO OVERTIME) ======
-const MARKETS = [
+const OUT_DIR = path.join(__dirname, "shots");
+if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });
+
+const markets = [
   {
     key: "polymarket",
     name: "Polymarket",
@@ -53,237 +53,110 @@ const MARKETS = [
   },
 ];
 
-// ====== Helpers ======
-function ensureDir(p) {
-  if (!fs.existsSync(p)) fs.mkdirSync(p, { recursive: true });
+async function duneFetch(queryId) {
+  const url = `https://api.dune.com/api/v1/query/${queryId}/results?limit=1000`;
+  const res = await fetch(url, {
+    headers: { "x-dune-api-key": DUNE_API_KEY },
+  });
+  if (!res.ok) {
+    const text = await res.text().catch(() => "");
+    throw new Error(`Dune HTTP ${res.status}: ${text.slice(0, 200)}`);
+  }
+  return res.json();
 }
 
-function isNumberLike(v) {
-  if (v === null || v === undefined) return false;
-  if (typeof v === "number" && Number.isFinite(v)) return true;
-  if (typeof v === "string") {
-    const s = v.trim().replace(/,/g, "");
-    if (!s) return false;
-    const n = Number(s);
-    return Number.isFinite(n);
-  }
-  return false;
-}
-
-function toNumber(v) {
-  if (typeof v === "number") return v;
-  if (typeof v === "string") return Number(v.trim().replace(/,/g, ""));
-  return null;
-}
-
-/**
- * Try to extract a number from a row using preferred keys first,
- * otherwise fallback to "first numeric field".
- */
-function pickNumberFromRow(row, preferredKeys = []) {
-  if (!row || typeof row !== "object") return null;
-
-  // preferred keys
-  for (const k of preferredKeys) {
-    if (k in row && isNumberLike(row[k])) return toNumber(row[k]);
-  }
-
-  // common keys (volume-ish)
-  const common = [
-    "value",
-    "volume",
-    "notional_volume",
-    "notional",
-    "daily",
-    "weekly",
-    "monthly",
-    "daily_volume",
-    "weekly_volume",
-    "monthly_volume",
-    "daily_notional",
-    "weekly_notional",
-    "monthly_notional",
-    "trade_volume",
-    "trading_volume",
-  ];
-  for (const k of common) {
-    if (k in row && isNumberLike(row[k])) return toNumber(row[k]);
-  }
-
-  // fallback: first numeric field
-  for (const [k, v] of Object.entries(row)) {
-    if (isNumberLike(v)) return toNumber(v);
+function pickNumber(row, keys) {
+  for (const k of keys) {
+    if (row && row[k] != null && row[k] !== "") {
+      const n = Number(row[k]);
+      if (Number.isFinite(n)) return n;
+    }
   }
   return null;
 }
 
-/**
- * Parse Dune rows into {daily, weekly, monthly}
- *
- * Supports these shapes:
- *  A) rows like: [{period:"daily", value:123}, {period:"weekly", value:...}, ...]
- *  B) single row like: {daily:123, weekly:..., monthly:...}
- *  C) single row like: {daily_volume:123, weekly_volume:..., monthly_volume:...}
- */
+// Try to infer daily/weekly/monthly from Dune rows.
+// Works with many common naming styles.
 function parseVolumes(rows) {
-  const out = { daily: null, weekly: null, monthly: null };
+  if (!Array.isArray(rows) || rows.length === 0) return { daily: null, weekly: null, monthly: null };
 
-  if (!Array.isArray(rows) || rows.length === 0) return out;
+  // Prefer the first row (many dashboards output a single row summary)
+  const r0 = rows[0];
 
-  // Case B/C: single row contains all three
-  if (rows.length === 1 && rows[0] && typeof rows[0] === "object") {
-    const r = rows[0];
-    // try direct keys
-    out.daily =
-      pickNumberFromRow(r, ["daily", "daily_volume", "daily_notional"]) ?? null;
-    out.weekly =
-      pickNumberFromRow(r, ["weekly", "weekly_volume", "weekly_notional"]) ??
-      null;
-    out.monthly =
-      pickNumberFromRow(r, ["monthly", "monthly_volume", "monthly_notional"]) ??
-      null;
+  const daily = pickNumber(r0, [
+    "daily", "day", "d1", "daily_volume", "volume_daily", "daily_usd", "daily_volume_usd",
+    "daily_total", "total_daily", "daily_notional", "notional_daily"
+  ]);
 
-    // if at least one found, accept
-    if (out.daily !== null || out.weekly !== null || out.monthly !== null) {
-      return out;
+  const weekly = pickNumber(r0, [
+    "weekly", "week", "w1", "weekly_volume", "volume_weekly", "weekly_usd", "weekly_volume_usd",
+    "weekly_total", "total_weekly", "weekly_notional", "notional_weekly"
+  ]);
+
+  const monthly = pickNumber(r0, [
+    "monthly", "month", "m1", "monthly_volume", "volume_monthly", "monthly_usd", "monthly_volume_usd",
+    "monthly_total", "total_monthly", "monthly_notional", "notional_monthly"
+  ]);
+
+  // Fallback: sometimes rows contain {period: 'daily', value: ...}
+  if (daily == null || weekly == null || monthly == null) {
+    let d = daily, w = weekly, m = monthly;
+    for (const row of rows.slice(0, 50)) {
+      const p = (row.period || row.Period || row.window || row.timeframe || "").toString().toLowerCase();
+      const v =
+        pickNumber(row, ["value", "Value", "volume", "Volume", "usd", "USD", "notional", "Notional"]) ??
+        null;
+
+      if (!Number.isFinite(v)) continue;
+      if (d == null && (p.includes("day") || p === "daily" || p === "1d")) d = v;
+      if (w == null && (p.includes("week") || p === "weekly" || p === "7d")) w = v;
+      if (m == null && (p.includes("month") || p === "monthly" || p === "30d")) m = v;
     }
+    return { daily: d, weekly: w, monthly: m };
   }
 
-  // Case A: rows per period
-  for (const r of rows) {
-    if (!r || typeof r !== "object") continue;
-
-    const periodRaw =
-      (r.period || r.Period || r.timeframe || r.Timeframe || r.bucket || "")
-        .toString()
-        .toLowerCase()
-        .trim();
-
-    const val = pickNumberFromRow(r, ["value", "volume", "notional_volume"]);
-    if (val === null) continue;
-
-    // normalize period
-    if (periodRaw.includes("day") || periodRaw === "d" || periodRaw === "1d") {
-      out.daily = val;
-    } else if (
-      periodRaw.includes("week") ||
-      periodRaw === "w" ||
-      periodRaw === "1w" ||
-      periodRaw === "7d"
-    ) {
-      out.weekly = val;
-    } else if (
-      periodRaw.includes("month") ||
-      periodRaw === "m" ||
-      periodRaw === "1m" ||
-      periodRaw === "30d"
-    ) {
-      out.monthly = val;
-    } else {
-      // sometimes period might be exactly: daily/weekly/monthly
-      if (periodRaw === "daily") out.daily = val;
-      if (periodRaw === "weekly") out.weekly = val;
-      if (periodRaw === "monthly") out.monthly = val;
-    }
-  }
-
-  return out;
+  return { daily, weekly, monthly };
 }
 
-async function fetchJson(url, headers, timeoutMs = 25000) {
-  const ctrl = new AbortController();
-  const t = setTimeout(() => ctrl.abort(), timeoutMs);
-
-  try {
-    const res = await fetch(url, { headers, signal: ctrl.signal });
-    if (!res.ok) {
-      const text = await res.text().catch(() => "");
-      throw new Error(`HTTP ${res.status} ${res.statusText} :: ${text.slice(0, 200)}`);
-    }
-    return await res.json();
-  } finally {
-    clearTimeout(t);
-  }
+function toPretty(n) {
+  if (n == null) return null;
+  const abs = Math.abs(n);
+  if (abs >= 1e12) return +(n / 1e12).toFixed(2) + "T";
+  if (abs >= 1e9) return +(n / 1e9).toFixed(2) + "B";
+  if (abs >= 1e6) return +(n / 1e6).toFixed(2) + "M";
+  if (abs >= 1e3) return +(n / 1e3).toFixed(2) + "K";
+  return +n.toFixed(2);
 }
 
-function formatCompact(n) {
-  if (n === null || n === undefined || !Number.isFinite(n)) return null;
-  // keep raw number in json, but helpful if you later want strings
-  return n;
-}
+(async () => {
+  const now = new Date().toISOString();
+  const out = { generatedAt: now, markets: [] };
 
-// ====== Main ======
-async function main() {
-  const apiKey = process.env.DUNE_API_KEY;
-  if (!apiKey) {
-    throw new Error("Missing DUNE_API_KEY (GitHub secret).");
-  }
-
-  ensureDir(OUT_DIR);
-
-  const headers = {
-    "x-dune-api-key": apiKey,
-    "content-type": "application/json",
-  };
-
-  const generatedAt = new Date().toISOString();
-
-  const marketsOut = [];
-  for (const m of MARKETS) {
-    const base = {
-      key: m.key,
-      name: m.name,
-      duneUrl: m.duneUrl,
-      queryId: m.queryId,
-      daily: null,
-      weekly: null,
-      monthly: null,
-      updatedAt: generatedAt,
-    };
-
+  for (const m of markets) {
+    const item = { key: m.key, name: m.name, duneUrl: m.duneUrl, queryId: m.queryId, updatedAt: now };
     try {
-      const url = `https://api.dune.com/api/v1/query/${m.queryId}/results?limit=1000`;
-      const json = await fetchJson(url, headers);
-
-      const rows =
-        json &&
-        json.result &&
-        Array.isArray(json.result.rows) ? json.result.rows : [];
-
+      const data = await duneFetch(m.queryId);
+      const rows = data?.result?.rows ?? [];
       const vols = parseVolumes(rows);
 
-      base.daily = formatCompact(vols.daily);
-      base.weekly = formatCompact(vols.weekly);
-      base.monthly = formatCompact(vols.monthly);
+      item.daily = vols.daily;
+      item.weekly = vols.weekly;
+      item.monthly = vols.monthly;
 
-      // Debug hints (kept small)
-      base._rows = rows.length;
-      if (
-        base.daily === null &&
-        base.weekly === null &&
-        base.monthly === null
-      ) {
-        base._hint =
-          "No daily/weekly/monthly detected. Adjust Dune query output to include period/value or daily/weekly/monthly columns.";
-        base._sample = rows.slice(0, 2);
+      item.dailyPretty = toPretty(vols.daily);
+      item.weeklyPretty = toPretty(vols.weekly);
+      item.monthlyPretty = toPretty(vols.monthly);
+
+      if (item.daily == null && item.weekly == null && item.monthly == null) {
+        item.warning = "No recognizable daily/weekly/monthly fields in Dune rows. Update parseVolumes() mapping.";
+        item.sampleRowKeys = rows[0] ? Object.keys(rows[0]) : [];
       }
     } catch (e) {
-      base.error = String(e && e.message ? e.message : e);
+      item.error = e?.message || String(e);
     }
-
-    marketsOut.push(base);
+    out.markets.push(item);
   }
 
-  const out = {
-    generatedAt,
-    markets: marketsOut,
-  };
-
-  fs.writeFileSync(OUT_FILE, JSON.stringify(out, null, 2), "utf8");
-  console.log(`Wrote ${OUT_FILE}`);
-}
-
-main().catch((e) => {
-  console.error(e);
-  process.exit(1);
-});
+  fs.writeFileSync(path.join(OUT_DIR, "metrics.json"), JSON.stringify(out, null, 2));
+  console.log("Wrote shots/metrics.json");
+})();
