@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T18:35:41.963Z",
+  "generatedAt": "2026-03-22T19:05:29.309Z",
   "topics": [
     {
       "keyword": "Polymarket",
@@ -38,12 +38,6 @@
           "publishedAt": "Thu, 19 Mar 2026 14:30:00 GMT"
         },
         {
-          "title": "Point72, Balyasny Ban Staff Bets in Prediction-Market Crackdown - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQm5jRmpVaFRoOHZrejRCQ0piMG9SM2h5b2hfVWZETWxUcGdpSHBRcWcwU251VWI4QXNfYmJ1d1d4S1pkOEhFNUhKUnN6MFhTa3FCY1lwQktSckliNFVlckF5dTFHVHFmY0hHTmo2SFdwZDJJc2JyWmEyYkx3SU5OT3ZDUm9KZGlzVGF6VzV2YmV6SFJKZl9hQ2xxemlVR1BUSVlTOUlTcFo3aEx3TWNESy1tOA?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 19 Mar 2026 22:17:39 GMT"
-        },
-        {
           "title": "SpaceX Now Has 10,000 Starlink Satellites In Space — And Polymarket Is Betting The IPO Is Coming Soon - Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbmNPR2NiYXYwd2x5YVdJcXRIRlQtXzdaaGtoRnRDeWhPTEZfOUc1SmpDXzNmd2prZEZvb2Vtbm5PVGJmQVIwNFczRk1JRW1VZV9aa2x5U3hTdEVOcnIyb19BaDhhWHdjbkdUcUtucUNSbzVFYW9zZ0kwdU55Qy02SnhNcXd1VnFZbnRwbU03QTYtOHNRQkE?oc=5",
           "source": "GoogleNews",
@@ -51,9 +45,15 @@
         },
         {
           "title": "Israeli Reporter Says Polymarket Bettors Pressured Him to Change Missile Story - WSJ",
-          "url": "https://news.google.com/rss/articles/CBMiiARBVV95cUxPUjNESGt2V01oVFZRcFZzQnpOOVlJWnhqVlZzSDAtZDI1QU93NE5XWEpVS3R1VE9kWW05dHVjN1pZQWwwbVJONzFEdTRILUpnT0dSTTFXQkNQLU0tZEFkeUNBY3A4YTk1anBUTE9sWEk5bVp5QUFVWTZsZ3kxTnZmWUgzdTYxUDdXeXhpcVpfRkJuS29FXzcxbTZXVVR3bXBUeTdaUUltMjlDZUZjYXNMZXpOX2ZxME5ESW5ibFNBU0F6dFJENzEySFlBOVpXa1kxdUFNV2V5bTJVUFhWT01obF9rckdhcllyY25Od0JOakJEcGx2MHA3ZHRKYTJ6WUtDWVFTdkM0UGFGSmJtcy14UVB6cmZ5N240aHNwU1dsVTlRVGRFbXR2ZllEaGhlWEVhU3ZZUnoxejVoNTVlekNranpJRmVDS2Z4cDRRX1hlS0hqQVZlMnJiR2l0SGd0OWwwcURQUzVoRHlZT20tNHp3TEJkT0NSUi1DUm1uaElHdGUzT3hncHpTeDFWOHc5b3kzdlZRVEVTMGlSd01FdGlZbUdDZ2xscnlRM3E0aXZ1aG14bDMxZlhBVk9fcjYzci1ncUtOaVhISDdMbEQtUHRhV1l2THVOVVFOU1Y3bGtiOXdNY3lGZnJoZjhnZEIxRUNOdVRscGFvMVBubHhOUHkyVmwwc3ZmT0lj?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiiARBVV95cUxNQWo3Nk1nWV9xSTVUTXlRSW5NYjJrcVVaYlAzZDQzejBNSWlubFc0MmFiZ192UGFyZEtPckZSWDhjOHpyX3lDd0Y2YWRUelliTUlQcktPYmVLQnNPRWVodGdSc09GTEVxenlyZzdTSkh0bDYyWlI4OGRaeF8ySHJiZDVRZHlNbGxrb0RnVUI1dTJwY1R0dXZaOHVZR0lrX3doZ2Y5dzVFVW5RMXU1SElCNGplMnk2aXd6anNZUGwxTUNSRTZGSVAzNFNPZjlra04yMXkyR1QtazdzdmRLa0FWV1N4bnpIeDJRYTNxcEVDUzFWbmNTdklUdUZzU0VrY3F1MzVZOGhMUlIyYk1CSnVSUTRseElfUWVjeFdTWlBYLTRWYUlOVTFiZTlKYk0tS2V6QnZrSWJ0ZHl6RzRuNkQ1eUkzdkJVSnRrb1doekxPbktBYkMzX2xqNzRtWXQ2TVlFRUdPUTdqVGtWNEhHdHNiX3V4TVFqcGF2RHhodnZKZ2J0dzhYZExKTU9FRVM3WUZKWndVQUxfbWYyRl83cFNQSjJxQmVqcHpYcVF5UEh4RVAtSUY1Tk05UGMxR05xNDNoQlZyMjhRS2ZqV3d0ZnUwWlF3SmJWbHVNMDRBQjRaMWNDbVhDYXBCeFRuU0lZVXhLeXZEWjFKbDQ0RklpZHZnS2xadWhoYmt6?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Mon, 16 Mar 2026 14:36:00 GMT"
+        },
+        {
+          "title": "Point72, Balyasny Ban Staff Bets in Prediction-Market Crackdown - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQm5jRmpVaFRoOHZrejRCQ0piMG9SM2h5b2hfVWZETWxUcGdpSHBRcWcwU251VWI4QXNfYmJ1d1d4S1pkOEhFNUhKUnN6MFhTa3FCY1lwQktSckliNFVlckF5dTFHVHFmY0hHTmo2SFdwZDJJc2JyWmEyYkx3SU5OT3ZDUm9KZGlzVGF6VzV2YmV6SFJKZl9hQ2xxemlVR1BUSVlTOUlTcFo3aEx3TWNESy1tOA?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Thu, 19 Mar 2026 22:17:39 GMT"
         },
         {
           "title": "Prediction markets are seeing a political boom. Here’s what they might mean for California’s governor race - The Mercury News",
@@ -68,16 +68,16 @@
           "publishedAt": "Sat, 21 Mar 2026 16:04:25 GMT"
         },
         {
-          "title": "Fed decision in March? Trading Odds &amp; Predictions - Polymarket",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE51a0V4Nl9heXFvNWVXNUZYUWlBMEJOWTZiY0tSX3FyOUU0ZTRtOENaZTA3V25lZUd3U21FeDZfeVRiMVk3dFRyMzY2SlRtSGxlMmFjcy1oMDB0eE9WZjhuWFhVWWY?oc=5",
+          "title": "Gaming vs. Esports Odds &amp; Predictions (Mar. 22, 2026) - Polymarket",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5JNmk3a0lrTDljU3N6bTNjLUpTa3VoMTZTVjdHS1ZLbklBdUNoZW5KcWxlWkppeGs5cVJIVVFTWUptQngxWGFuYndubUlIYllWemxfYzlvLXlFMml1elMzbDNleWxpaDJDNkZTZjRWOEk5VnF3UmpjVw?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Wed, 18 Mar 2026 21:25:31 GMT"
+          "publishedAt": "Sun, 22 Mar 2026 17:39:17 GMT"
         },
         {
-          "title": "MLB names Polymarket exclusive Prediction Market Exchange partner and signs agreement with CFTC to establish integrity framework - MLB.com",
-          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQcndZam5oNFpFZmlnci1MZVZrX1o3NVBveWo0MDNWVEV1ZUpyaXctNGhMM2FYQnVDUnBUUndVM0Uya09YN3AzMGZOQ0otVEM0ZTRDU1BQRVdrNy02akNFQmJqNlF2T01BZ2FwNjd5LVNabXZ4Q1Z5OEJvM3MyZXBxcGVSc1lmS29udHJCNEZuV25NVk5zeTVIRFdyRDlvTzVHbG8zd1cxMHJIR1JUM3RYZFRwaTdtRGNQSzd0V1lkeGxIdkZMaUEzZ2E2UmJVSjl0NjN5VDVhRk9pQ0N2ZGVvUTJBTnE5U2V5OVY4SEJBLUp0WjUzRmZoWmpfaVJJVF9UUUJsbzhVb9IBkwJBVV95cUxOYWZzVFJxTHBOaTcxQ09BZ0ZaRl9uM2E0NGVldTF0UW95VVVYakJCN1ptc0szY3ZpeEVjeGptbEN1V1dndkdCMk9JUnQ2ZUUza0c5cVJyYnJQVnJZR2dSVk9TOFdJZDN3MTVuaEduNDl5VUc4Vm92R0NJeHBfOUN2V2JFb1oxNkVHUHpITkF6c3I1WDVpQlBzU3czNHQ0UG9VUS1sNFVXQklBb2NSeFhOQkgzWHMyaGlsLXJEOFJFVzdUZkMwQnpDZmlYcnBBVTZQbXJ1ZFhsRmpMUXN2Z0RKNFc2RTU0V09adm84c0ViY1hCdFFFbW5TWk1aRXFmVGsydnkwWXlCcTY5NEpkYzNVM0NJOA?oc=5",
+          "title": "Polymarket set to open a bar in Washington, D.C. - Mashable",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Dc3VwajdISFlBbjFCajFJZnk2azNpOGVrcXI4RVRacHNZeUtQTC1ZMXJnR2hpSkw3X1MxWGQ2YkNtVm8zTWt4QlE5ZVg5YVZlNnRSRnllbjBTMkN5a1dsU3ZUV3VwbE1O?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Thu, 19 Mar 2026 23:21:06 GMT"
+          "publishedAt": "Sun, 22 Mar 2026 07:33:19 GMT"
         }
       ]
     },
@@ -95,7 +95,7 @@
         },
         {
           "title": "Exclusive | Kalshi Cinches $22 Billion Valuation in Ongoing Round - WSJ",
-          "url": "https://news.google.com/rss/articles/CBMimgNBVV95cUxNSTlnQTJDTXpxQ05WTXVXSjFlYUg3d29iUHlMdDVWWkJGRW9qX0R0T2hXeXZrbW5SOVhFbEFiWnF0U0lOMXJUczNIVDVlektHZHpEWUpZVExxVUhFV1V5LVMybzFQdDYxRTBaNkZaUDhqVHdrNFRwWVBVZVdZWWFBYmVGLWktcnFVdGNaRkVyMmE3a283OG1FZE4wLVFfeFRsZWtEVTczZGRacndpR3dSbmlzeEJyLUowcU1JT0swZ1N4X2liajVyRE91aEVZNkdrNnN3N2ZEZ3Mtb0VQMEc1VWJxc3d4a1p0V2twSGtwTWlkaTZtVFNNbkhqX0VwcHhZdmZMRElvbUtPXzdBVHQzRWpPLXdvTk1iVlhCMnZBTjZTTjBWNjJJN0stVnY4dGVHOFVKTVNYNjY0cjVSR0F6WTkwNi1nUlowOXJRZGdsOC1oQXMxU1A4MTVxc3pyV19aNzQ0bzVQXzBya21VR0xicU1VMnEtaDBxb2VJSkd6RWlzdGlUS0JaU196bWZnelZMR0lfakdodkZIUQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMimgNBVV95cUxNV2QyaGFPbGxreGJ6dXJaQUZ5TUJrT0dTU0g5OGZyYmNSOUtsOElxeXFqdHltOERISDQ1ZXhHa2lYWHE4UTRSTzk3ZE5NQ09LdDNUQk0xZjBvU004THFPWVQ0SVFob1ZVakNwdmVXZXNrZDJ0LUM4UjZYQmNRdWYtZzNaSTB2cGRCUnFTQll3V2VEMDJURGE4a25KTmlvdjM3cTgySnFfZVZBWVJESHFua2JhWGxHRDJtYVFtNGdVTGE3Y3pmNFJXRGxJdlEwWmluU1VCaGZROUs2YnlGU1UtcWIwdUF2Z3BFLXRhT1pNRFFraUVVb1U1eWVDRmZ6Y0dkeWxvNnNEajlkRXp6Q3BDZGRuamVWZ2JfRlUtTzItQXJGNnB0SXdacUZQZy1PdFdvRnh5bTlDTkVxSmhhWFBOQnVzNlAzRklDR2pycHIzRE5wbUdCdFJUdEY3MWZZRm9MelY3M1lPMjRBOEJIbTRWNW4wQkNwMmktTmM3NXpQdHo1UkZRS0xFRW0tSnZGNWVhTGUwQ2RiM3F4QQ?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Thu, 19 Mar 2026 20:15:00 GMT"
         },
@@ -118,34 +118,22 @@
           "publishedAt": "Sat, 21 Mar 2026 10:44:00 GMT"
         },
         {
-          "title": "Kalshi Promo Code: Get a $10 Bonus When You Trade $10 on College Basketball, NBA, or Any Other Event - FOX Sports",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORGJXNk5Vbm15R1ltbTdBcnRybnFDOUxteHVIVmhwelYzRnJJX2ljQnBrUlVWZFJWdjZ6clpoeVNzUEFJRzIxTjhrN3laYlo4MnRKaW5MX094SU4zU3ZOcnZRZHlPbW9PNW1TTDVaTVhfMVFWMHhwTEZPbjd5Ykg2VEU0eXFINWp5b1FlR2FLMlZRTXJWNkphaThTQnlNcXJvVzJSWVQ3M1dpMWQxZzZuS3NjVjExbHhJNDBMYVdGXzA1b0EwQXJRX9IByAFBVV95cUxNNWFzTmtOWEo1bVpxYWFGTUt3czU5c1NiM3ZXVVhiaVBvaEpwYnYwUGhkVVhSV0lMcGxzZTRhNkZ0SW1ySDN5OGhQX2NWRUhjWlFMaVkyUGZqRE9peC1GVzhJdlVvN1lxdjl1SW5Fam9oYTkwUkdGYTJBMXBMcUhJcFdCR0hsM3BCN1ltaERaZ0plcTBVSktPVEg4Tkdyc0hnVm1FbmZEYzZERW1YdWx6WkxiSVR1Tk4xYXcxVWpHdmNGTEVBMDNmUg?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Sun, 22 Mar 2026 14:12:37 GMT"
-        },
-        {
-          "title": "Kalshi Referral Code MASSLIVE1 extended for Kentucky in NCAA Tournament: $10 bonus in KY, FL, GA, and SC - MassLive",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSzU4ZnNwZGd2OFN0WWtkbzM0S21UUGVoUFh6ZFJNa0tGbFMwSmloZHFibWUwVk9Od0RoeUFYVFp3aVA4b0EtcTEwd21aRFJOUGNKYWtSZUk5Sk00b0V5OXUteFR1RVJUdFRZaW5PblFjS3RXbTBpODVXV2ZDem5PVkFhVFM0dnMzeFp2UW1ZdWprOU5xYURKVXhRTjFPWWdHa25JV0dmSlVrTWgxQW5NWFZRc2NKaEFzMHdXVGp3ZFBEU0ZWNXp5WXdiQjlyWDViRGxDTmhEYm1QbHMzOHc?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Sun, 22 Mar 2026 17:00:00 GMT"
-        },
-        {
-          "title": "Kalshi Promo Code ROTOWIRE: Get $10 Bonus For March 2026 - RotoWire",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVk04cDl0eGxoWVF2SllqSzZNb19lcnIzTDE1eE9pbVRncm5kU19XeE56LTVEYi1HTW9lWXFTUEM2eS04OF9pcjg4bkM4RG9vTFdtR09lUk4xUVU5emNLX1ZJMEhfRUdESWJ1dW1uM0NzM2w4LThYUC1DeU5JS01QZ01lUW92YW5ySTRhcnBmVk5BX0h3dFE?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Sun, 22 Mar 2026 18:00:00 GMT"
-        },
-        {
           "title": "The Odds of Me Being Mauled by a Bear This Weekend Keep Going Up on Kalshi - McSweeney’s Internet Tendency",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZjZlVEZrQmNDT2FwS09Hay1LdFRxdko2WDFVS1o1elY5ODFGaThLY1pNX3dNU28zRVpHXzBRenBJQzFQdVRoOWtTOVpwT1E3blNHSUYxdkNlNDJmMGNvNWM0bWFIYkJLc2xsNzNERlZWOU1tUzFwRUxTNHc3RGNxcEMyWkR3M2pDLVhFcDhqZnF2cUoyOTl3NjFJQUtaSk93TVlOYkVFOGZrOUFvQ1RV?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Thu, 19 Mar 2026 17:00:00 GMT"
         },
         {
-          "title": "Trump impeachment odds reach record high on betting sites - the-independent.com",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRmVWa2lTNmZJYktaeTBHLU5ZWlJFUllqQkxYTkJIV2R0ME13bU5OV285OGRPb281NHRXQUZVMnlELVVtZlU0YXRHX0l5cXZtY1BlN1NXRTRUYUZDTTZUU1Y0X3gzSlA3c3F2UHk3TWJ4ZVNDV1RGeUQ4UnFmb0FsWXRGSGdyZVp2TEdvTmgzNnp4aHF2b3FsNnYtdzZDQkk0SnpuYlBB?oc=5",
+          "title": "Kalshi Promo Code: Get a $10 Bonus When You Trade $10 on College Basketball, NBA, or Any Other Event - FOX Sports",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORGJXNk5Vbm15R1ltbTdBcnRybnFDOUxteHVIVmhwelYzRnJJX2ljQnBrUlVWZFJWdjZ6clpoeVNzUEFJRzIxTjhrN3laYlo4MnRKaW5MX094SU4zU3ZOcnZRZHlPbW9PNW1TTDVaTVhfMVFWMHhwTEZPbjd5Ykg2VEU0eXFINWp5b1FlR2FLMlZRTXJWNkphaThTQnlNcXJvVzJSWVQ3M1dpMWQxZzZuS3NjVjExbHhJNDBMYVdGXzA1b0EwQXJRX9IByAFBVV95cUxNNWFzTmtOWEo1bVpxYWFGTUt3czU5c1NiM3ZXVVhiaVBvaEpwYnYwUGhkVVhSV0lMcGxzZTRhNkZ0SW1ySDN5OGhQX2NWRUhjWlFMaVkyUGZqRE9peC1GVzhJdlVvN1lxdjl1SW5Fam9oYTkwUkdGYTJBMXBMcUhJcFdCR0hsM3BCN1ltaERaZ0plcTBVSktPVEg4Tkdyc0hnVm1FbmZEYzZERW1YdWx6WkxiSVR1Tk4xYXcxVWpHdmNGTEVBMDNmUg?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Sat, 21 Mar 2026 14:55:00 GMT"
+          "publishedAt": "Sun, 22 Mar 2026 14:12:37 GMT"
+        },
+        {
+          "title": "Early Iowa vs. Florida prediction trends on Kalshi prompt experts to release new betting data - MassLive",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTWFOVGhzS1I2eFFYOTc5MmM2MjY1clNmd2lmS3ZlLXU2WVFKb0tHWDgxXzdoWjdFS016R3B5NV9BYlZDWVFsQlVkRnd4RmdnT2UwUF9tSHpSR1pvbU9aM1lYdjhVam1VWjhPRDJkMS1OWm9yRlJOYWRRTkU1MXhYWGhBWGtnV29ZRmVMNUs2c2Ruam9zb0NoZE13VWFZYzNJSU0ybWt1Zk5CaVpYeklGWHhLTVVZR283aFptUXBISllYMk5sMHlCNUEwaEhYd3ZqVmpDVA?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Sun, 22 Mar 2026 14:15:00 GMT"
         },
         {
           "title": "Experts release new St. John’s vs. Kansas prediction after eye-catching Kalshi market update - Syracuse.com",
@@ -154,10 +142,22 @@
           "publishedAt": "Sun, 22 Mar 2026 14:15:00 GMT"
         },
         {
-          "title": "Kalshi promo code NYPMAX: Trade $10, get $10 for Texas vs. Gonzaga - New York Post",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMnBWVFdJS0EzV0EwZHFsaWdmUU56QWZhcE9PTlU2Sng5MEhzTjV3Q3ZjRnp1T25WdjNsZWVWSS1ScEJQbW1jNXQxZHE4QUUwLTZtdi1Lb2U0bzFHM0prSVkxMjVybEpPWE1SQmJLWGZ3TTRXTEd6ZHFzOGZ5aUg5a092QzN0VjdjMGw0cWwteTlMNEZwVDhyZU9pX1EzVE41blE?oc=5",
+          "title": "It’s Gambling - Defector",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA3eTZodzAtNGItdkNfQlZjQ0NvMVc4ek82d2UzSUh4QWJPc19VYUVLeUhOcHlKLUhzOEs4SmJjNUpfa1ZoZktEWA?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Sat, 21 Mar 2026 19:00:00 GMT"
+          "publishedAt": "Thu, 19 Mar 2026 17:36:00 GMT"
+        },
+        {
+          "title": "Trump impeachment odds reach record high on betting sites - the-independent.com",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRmVWa2lTNmZJYktaeTBHLU5ZWlJFUllqQkxYTkJIV2R0ME13bU5OV285OGRPb281NHRXQUZVMnlELVVtZlU0YXRHX0l5cXZtY1BlN1NXRTRUYUZDTTZUU1Y0X3gzSlA3c3F2UHk3TWJ4ZVNDV1RGeUQ4UnFmb0FsWXRGSGdyZVp2TEdvTmgzNnp4aHF2b3FsNnYtdzZDQkk0SnpuYlBB?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Sat, 21 Mar 2026 14:55:00 GMT"
+        },
+        {
+          "title": "Kalshi Promo Code SDS: Get $10 Sign Up Bonus for Arkansas-High Point - Saturday Down South",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdDR3LU1oZ0hiY0JMMk9td3Qzd3FvZjNGenNMcGluZWZNOXZVSThBcXlpeEJBTU9DTWxDNG13d1BBRDBoQUpNQ0tJOEoxY3lJazJaNU03ZU45QmxoV1FnTGZWbEZabGVaZXNKNGlVVnk2TlJPbnppZ3h0OE81TGl3c0N2ak9VaE0yWEdFMFc2aWJsR0lUUkhrRlBJQVR5bnVqeEF6OU9WSW03QkdmbWJEUk5LVm4?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Sun, 22 Mar 2026 00:00:00 GMT"
         }
       ]
     },
@@ -192,12 +192,6 @@
           "publishedAt": "Wed, 18 Mar 2026 13:39:51 GMT"
         },
         {
-          "title": "Opinion price today, OPN to USD live price, marketcap and chart - CoinMarketCap",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ZaWFKdFdrNGs4MHQ4bWc2bFdYQ1pHdENxSDV0WW9jYURGdlJ3LTNsUC15UklXUUh3UVJEckNMTjU5NlFYZVNYZHlUVjdnOHF2dmIycWltbU8?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Fri, 20 Mar 2026 10:19:08 GMT"
-        },
-        {
           "title": "Nevada legislator’s bill targets sports prediction markets as states ramp up legal fight - Las Vegas Review-Journal",
           "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNM2NCTVRTUWoxV1J3dDJQZ1JXN3llZjlkM2NGVmhjMThUbzJqc0tkS21aVy03TUd0ODZhX0V4UVJiUWY0NG1NZkFBdkFad3BQdXA2QXZQMWZuT0Vyc0xycG9GcDJoOGQwOXVTbGduRnM1dEZCX1l4WFNYRUszOFFfeTI5OWl6NzMwU1BqTm10eFBreDI4X2kxYkxwN1BleFhKNmxTZm0yRTlJNkxFS1RReEl3ZkxjeDNfcDRvM2VCQkt0bmN5QlFfNThvYUJZcHZmeVRWUjRyU0M5eEtUTG4zOVZJYkk?oc=5",
           "source": "GoogleNews",
@@ -222,12 +216,6 @@
           "publishedAt": "Fri, 06 Mar 2026 23:02:36 GMT"
         },
         {
-          "title": "Prediction Market Boom Finds a New Challenger With Asia Roots - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVllQVlNoYl9Jd0IzNjdHQm1zUk9LLW1QRnp1aERtbi1QUi15NmVaeU1NRWZLcTRESnVCdHJSM21lOUVYaXJZZURkdU5PMzVISGpxaUpfcGh5Zk0zRHhYdFI0cnRMVmxVcGZiSjUzcjRmcXpzajFMVXFpd2txbVUtMzFxSzBCbFBRN3AyaFV3WDZVSWV4cFY2VXAwa2Rxcm5QcmdLSF8wNUlLa1pEbTdqOGd3?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Tue, 03 Mar 2026 08:00:00 GMT"
-        },
-        {
           "title": "Are Prediction Markets Gambling? Most Americans Say ‘Yes’ - GamblingHarm.org",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nUVlMYl9ibEE1aU1TX0dmUFFnMUc4dGZKVjRJdGFQaGlYa1M3OExBOGJLcUsybzJpalUtVnVVUjVKNWtYbjMtQ2hYbnVmRnhsNGxGN3h3b1NCSzg1cG9VUjdaaEJYdEJ1?oc=5",
           "source": "GoogleNews",
@@ -238,6 +226,18 @@
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNb3Q1V3NqVENUWklIcXpDWW9Ka3hMRzJkNHprS2VtWHNBS0U3UXhOcTEtMjEyOGJKR1VoZ0RTLXh3SWVYSDI4Z3Z0N19IUkZEaG0xQXFWTDQwbF9VTHgzemtoMTNJX2NtbmJtVzVWVTFLZmFNX3FEMGFsN2F4YWVPS3NmZGdOdUdWRDRLZmNuVjFOc2oyd2dDMUhieGVFdjR0SjB6Z0UwWFctOU5DOURia25iOVc3QVYxakxESnNIQ09YQzhYQjVZQ0g2Y3hpNmZ3ZmJOdHdR?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Thu, 12 Mar 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Prediction Market Boom Finds a New Challenger With Asia Roots - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVllQVlNoYl9Jd0IzNjdHQm1zUk9LLW1QRnp1aERtbi1QUi15NmVaeU1NRWZLcTRESnVCdHJSM21lOUVYaXJZZURkdU5PMzVISGpxaUpfcGh5Zk0zRHhYdFI0cnRMVmxVcGZiSjUzcjRmcXpzajFMVXFpd2txbVUtMzFxSzBCbFBRN3AyaFV3WDZVSWV4cFY2VXAwa2Rxcm5QcmdLSF8wNUlLa1pEbTdqOGd3?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Tue, 03 Mar 2026 08:00:00 GMT"
+        },
+        {
+          "title": "Kalshi’s $1B Prediction Markets Boom Turns Real-World Events Into Tradeable Assets - CCN.com",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9rNTRScmdzQjB5cE1UN1JmRVdJN1hxZEtzZlJmQTRUWWZvSXctTFBTcjNPU29pMzE4clNNQklmbl9UQ1BwRkhCQUNTcVhkUlFncVRwbE94Vk5xWTVuM3RPZnB3V3AyM0FHcE5UdlRkZW5QSWdaVWxSUll3?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Tue, 17 Mar 2026 13:11:38 GMT"
         }
       ]
     },
@@ -352,12 +352,6 @@
           "publishedAt": "Thu, 05 Mar 2026 08:00:00 GMT"
         },
         {
-          "title": "Changpeng Zhao backs Predict.fun’s acquisition of Probable - crypto.news",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOGpnaG1hUW9pN2JNeVhrRHF4emdranBnZlhBWHBJRFdHbjItTVEzR2h4TzN5Z1ZvWWpKWmNjb2J3R0tha2JONm92bVczbGxYaks4NFFMeGxzQ0hkYk1lN2gyTkVNbGxCaVFNWmxwdl96Mkd3ejA3UjNUeklnR3R6S2R4eGE?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Wed, 04 Mar 2026 08:00:00 GMT"
-        },
-        {
           "title": "Predict.fun completes strategic acquisition of prediction platform Probable - MEXC",
           "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBxZjktOEpTRDBzaWFLRDFHOHBxMC1IN2c4ZGYteHRKWW9XTnUxUmpKeGphVldUeUZDaTd1NHNEX1ZTb3M0VzZR?oc=5",
           "source": "GoogleNews",
@@ -398,6 +392,12 @@
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdXVMUjdxUk9uUEVCaHpiTktYMUtUb0pLOWVCSlRDVjM1UWROWTBGRFROVm5ycGNXQnExemp2eUp4VVdvdGZiUUFiNGlfSVM0bHVMN2hwZXoxQmZNY2gwVnkxYUNRcnNqNGl3bEVEU2lsOW1EVzdzYWcxMFk2SUwzV2FZQkdMcTBSWHpadlpFeDd4MEFLbjNMVWJoalp1cHZNTWtDSURfZU9tTGU5T2NRQUdjclpYMUQzaklBaUpBaGQ3Qmprc1E?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Tue, 27 Jan 2026 08:00:00 GMT"
+        },
+        {
+          "title": "predict.fun founder: Prediction markets are about information trading and risk hedging, not gambling - Bitget",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8tb0pDcWdKd1MwcTVZTWtkZG5qMEp3VS1Kd1VGejJ0TnNDZFBoNDRWSGdaTVZEUkp1cHlQZV9KUmtIdDdfWlk2Q291Y0l3aUhqaW1TVTZWUk1sSUt0cnfSAWNBVV95cUxOUHFTY1Nsb2JjdGlEUlhvZGVaaldtSjVVeERMNEgzYjJOeWVUR0J2Q0NKZjRsc2dYZlZqV3lXaHJDcGRyUW5tOXpOaWF1Q3lnOVpMNXJnTFd5SkZyQS1wT2d0Rlk?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Sun, 15 Feb 2026 08:00:00 GMT"
         }
       ]
     },
@@ -426,6 +426,12 @@
           "publishedAt": "Thu, 22 Jan 2026 08:00:00 GMT"
         },
         {
+          "title": "Interactive Brokers Sees 2026 Elections Boosting Prediction Markets - Casino.org",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPblBKX0tON0o2S0daWk1wZGlYcnJHQ1l5aHdtSFk0Ny1sWEVYRW9NT3lCRWlVTTZBdU1xY3JYN0lrX25idEhkNGIzUjhsc0tjd2hHd1dCNDNrU3BQWTBfbjZtYmJHRnBZa2czMkFraG4tTWo4eTh2QjdQbFVHb1lDLVNrT3lzalduVG1aMnBuejhHZ3lqTnR3cHZ6X08?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Wed, 14 Jan 2026 08:00:00 GMT"
+        },
+        {
           "title": "ForecastEx Appoints Renowned Forecaster Dr. Philip Tetlock to Board of Directors - Business Wire India",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUTRRLTRuSDlSVURpZzVnU24tZmdjdEJ1aFRBc2FyM3lrclRVdFVBTnByOGZwTHNuakJOV1RHeFJERWtoYWRkaGdSa212STd4dWN4bGZPcE9wSGFQSHVtbHdtSXdsY0o4bThFWllmVkYtVi1YUlU0VDZfa0lqeEtVZl9BMThYanAwZF9UWEdoMnk3eHpHWDBxcVM2RFFiRmZwU0MyMVdsRjBUR1czeWRKMC15V3FNenlRQ3p3dTNIZ0xBUWM?oc=5",
           "source": "GoogleNews",
@@ -436,12 +442,6 @@
           "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNT3hzZnk3TkRxUFItRnZNcHR0MXJ4YjV3d0hDdmhzNjNlVlZ3dWRkOFMtd1hEVGo1NU1lZVBSZEVyWWJ5YzFJWDRNeDhyVHlVVUItWk9RUEw5QW9yLUg3TnpUVlZid3dEUUYxWFdoaWlaRmlaMG9lNjI3WEx5bGZMMF9lNTZPeHJsenF4MTVRSzdyUFFjRm9TcDI2N1FncFpvZkljdHhLTmF1ZnpWWXZjMnM0YUZTUjFhbGRrckdnN21lS1R6cEgycWhCelhXUnNXSkJua1JDdVBTSW5FVTBFZ2RxWFQzcThRMGk1RFJmRFkyQ3AxcFdteDIycVVvUFBGOENfMVQzYXhJMWVzYWZFaVpPbkZDVDQ?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Sun, 18 Jan 2026 08:00:00 GMT"
-        },
-        {
-          "title": "Interactive Brokers Sees 2026 Elections Boosting Prediction Markets - Casino.org",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPblBKX0tON0o2S0daWk1wZGlYcnJHQ1l5aHdtSFk0Ny1sWEVYRW9NT3lCRWlVTTZBdU1xY3JYN0lrX25idEhkNGIzUjhsc0tjd2hHd1dCNDNrU3BQWTBfbjZtYmJHRnBZa2czMkFraG4tTWo4eTh2QjdQbFVHb1lDLVNrT3lzalduVG1aMnBuejhHZ3lqTnR3cHZ6X08?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Wed, 14 Jan 2026 08:00:00 GMT"
         },
         {
           "title": "Interactive Brokers Canada is the first CIRO dealer to offer forecast contracts by ForecastEx LLC - Borden Ladner Gervais LLP (BLG)",
@@ -463,7 +463,7 @@
         },
         {
           "title": "Interactive Brokers Expands Trading Hours for Contracts that Allow Investors to Bet on Events - Barron's",
-          "url": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxOYlN2RFdvQXlqUlpmcFF3dG12aTFLY2lTUW1xck9tWTBfalNGQjhnN09Vc3RDaENDTE9LdXpHUUhSZUNsb1B4ZC11anR3MDZEZzVSa2YzWU1NT0xUWkw1QThHbnFvYU5qbmRkRHVXc2VncDNiaEZoeVVFMXJ1Sm9hdUJJcWNHTDhNdV9pTDllSHhYYkprY2JwWndDcG1oeEV2TlFWZVQ0MHBKR1psZDlCdHhJMFlselVraDVKTE1faHFlcDE5eUhLSG9ENk1MSjZNWG9WQjdoaDNMejJ4NlNoSnk3SWtpUGN2QmxKcURlbXR5TGRFdWM1LUtuQU9vMlJ4RE85SU4tVjZNNVFfdFVvQXdNS09iZmt3ZHBFOHAwYmcwN09OeVU2a1lzejhVS1BnaFY2c09hYjZlT1B3dWJzQlpCLTlXdDRlWXNDZmQ0RkJjY3ZfUjdjZnZjNGdhcWxEcFZ0dnlkWjJub3BQaFhYeFk2aGU3WmJMc1dVQW5LLTVoOUhvNUpPRXlCNEhnYjBqVUZOT3NxcVhaS2dCYUVsS3ZMdzFSYjZnX1E?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxONlpkR2I1Z3U4Nk9PN3VyY0NnYkIwbVgyMGhvNzhQUWN4M2NkQ09XcjRyNFlmNXB6a3hUVUN3S1B6S25EX1cyOXloZVRqSEZ4a2xuR0R3MTlPdUlNdEJFc2QtMjAtc2tDeVFyOThMTlUzTU1XZWgzU2JfU1VkZTVwbUpFRXNLWE8xWnJGOERPNXdWQW5DTUlURGdPUWluY081NGlkTFREOFM4UUV2Nm9GX2VGb19LbkpnMFVLZDNsbnhBZWpTamlIOGFibE5DdlpYTVhYQ2NGWmdKRUs2WGVCb0FENmJwZDVvS041N2pNWWN5a0NnVHNKUE93U3lRSUdVUmJfVlNpbmx0clQ5dmZ4SG5yeFpuX3h5MkdaMGZYc2dGMWhVaWVxNnJjOEczcW95NGJMX2hCT2NIM2NIeDlnTUlYZ1N1aklqQTJJcFlmUjdSMnFndG05Mnd2d0pLM0h3SlR0QU1LVzA4c21YNlpaMjJhQ3U0YmgxSE1YdExrbVI3TWI5LUNjdlA0NFNyUjFldEY5YURHMVNlbU9ySEQwUXRNOXdVUkVLbkE?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Wed, 07 May 2025 07:00:00 GMT"
         },
@@ -568,22 +568,22 @@
       "spikeScore": 1.7142857142857142,
       "items": [
         {
-          "title": "What will Trump say this week? (March 29) Trading Odds &amp; Predictions (Mar. 29, 2026) - Polymarket",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBkbXlQd25OazFKZHp0dEg1LUpmOTNyeFcza1ZNWEJubW14N2FwNEVVaFAxczVIZ0Z6R0JGV3hzY0JuYnY5dnlPRUhBZlNYYi13QkJmS2VVT3BpU2g5d09jTzhUYTNvN29QM0tpQU11cmR2M1VhWlE?oc=5",
+          "title": "Will Trump be impeached before his term ends? Trading Odds &amp; Predictions - Polymarket",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFByTUZSamE5ZFpmMTI1TFpEeDBIZHU3eVlTNjY4SlRpWjZzeV9zejEycTRnX1MyWG92N3dFU29YOWhFZnZ6YWI1Qk9CV0h1MGxfMHUzemZWODFiZ3hJUHRfeUdFMnlTM1R4SVJaM1FsejFnUWpfTWhYcTdBTWY5QQ?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Sun, 22 Mar 2026 15:31:29 GMT"
+          "publishedAt": "Sun, 22 Mar 2026 01:31:00 GMT"
         },
         {
-          "title": "Polymarket Says It Predicts the Truth. Its Social Feeds Are Filled With Falsehoods. - The New York Times",
+          "title": "Polymarket Says It Deals in Truth, but Its Social Feeds Are Filled With Falsehoods - The New York Times",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcDRBS3dHQ28wdU5wY3AyeGFrOXNxSGZLNlJCYW5RTXk5QmtrbUlzdmdOQnFDSlZ4U3F2S1FocjFzSTRjd19DRDI1SzZlbi0tYzBjLTJQVHRqUDhVdW1YN01jNlgxN1dESHRQb0w3MEV5V0xLWVc3anNTQVZyWTdYcFNIcTdyTXRFM212WVpR?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Fri, 20 Mar 2026 15:29:52 GMT"
         },
         {
-          "title": "Donald Trump # Truth Social posts March 24 - March 31, 2026? Trading Odds &amp; Predictions (Mar. 24, 2026) - Polymarket",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMnlyLVhZdmMyN3VWT2JYcDJZUWZyZ0ZZMi15OERXay1PTzFZWUpaR01maEN4dnJFc3dqUlZfNGlrUW5TTFlfVWRpd19DRTZHWVMxMjhSX2pzX01qdjVJRVRvN3c3TUtjUTlpRWg5a1VzRjNQYkdiclpYcTUyRE02dGVTc3pySFdn?oc=5",
+          "title": "What will Trump say this week? (March 29) Trading Odds &amp; Predictions (Mar. 29, 2026) - Polymarket",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBkbXlQd25OazFKZHp0dEg1LUpmOTNyeFcza1ZNWEJubW14N2FwNEVVaFAxczVIZ0Z6R0JGV3hzY0JuYnY5dnlPRUhBZlNYYi13QkJmS2VVT3BpU2g5d09jTzhUYTNvN29QM0tpQU11cmR2M1VhWlE?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Sun, 22 Mar 2026 08:00:59 GMT"
+          "publishedAt": "Sun, 22 Mar 2026 15:31:29 GMT"
         },
         {
           "title": "Senators propose ban on US gov’t officials doing prediction market trading - Al Jazeera",
@@ -622,22 +622,22 @@
           "publishedAt": "Sun, 01 Mar 2026 08:00:00 GMT"
         },
         {
+          "title": "Donald Trump # Truth Social posts March 24 - March 31, 2026? Trading Odds &amp; Predictions (Mar. 24, 2026) - Polymarket",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMnlyLVhZdmMyN3VWT2JYcDJZUWZyZ0ZZMi15OERXay1PTzFZWUpaR01maEN4dnJFc3dqUlZfNGlrUW5TTFlfVWRpd19DRTZHWVMxMjhSX2pzX01qdjVJRVRvN3c3TUtjUTlpRWg5a1VzRjNQYkdiclpYcTUyRE02dGVTc3pySFdn?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Sun, 22 Mar 2026 08:00:59 GMT"
+        },
+        {
           "title": "Some Alleged Polymarket Insiders Made a Fortune on U.S. Strikes on Iran - Gizmodo",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMlViRXpzX1NBUEdYN3F0cVVUclZScWExQVhqR0pfTmlueDJ4d3dSaEk0cGVUSG9xQkQwbUhKYkRfeF9XTWgwZnludFlwRVR3RlBjMklHSkk4bnlXQUNyQm9oNGxZZEg1dl8zMUJIWXFPX2hYckVjeFB6bHU0WDdVWlJrR0lvMHRFQWpRTU15SmRPUl9pMlVuZ3h3Ym00SW9wZE53?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Mon, 02 Mar 2026 08:00:00 GMT"
         },
         {
-          "title": "Opinion | If feds won’t regulate prediction markets, states must try - The Boston Globe",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWmtoXzNyay1uMlN4Q0FNRFRWUFNMSXdMeHd1RFdILXRRRmZINnJ2d3hpbFozLVBRZzY1YWZ5Q2I4MHRWRWJaZTRBZWlpYnZRLXdHaEI4Ry15b21EcU1YTnl4eUVoRzNueFI5ZE16d0xRYmwzZGVSV2lodkdjT3p4UndZc2hSWGd5Z2ZfUHhYdDlENXdQbUE5RHItWQ?oc=5",
+          "title": "‘Insane This Is Legal’: Democrats Allege Trumpworld Insiders May Be Betting on War in Iran - NOTUS — News of the United States",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOR19kemhleU9vcTV4OTVuTjc5Wk5JLS1tTU5fcVhSSUJJX21FMERrLTBGTzRNY1ZUX1BJeHNhQV94bGU5SFlRM3N6QTBPSTdzNE5tb3hzcWNZMjhSOWJTSFk2U2hOZkx3eXlzMlE3czJfZE5mcGZmRGo5QlJXOGMyU3V0UnI2SE10ZGVITGVGeWpSVi1GRUlLTnE3bkRCNVEzcVQwZlF3SGZsS01BYWVfVmRDb0I2QlFVZjhyeVlHTVF5T3pKM1U3czNtMXo3dTZK?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Mon, 23 Feb 2026 08:00:00 GMT"
-        },
-        {
-          "title": "Dem lawmakers blast prediction markets as alleged insiders reap $1.2M over Iran attacks: 'Insane this is legal' - New York Post",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOeTZOd08yWGJXSnFKLUtCYzJSTE9LZjJZazllc3I5Mzlkc0hHZGJwcnBjM3dlWDhjcVctOE96eXBpVHMzTzdnMTNJQkhnY1BQa3lHRjVHTjQyam1TNFdFeVhWd3Q2X0dkSlJPU1FodXZQd3ZOQ196MWhfVmp0UmR1Zm1DOWhJNmZYWUI0V0JJS1dhTG1Rc3lBTk9zZm5scFI1Uy10R3BOdmdvYm50ZWtPMmtuV3hWQmlDSUF4VTlaR2ZEWWU1VVI1S0hJWFNsZjhudmRabVRXQmNYd1RLRGdVQg?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Mon, 02 Mar 2026 08:00:00 GMT"
+          "publishedAt": "Sun, 01 Mar 2026 08:00:00 GMT"
         }
       ]
     },
