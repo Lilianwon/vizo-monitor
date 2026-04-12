@@ -1,126 +1,71 @@
 {
-  "generatedAt": "2026-04-12T11:31:07.335Z",
+  "generatedAt": "2026-04-12T11:39:35.573Z",
   "markets": [
     {
       "key": "polymarket",
       "name": "Polymarket",
       "duneUrl": "https://dune.com/datadashboards/polymarket-overview",
       "queryId": 5802915,
-      "updatedAt": "2026-04-12T11:31:07.335Z",
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "dailyPretty": null,
-      "weeklyPretty": null,
-      "monthlyPretty": null,
-      "warning": "No recognizable daily/weekly/monthly fields in Dune rows. Update parseVolumes() mapping.",
-      "sampleRowKeys": [
-        "Cumulative Volume",
-        "Volume",
-        "Week"
-      ]
+      "updatedAt": "2026-04-12T11:39:36.061Z",
+      "note": "unknown schema"
     },
     {
       "key": "kalshi",
       "name": "Kalshi",
       "duneUrl": "https://dune.com/datadashboards/kalshi-overview",
       "queryId": 5802836,
-      "updatedAt": "2026-04-12T11:31:07.335Z",
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "dailyPretty": null,
-      "weeklyPretty": null,
-      "monthlyPretty": null,
-      "warning": "No recognizable daily/weekly/monthly fields in Dune rows. Update parseVolumes() mapping.",
-      "sampleRowKeys": [
-        "Cumulative Volume",
-        "Volume",
-        "Week"
-      ]
+      "updatedAt": "2026-04-12T11:39:36.222Z",
+      "note": "unknown schema"
     },
     {
       "key": "opinion",
       "name": "Opinion",
       "duneUrl": "https://dune.com/datadashboards/opinion",
       "queryId": 6047958,
-      "updatedAt": "2026-04-12T11:31:07.335Z",
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "dailyPretty": null,
-      "weeklyPretty": null,
-      "monthlyPretty": null,
-      "warning": "No recognizable daily/weekly/monthly fields in Dune rows. Update parseVolumes() mapping.",
-      "sampleRowKeys": [
-        "Cumulative Notional Volume",
-        "Day",
-        "Notional Volume"
-      ]
+      "updatedAt": "2026-04-12T11:39:36.381Z",
+      "note": "unknown schema"
     },
     {
       "key": "myriad",
       "name": "Myriad",
       "duneUrl": "https://dune.com/datadashboards/myriad",
       "queryId": 5756303,
-      "updatedAt": "2026-04-12T11:31:07.335Z",
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "dailyPretty": null,
-      "weeklyPretty": null,
-      "monthlyPretty": null,
-      "warning": "No recognizable daily/weekly/monthly fields in Dune rows. Update parseVolumes() mapping.",
-      "sampleRowKeys": [
-        "Cumulative USD Volume",
-        "USD Volume",
-        "day"
-      ]
+      "updatedAt": "2026-04-12T11:39:36.544Z",
+      "note": "unknown schema"
     },
     {
       "key": "predict",
-      "name": "Predict.fun",
+      "name": "Predict (predict.fun)",
       "duneUrl": "https://dune.com/datadashboards/predict-prediction-market-predictfun",
       "queryId": 6365667,
-      "updatedAt": "2026-04-12T11:31:07.335Z",
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "dailyPretty": null,
-      "weeklyPretty": null,
-      "monthlyPretty": null,
-      "warning": "No recognizable daily/weekly/monthly fields in Dune rows. Update parseVolumes() mapping.",
-      "sampleRowKeys": [
-        "Cumulative Notional Volume",
-        "Day",
-        "Notional Volume"
-      ]
+      "updatedAt": "2026-04-12T11:39:36.703Z",
+      "note": "unknown schema"
     },
     {
       "key": "ibkr",
       "name": "IBKR ForecastEx",
       "duneUrl": "https://dune.com/datadashboards/ibkr-forecastex",
       "queryId": 6536996,
-      "updatedAt": "2026-04-12T11:31:07.335Z",
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "dailyPretty": null,
-      "weeklyPretty": null,
-      "monthlyPretty": null,
-      "warning": "No recognizable daily/weekly/monthly fields in Dune rows. Update parseVolumes() mapping.",
-      "sampleRowKeys": [
-        "Cumulative Fees",
-        "Cumulative Notional Volume",
-        "Cumulative Transactions",
-        "Cumulative Volume",
-        "Fees",
-        "Notional Volume",
-        "Open Interest",
-        "Transactions",
-        "Volume",
-        "date"
-      ]
+      "updatedAt": "2026-04-12T11:39:36.994Z",
+      "note": "unknown schema"
     }
   ]
 }
