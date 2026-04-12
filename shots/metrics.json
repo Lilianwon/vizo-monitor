@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-12T22:38:59.660Z",
+  "generatedAt": "2026-04-12T23:18:08.123Z",
   "markets": [
     {
       "key": "polymarket",
@@ -9,8 +9,8 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-04-12T22:39:00.019Z",
-      "note": "unknown schema"
+      "updatedAt": null,
+      "error": "Dune API 503 for query 5802915: envoy overloaded"
     },
     {
       "key": "kalshi",
@@ -20,8 +20,8 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-04-12T22:39:00.140Z",
-      "note": "unknown schema"
+      "updatedAt": null,
+      "error": "Dune API 503 for query 5802836: envoy overloaded"
     },
     {
       "key": "opinion",
@@ -31,8 +31,8 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-04-12T22:39:00.263Z",
-      "note": "unknown schema"
+      "updatedAt": null,
+      "error": "Dune API 503 for query 6047958: envoy overloaded"
     },
     {
       "key": "myriad",
@@ -42,8 +42,8 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-04-12T22:39:00.387Z",
-      "note": "unknown schema"
+      "updatedAt": null,
+      "error": "Dune API 503 for query 5756303: envoy overloaded"
     },
     {
       "key": "predict",
@@ -53,8 +53,8 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-04-12T22:39:00.507Z",
-      "note": "unknown schema"
+      "updatedAt": null,
+      "error": "Dune API 503 for query 6365667: envoy overloaded"
     },
     {
       "key": "ibkr",
@@ -64,8 +64,8 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-04-12T22:39:00.715Z",
-      "note": "unknown schema"
+      "updatedAt": null,
+      "error": "Dune API 503 for query 6536996: envoy overloaded"
     }
   ]
 }
