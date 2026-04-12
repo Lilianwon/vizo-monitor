@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-12T21:17:06.433Z",
+  "generatedAt": "2026-04-12T21:57:22.728Z",
   "topics": [
     {
       "keyword": "Polymarket",
@@ -44,22 +44,10 @@
           "publishedAt": "Thu, 09 Apr 2026 22:56:30 GMT"
         },
         {
-          "title": "Polymarket promo code NYPMAX: Deposit $20, get $20 for Magic vs. Celtics - New York Post",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMlNQcHlFbzlVTGVxeHBRbE9sWjdXNDR1UEhCTzczaVRVMW96X1M0b1N0bnFUWmtLRk1RYWhLeWVmNkVVcFZoWTJmakFEc3FGdWJURml6bTRLSzBnbmNTWjZSRE5feFhtWnNPTl95cGt6Z2M2U1h5dU85ZHNIQzl2Z0NSSktUaGZEVlZ2VmVUQ3JXUVl0aF9NTEM3YTJmUWFicERLQ3hDMTZ6dw?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Sun, 12 Apr 2026 18:00:00 GMT"
-        },
-        {
           "title": "My Polymarket shame - New Statesman",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JVjB5RnpNVXNfYXZoc1BGN1lJYVN3RnI1UFNLQmhUaGY0Qkk2akt3U3pleFJOa2ozWUpzbHFfbTU2LWg0VkhlRlNPRENVQUtZZ1BKVFQxQmhjcnA5M1hKOERhNWw0UzVjMllPbm5WbXdzTHJuUS1jRQ?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Sat, 11 Apr 2026 03:25:23 GMT"
-        },
-        {
-          "title": "Google says Polymarket bets showing up in News was an ‘error’ - The Verge",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51eWJPNXFhWmM4eWxzMVdEX3hWM2hXczM5RWxGYW50OVFVdEtTQXBtWTA0RjNqSjZzbm5nX3hOczk0eEc2b25zY3pRMlloaGs0Z0o3U3NJZThNNTRXT2tVRjJQWlZWeGlrVEZTMXJDZnZhVWhuRHRreVZ3?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Sat, 11 Apr 2026 15:07:47 GMT"
         },
         {
           "title": "Newly-made Polymarket accounts won massively on US-Iran ceasefire bets - Euronews.com",
@@ -68,10 +56,22 @@
           "publishedAt": "Thu, 09 Apr 2026 12:53:59 GMT"
         },
         {
+          "title": "Billionaire Says Insider Trading Should Be Fully Legalized - Futurism",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBMdjJhVlgxQ3FkV252TEdvX0tKNUtFd2stQmpRbFJPMWotR1VuWmdTQkVjRTJrX2VobWlsbi15dG96WHA5dzZYRW9UM0RRWHZacFVEZWxFNXZld2pGWVlEenRleVdWNzRvVmtpdVRhQXZNaUIwSDh3T3RGZlo?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Sun, 12 Apr 2026 13:00:00 GMT"
+        },
+        {
           "title": "Prediction markets are back in the spotlight, this time because of the war in Iran - AP News",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTUJZLWI2Uk9uS1pPTDVNdDRHTjdvQmRTU2Z4eHRXUGRZa183ZGFncjdzMjdSWFBUb0kwZUxMOFhkMmZLSk1BOUlYZzZlWE4zLTZuaF8zQjNmVGZBRll2UUxCcjNkYk9RdjY3bjljV0duak5MUWxsb3RRZUdYb3JGZlN5cURXZHFzNFM2UXQ3SjY2RlRXMDliTzNFWVhRRjJIdjBVVVJ6WXdKbFZB?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Fri, 10 Apr 2026 02:26:00 GMT"
+        },
+        {
+          "title": "White House warns staff against placing bets on Polymarket, Kalshi - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNekpxYUdVa05pUDJDRi0wenZ1a1NUNGV3MTlDc2g3XzdNanRsMzBjRlJwS3VrZkMwMGtFY0xIN2ctWmRuMXc3a2FvOWxpbnNQMG53TXpHMUVVX0V4SHFiMFVrWHhBZm5QaGsyZDBmS1ZCR0UtVTNkZzhxWlotdDJTLV84LXlTR3dzS2dSYkRlQzdkTDlLRjZxMk1PV09LamYxTl9qTXJ3?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Fri, 10 Apr 2026 08:23:50 GMT"
         },
         {
           "title": "Google Displayed Polymarket Bets as News ‘In Error,’ Google Says - Gizmodo",
@@ -88,16 +88,34 @@
       "spikeScore": 1.7142857142857142,
       "items": [
         {
+          "title": "Kalshi, IC360 Launch New Prediction Market Self-Exclusion Initiative - Sportico.com",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSUNjaUk4dmx2b3E0ZUc5a3dWTGU3aEh0Rzl0Sm1STVlhR3lzSU50MUgtUTlBWUVCNmRIOHlRS0Y0blJHeGdUdGZLaFFRb3ZWcHRqN1IwWl9OcldVaEotRlFYRk00ajN0WkJ1SnhnWVZzMndtamdVOXhYX1RNendBRTlpN191bEpaRlZhdWhmWGEyakx1VWpKdDFsMktUa0wyamtueDVqQjlrRW44Z0ZWVQ?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Fri, 10 Apr 2026 18:34:52 GMT"
+        },
+        {
+          "title": "Kalshi Promo Code FOXSPORTS: Unlock a $10 Bonus for Nuggets vs Spurs, Magics vs Celtics - FOX Sports",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLVdyWTUzZlZ4cmJfUUxFRlUtbUliRlFIS01wREZOazkyN19qQlc1eEFWZVR2bjVrRjBhR0UxeXlra2dNVFNZYm5HRGQ5alk4OG1YT1pTMjZ6UDN3ZWdHNnZnRHVDZHQyVlZQbzF1aXp3cXFJY0oxZlgtLVg4M3FRZjlEVnQwOUZPRjk1eGtrcGFnRkkzTUtUNk9JdWdMcFhQUUVzbmVEY3BLRnJCRXFHZ1FjcG9pUlRkVzgzT9IBvAFBVV95cUxPb0NEQkU0QkhZMnJ5LWNoS1VqMnBGdzFZRHNsWlZJaWwzRi03VnU0akprOVI4VWFjODQyTksxN2VnVlVQaG52SnBDNDc2dTVGTXJKN1lsYW5ERXN4N0F0dXpsLUxpRE1yYXR1X3Bad2VwZXEyLV9XTjhuU08zWHVBaDB3eXdScUE1WGpaVGdpajBFSHhidmN0enFlTjBheFV1VUd0UkpoQ3huOXBUQXFvXzEzVHcxTDhram5HMA?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Sun, 12 Apr 2026 21:49:49 GMT"
+        },
+        {
+          "title": "Kalshi Referral Code MASSLIVE1 extended: $10 NBA bonus in FL, GA, and SC! - MassLive.com",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZXZtX3RsaHZqeUcxUU9YeG5GTHBPOUpDOWxDbkF1TGJnakJXYWVYNUdlUGtCeEJDOE1HMFpNZ0Z1QU1FdGJBN3NlZmZsU216ZThvOG1tUU9FNW8yS2p6b1BfNTRwUWdGWkVCelJZczRhaDZxcDJubWFlVmNGdFlmVmtlMU0wYnBWbVBUNmhNQ08xZDBtX2tMV2Z3NTAtVU9vM3pJMzltUmdwLUhTNzBxSkYzTks?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Sun, 12 Apr 2026 19:38:00 GMT"
+        },
+        {
           "title": "Judge bars Arizona from regulating prediction market operators and pauses prosecution of Kalshi - AP News",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMHphVFVSazg2N1MzQzFYa0VBN1NTMjd0V09SOUZoRFlLUWl3NHVXQkJ6NVJwc3lleWhtWGFUMkFzOTllN3Nyb3p4cE9yUTg0YzlTTVV2Z19wdGh5TlRnQUhxTWdSRHVmbjlPTnNKNTR6XzVfU3JWcmtQNG5XV0NNV2Rrb2Jqbk9RUUNiYjhPOFhaRnlDZ0ZjMWg4R1dMQXJ0cXotcFdCWlBYbDJjcUVBRzFQMjRiOVJUMjN3?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Sat, 11 Apr 2026 03:43:00 GMT"
         },
         {
-          "title": "Kalshi promo code CBSSPORTS: Claim $10 bonus to trade golf live on Sunday, April 12 - CBS Sports",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMzQzd3N1RDRyWGk4ZE1kbXJOYktCR0FrWGI0a2lMbm5ud0dROXVhQUxiU3dubmVJa3lTeUVlVEkxZm9DWWZOeHN0cUR1M0FMcEJ2a0hJV2dIRU9oWHN2TUlMbDFsbm1yT1ZMSGgtbGlBRU1tUGdfdTh5T0FnbHhPNUl1T3gzNkVEd0NiQm9SUVhad1gwRnc4ZG56eGxKMTZGR1FKS3VUWTFkeGI4ci04RTF3VnptRHhpWU1z?oc=5",
+          "title": "Prediction markets surge, but Wall Street giants remain on sidelines (KALSHI:Private) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQY3ZVdENob2xWR3N2SXpvRGg0U2JEYTljb3B3M1VYbUJ3VjBMRk1hN1lzeTVNdDRmOV9MbWh5UFJPdVNlWmNjRFJ1Qm82ODNIMXBicTZaU0o5NHdvOWtldG5MRDJ2U1FmS1ZEaFNZbGZLc1FrU1VJN25pZktncGRRSDU0ZWJmSFBYZVp0bjdzVGNZbmxqZnlEOUFBbHBQQ0dRZ1ZrLUh5OHA?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Sun, 12 Apr 2026 20:49:19 GMT"
+          "publishedAt": "Sun, 12 Apr 2026 16:52:37 GMT"
         },
         {
           "title": "White House staff received email warning them not to place bets on prediction markets, officials say - CBS News",
@@ -106,58 +124,40 @@
           "publishedAt": "Fri, 10 Apr 2026 00:02:00 GMT"
         },
         {
-          "title": "US judge blocks Arizona criminal case against Kalshi at CFTC's request - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORFd4M3R5eHpNUERlRTJOS1NPakRpMU9oLWN6N3Z6aWV5YzZJYWhJUGhwcWw2c19FalJ0QmRNX28yMFhIWnJyLThkOVVxQnZySXMzMWMzb3lhOG5TQ1FJa0ZLNG1leUFBdmFQY2ZORGFvTDZtaUJ0ckFzV3YtMkhHTnduTXNwZW1aaC02SDJvTERENENRM3JzOGNJOWhCUHI2c1pOWnZ6Wl9RR0Q5?oc=5",
+          "title": "Kalshi promo code CBSSPORTS: Claim $10 bonus for Celtics-Magic, Spurs-Nuggets, NBA, MLB, golf on Sunday - CBS Sports",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeXNDeGxZTDI0ZVlKX1ZUM0pST29DMm14T2dQalpIeHhoc0xyZVdxSDFWTHZGVTlsRGExTzVmYnlTalIzWnpCUGNudzd3bEdWcV9VbWtVQ3dZUFY4aWdLZWxFenlXMEloUUZSSE5ubDluT0RWLVJQU2t6MkFELU82ekVTV2EzTkp5RXNpTk93TWVsUEd0NUZwYm5nWnI5c0F3UE9HMFRialYtbGItbVNLTExSekR3cGptTGFpTnFnMVowVTRhMzNNVHhR?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Fri, 10 Apr 2026 23:49:00 GMT"
+          "publishedAt": "Sun, 12 Apr 2026 21:22:11 GMT"
         },
         {
-          "title": "Arizona's criminal case against Kalshi was halted by a federal judge after the Trump administration stepped in - Business Insider",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS1hwUTE4MVgzY2FLZTBSeXRfODJ4M3huX09GWDNNNVYxSWtFblVIb05EVGtLRlpVb2dwbENDOHNFeDAxSHVtU2trS3VvbVppVHpGTVFRTDNyUURHd29rQ0Z6eWJVNTFESHNXT25NODN6RjJpbUNlSDhrWm55TC1KZlVzY3M3V3RKdFBlWnR3bUdVYUVPSkptLXJjb3ZKYjNFYURfLTZOck1ldw?oc=5",
+          "title": "Kalshi wins temporary pause in Arizona criminal case - TechCrunch",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSTlaM3l2WW9vUm16ZS1SZUdmN2xmWHpwNmxEOHZrN19DZjM0Q0d1TllmVFcwSlYtdllDSDZwN2txZmE0bk5sMEl6WWswdlpMQ1JFd3Q4RkVxNURHNHgtc1otTXd3X28tcTNFZ2lNWU1YdXhYaS1Kb21ic2ExNW5EdlhHajlyMjIxQ0FDVkk4WGI?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Sat, 11 Apr 2026 00:02:00 GMT"
+          "publishedAt": "Sat, 11 Apr 2026 21:20:24 GMT"
         },
         {
-          "title": "Kalshi Promo Code WTOP: Get $10 Bonus for Masters Final Round, NBA, MLB - WTOP News - WTOP",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQ2ZYWV9KTE1DSEY3Q3NaR01ZbTZJa3MxVUJoeWhyWGZTLUZ0bTdTU0R1RTJIUEpYSmJ4N2oycUVrN0k5OW80RTNLcl9RbHlCNmxMWVVYWHc0MzYydFMtNnd3ZFJRcW1kUW9mQjY3QTNFOV8tbEE0U1EtMzFhNWhmaV9RUF9TLUx2YUdrdWJBSTJFdGJiNnlIVFd2czAzeEhoSHc?oc=5",
+          "title": "Pile of Famous Athletes Quietly Invested in Kalshi Months Ago - Front Office Sports",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPX1hxSDl5WS0zRjBDeDhrcVVvQjRyaEtrX2hVMlozLXJmTVhTZUZvM3Jhb0RWSmNSRzRNd1lFRGk0QUlRTVdNOWYxSnlWX1U1REl5dl9xUDB0WnhjMjVwdDktZjk2Um8xUWpGdlJPX0VUUzk1bTBYUW1PeDdvcWxvQmlTX3BuTjhzd2J2VEI2VDI0TEFCWnZxWVFOb3ozeUMwUFE?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Sun, 12 Apr 2026 13:27:22 GMT"
+          "publishedAt": "Fri, 10 Apr 2026 15:09:32 GMT"
         },
         {
-          "title": "Kalshi promo code NYPMAX: Trade $10, get $10 for Mets vs. A’s - New York Post",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaUg0QXlWVkJCemtWaFRjSnhOUVdnYjVSZWRWaGFVS201M0RvdlJPRTliT1Z2QzNlMWVXMS1CQnc3b25JcjdOQUY0Uzg4d0d5WC15RjFsYTlKZ3pkMEZMSFVhelVpMkxQeFVqTmY3UTE0Q3BDUG40X2VNRElROUFJcXNIQlVUemNIck9uaEVPY0theGVJeTQwT0Vn?oc=5",
+          "title": "Updated Kalshi Code OREGONLIVE1: New $10 NBA bonus in Washington, Oregon, and Utah - OregonLive.com",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRldlTjJpSDREWTEybUczWXhTeXdiT2VRT214Y1hOYU4xYldrZkZONXNES25FZXhVRXhnZWhQZzc5QzlDZ2djbmx3SWp5enpVNFlSbm5YbkxaYlNTMS1EcTRCc1R1RV9JOEdpbjFKUllWb2M1RkJBMzMtOVZmQUJJZUdybXY1Q0NWOEJabjN6TGQ4QVFVMHI2eHd1Nzl2MmZRcjF6WWZOYndtc1J2aHdZR295NG0yaWJ3WVNPelEwdjNBeVRp?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Sun, 12 Apr 2026 13:40:00 GMT"
+          "publishedAt": "Sun, 12 Apr 2026 19:51:00 GMT"
         },
         {
-          "title": "Bank of America Sees a $1.1 Trillion Market for Sports Event Betting in US - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaV9Gb0RWUWFxTXBTZDVZSjA2eC1RTnc2ZHZIbmJ5Y1d2MGJ0cEphbThaZXlMVWl0dnZzcHg4a3hUNDZXTUl0c3lyaWwtUm5LV1FhT19MbHluUUVUNnM1b2xXQXFZUDNHRnpwY1Y3ODF3YldLU0FqZGkwVkRoZ2xWUFNqVVBQVHB2eXg3WjhIYzE4UXVCQlBNd0RCNzNESjBTUHEyNnUyeFdXa3Q0Zm5Uc1IwSQ?oc=5",
+          "title": "Kalshi Promo Code ELITE: Get $10 Bonus for Sports, Politics, Any Trades - Elite Sports NY",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWDZaUjA3TTByb2dIYVpJRmxRYTFOTHdZSFRHYUVHdVI3MWxCYW9FOVByX1AwdXU4Qkg0VUpqeTZ0T0lDQzVHdnJrSW52YjFnWXVrWkJxOWNOSEdoVzdneC1wcW5LWEVnVXhsUlF4U2VpanJWaWFscnREM2VUR0wtd21VbkFySjRPQ3lmdTkwb0FVRTExNjljM2J4M2V5MzY1cjZJMGszc3o?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Thu, 09 Apr 2026 13:52:59 GMT"
-        },
-        {
-          "title": "Are Polymarket, Kalshi illegal gambling sites or legitimate financial trading platforms? - opinion - The Jerusalem Post",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBpeDBRbXQ4NEhBWXRJV2YtV21UN1ZXWHFBdWlHT216a0tqSHppWElHOG9DQmcxUWMxV1RPMUdwMVMzUHBmdFdxVW5TNHcyejJtTTRGWVRBTQ?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Sun, 12 Apr 2026 14:30:00 GMT"
-        },
-        {
-          "title": "Kalshi Promo Code GOALMAX: Get $10 in bonuses for the Nuggets vs Spurs &amp; NBA Markets - Goal.com",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX2N4Y2t4Nm5jYUFpamQta1hHODNwY2o5MTFrODIxVjQ1OGRGRmtVZlF0c3BqU0JhRm1LUy02VjR5U3pXaW5rdnBYNFN0ZXY2RkYyeHhsU0E5VEFEdmhoTm5DdDM3TjJPQUNuX1VFSGJ4dkN5ajVEWnVWbXUzNThxZGlkY2FyQUxtTGlSTHpBWV82R0xXLXFqWEVHYzRUNURycEE5RnExZ3NnVWhiQ0tSaTdHREtma2lLMEdhd2FheHpGXzhrR25sWQ?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Sun, 12 Apr 2026 17:17:10 GMT"
+          "publishedAt": "Sun, 12 Apr 2026 19:17:56 GMT"
         },
         {
           "title": "Masters Kalshi Promo Code SYRACUSE: $10 bonus in GA, NY, PA for McIlroy and Scheffler odds - Syracuse.com",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVm9CN3g2N2p0RjgyODJYSG0wQ2YxZjdBbWNMZEVCSFZPeUtENDRzVHExaDhmSjlRMUJTUjdJQ3dEdFY5VVJkc000UEF4ZFB0bGxhZHFFQmRxc0Jvc3R6NVlvQU01UVZMbkRsRUhHOG9BMFZkMFhQWEZFSlBLaFBhTE13eVRxVGd2RmZZaTFvdmhxVEtOZzNHX3JMTkVWOG9ITWlZVFJuOXl1d2JkN1NvamFqMWNIY28wYzg4Y3pZTXBGb2c?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Sun, 12 Apr 2026 13:45:00 GMT"
-        },
-        {
-          "title": "Kalshi Promo Code ELITE: Get $10 Bonus for Sports, Politics, Any Trades - Elite Sports NY",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWDZaUjA3TTByb2dIYVpJRmxRYTFOTHdZSFRHYUVHdVI3MWxCYW9FOVByX1AwdXU4Qkg0VUpqeTZ0T0lDQzVHdnJrSW52YjFnWXVrWkJxOWNOSEdoVzdneC1wcW5LWEVnVXhsUlF4U2VpanJWaWFscnREM2VUR0wtd21VbkFySjRPQ3lmdTkwb0FVRTExNjljM2J4M2V5MzY1cjZJMGszc3o?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Sun, 12 Apr 2026 17:47:13 GMT"
         }
       ]
     },
@@ -349,7 +349,7 @@
           "title": "Binance rolls out prediction markets for app using Predict.fun - MSN",
           "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOYU4tZDFtLXpjWVpmVDllS2llNXM2ZTdLanVicGN3XzVzRF9FbXRVTmtDQ3N3Z3RERWJVSDY0QU9rMWVFUTNnSHg1UFNlYXdGS3hsYzFYV2ZyMUZ4Q1BrbjE1QWVhMlk2YmptS1NJRnFTeG5nR3llNUhmX0lGZFFNRzdZbkI0aTlnQWp6eEctUUpkVzM0c3ZDN05ZTVE3eEdyVGIxSmZycEdYRFUyd19DQzFucTJ2YlUxM3hYdVp2Zk9qV0NpTF9CZDB6QXV6clVGU2ZmM2RWbHNiYXlqcVZJWlVJcjUzNmVsUDRMZW9yOE1BakR2UzNmdDhKR1MwUTZwM0xtWkVvd2hlYzZfM25jZWRuSXZVbmtYRXZxYVpfdWlUalhHb3Y1MVNuNC1VWjI4OFRVRzVfUUtVakVnNEoyN1ZJYUswMkJD?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Sat, 11 Apr 2026 15:06:43 GMT"
+          "publishedAt": "Fri, 10 Apr 2026 02:47:13 GMT"
         },
         {
           "title": "Binance Joins Crypto Rivals in Race to Launch Prediction Markets - Finovate",
@@ -388,16 +388,16 @@
           "publishedAt": "Fri, 10 Apr 2026 09:56:00 GMT"
         },
         {
-          "title": "Binance Integrates Prediction Markets Into App via Predict.fun - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBjczAtRU1FbHBKVzBsMEhfc2pCa2htZ3dONWdFUVZLQV9xZHB5WlVTcHJsR1FlaTA2SXRFc1lvRzdlMzd2STBmTQ?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 09 Apr 2026 19:07:09 GMT"
-        },
-        {
           "title": "A Guide to Binance Wallet Prediction Markets - Binance",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PLUJUWVh2UVdVWGY5b3U3MDM0SHNZRkRJcmtQX1JVUkVlZlNTdXlBRmdZZllNUGhBeXNFNHVpOUhuTmJEek9MTVRvenJ0WDN3OUd4V3VMUVYtM1UzWW1DSE1vbTg?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Thu, 09 Apr 2026 15:00:13 GMT"
+        },
+        {
+          "title": "Binance Wallet Just Opened On-Chain Prediction Markets to 200M+ Users - CoinMarketCap",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQlFBSXlRZXl1ZkpqNy0xU2VScUlkRnNPeDYydDBjQU54MnhNOElaU1RoU1NPLWJIZ29LQzIzT3ZOTWNsUEl0QTJwdjZSaWdneVFFc1VveWtDQm40dExBU0F3aGdlODBHb2k4TWRyZU1yUVlkekQzYkVpaXJ2X3hKR1lRbVpoS2dvZ1RGOFpGaW5ZMm4tRjFUbzJDSFlpV3RmOS15WTBqUE13S3RyWGNF?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Fri, 10 Apr 2026 15:24:38 GMT"
         }
       ]
     },
