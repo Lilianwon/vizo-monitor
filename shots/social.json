@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-08T04:34:59.725Z",
+  "generatedAt": "2026-05-08T06:21:04.533Z",
   "topics": [
     {
       "keyword": "Polymarket",
@@ -8,22 +8,34 @@
       "spikeScore": 1.7142857142857142,
       "items": [
         {
-          "title": "NPR went looking for Polymarket's Panama headquarters. It's elusive - NPR",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWVlLeGJwc1NmTGRsQXRiT25xNHVNWDdiM2NBbHJMbWkyWDlPejFWajhXYjNTSzRWWVBjYklyaEMybGFnQmsyQm40c3VsVlBlcFplSjZKUzZmS3Z0RHlZQ0RBNW5RVVF1N1hMdEJhQzJJeXh1V0tCbEQyMG1RQWlXSzE3NTBIaTA?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Tue, 05 May 2026 18:46:08 GMT"
-        },
-        {
           "title": "Polymarket anonymity must end - Financial Times",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Jb1REZVpZckh4akJaOFBaRE03cnNFcXNPU3p3SDNvbVcyemlTSFREcmRGVnJsS1R5d2lIMGk4U3NzeWxhMXB1R1NzYXFtdEdoWUhacV96SjRoaG1XTVVSQlFnbEVRd3d1LXlmMEpIMEc?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Thu, 07 May 2026 16:39:45 GMT"
         },
         {
+          "title": "NPR went looking for Polymarket's Panama headquarters. It's elusive - NPR",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWVlLeGJwc1NmTGRsQXRiT25xNHVNWDdiM2NBbHJMbWkyWDlPejFWajhXYjNTSzRWWVBjYklyaEMybGFnQmsyQm40c3VsVlBlcFplSjZKUzZmS3Z0RHlZQ0RBNW5RVVF1N1hMdEJhQzJJeXh1V0tCbEQyMG1RQWlXSzE3NTBIaTA?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Tue, 05 May 2026 18:46:08 GMT"
+        },
+        {
+          "title": "Suspicious bets on a US-Cuba war raise eyebrows in prediction markets - USA Today",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRTZxUm03N2RhR1dqbGtZWFk4RUNGQUJJRm5SakZVeFpsUWk2Z29uSmRzUGdfV0VBQjIwT3U1WjhXUG1teEZnaWliTjlPODFzd1l6TEpTQlNsRVhzQy1va3BfMy16S2tvWG1ST251am1wNzlNNGV6Z0JJSXpBY20wREZWVW5uY19WdTVaSFJmQ1ZYMXlSM19mSXFyS21VdksxTnI3Q3c0a01CRkZ3V0ZoS1dDLWZZZw?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Thu, 07 May 2026 21:23:00 GMT"
+        },
+        {
           "title": "Polymarket’s Homecoming Is Shaky and its U.S. CEO Is AWOL - The Information",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOczJrdXR1aXJ2VEYtTmZ5Vkc4YldvZW9aRGlSNktNdVpyUjM4X1JwcDRUYVlrcjF4RS1jQ1hTWEU1NDYwLWlEMjZSOHpnZlZZeE1MX0xxY2ZKZjduUURRTTRQTEdhQktuYkJxYk9PWGdUZFpSd0Jqa3NITGo4Sm1La1hWR19SSTdI?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Wed, 06 May 2026 13:00:00 GMT"
+        },
+        {
+          "title": "Campaign staffers tell NPR they make 'thousands' betting on their own candidates - NPR",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMVJqSjY0ajlIdUl6Y0kyUUNPSmJvVlNRMTVLMmlSWE81TXlZSUN0U29xTkJmNUNjMEE4TFYxVXZ3WDVTeERMblFicDRZbEVuRHFleEhiR3lEREFMUzBtcEVTTlhfRXk0bUFnelJPdmI5TGhCUHZTQy1fQ2owUERGNzJLVXRTVVhwRTYyeVNVSzVqanoxNmc?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Thu, 07 May 2026 09:00:00 GMT"
         },
         {
           "title": "People have bet $1M on hantavirus on Polymarket. How did we get here? - USA Today",
@@ -38,28 +50,10 @@
           "publishedAt": "Tue, 05 May 2026 21:50:00 GMT"
         },
         {
-          "title": "A Bet Is Not a Poll - Columbia Journalism Review",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeTgyd2lXOFhYTi1qUmFPdm5haXFVSGVBbEFOQzU4QWFRaTdLR1NEN0g2Z2hweHRKRXVyUXdlVGg5dTRnelg0WXh1MnRZSXNTSVhQVlZPZG9WQUFZWURrZHhCdkxab1QxX1AxNkpneFJZblVJQlg0YmJMTEhfa184blNMdVVUbzFSX1BGaHJfeEh0YXBVNm1lMW5OVFFZUUVreGQtZkJETQ?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 07 May 2026 11:00:42 GMT"
-        },
-        {
           "title": "Polymarket Earnings: Will WEN, FIS Beat Earnings Tomorrow? - TipRanks",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNV9oLW5SN2M4ZHl6WGNjY2dlNG5kZDVJUkdidmlweWEtcFAyOXlMZktoZG4tN2ZCdG9kSTZHOURER013WjhmRkFIOGxoUG9TdVRkX3E1ZmlRSFEyMG1mam5JR1lsak5XM2h2S1ZkZXUtbmwwWEE0S180WDU4RFpDQi1YRHR0eUZYR20xTndR?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Thu, 07 May 2026 18:20:36 GMT"
-        },
-        {
-          "title": "Huge Analysis Finds That the Average Person Is Getting Absolutely Hosed on Polymarket - Futurism",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8wSzlxNEYtc2dPeHV4b3JXQTJ5ZUpZQzV2bHhPRkhOV2JFWEE2Q2xhOWxlX2tCU3FnUnpWTXBoanU5QzJGMFF0UGo3TWZfcXctNzNBX2d6dTQtRlFFVXJmZm5IMDNsdHZyVUZBQkhrQkZqX1NZ?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 07 May 2026 20:07:27 GMT"
-        },
-        {
-          "title": "Campaign staffers tell NPR they make 'thousands' betting on their own candidates - NPR",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMVJqSjY0ajlIdUl6Y0kyUUNPSmJvVlNRMTVLMmlSWE81TXlZSUN0U29xTkJmNUNjMEE4TFYxVXZ3WDVTeERMblFicDRZbEVuRHFleEhiR3lEREFMUzBtcEVTTlhfRXk0bUFnelJPdmI5TGhCUHZTQy1fQ2owUERGNzJLVXRTVVhwRTYyeVNVSzVqanoxNmc?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 07 May 2026 09:00:00 GMT"
         },
         {
           "title": "Wall Street Sees 104% Upside for Lucid Despite 48% Polymarket Bankruptcy Odds - 24/7 Wall St.",
@@ -68,16 +62,22 @@
           "publishedAt": "Tue, 05 May 2026 16:40:33 GMT"
         },
         {
-          "title": "Everything is gambling now: the latest news on prediction markets like Polymarket and Kalshi - The Verge",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWnkxT3VqZTRtaHFkWUpRakdIZVpid1dyVDVTMHBQa2syMG1yWkdxSFVUdXBYeDFERTZLazBsWmxWVld5clJzMm9zeVVUV1hIek1sWnhORklMNTB4cVhRVk5kTlNaZDRLTjUyM1dhZ2FCUWNUMy15X0MwVUI4RlN2RzRudFZ2cl9zZ2Q4?oc=5",
+          "title": "Polymarket’s Panama HQ Is Reportedly a Shared Law Office That Also Worked With FTX - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaW9YTU9yT2hvNElIaW9sbUJLTXdkejk4VExOazN3Y2llWjVhOXRVWmlJVnkzMHBrMThaTkVCLV8tTmJ0c2ZHdkJVd1U3ZnFxV3V0X1M4Vms3Z3JnYmQ3WWd0MmVvTE9jRUMySGFsVlo5QllGakhGNVVQVzNRb1VYZy1EeFk3N2lhTjNEbGgydkFuV01qTmROa3BqaXFtdllqSGRUZkZB?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Fri, 08 May 2026 03:16:14 GMT"
+          "publishedAt": "Tue, 05 May 2026 21:13:35 GMT"
         },
         {
-          "title": "Polymarket tries to show it can play by the rules - NBC News",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaElqd1dHdkZ2WWhRQmEyUngwOUtZQlF5dU9TR0VZUktSdlZ6bzlZeE5SaHRnSDd1QmQydndqdWo1YWMtaXN6NUhrNjgzbHI4TU5RSElOQU55ZnZSSXZsYUNlVVNURUZjZDR0UzNNOTZjVmUzeFV2MzRVWkV6RzBuZGdwWkVkWlN3MXljaFBsNDFZU1k?oc=5",
+          "title": "Polymarket Earnings: Will RKLB, COIN, OPEN Beat Earnings Tomorrow? - TipRanks",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRlRvQmlONnk1R0tOZk9zdjYwa242TUZtZTY0SnF4dEd6QmdrR0RsM3NabE9ZZW9OOXNEcFlsNDRqazNkOVVUYU5Xd1dTRkpYQlFxc3M3dS1tOWNpMkFzVmdRdTk2TVUta0JyeGlxVGJzZ25PSVBpaVBna0NvRTdWM2ZJdG4zcWtqV1Y3c3EwWUNCOFc0U3lz?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Fri, 24 Apr 2026 07:00:00 GMT"
+          "publishedAt": "Wed, 06 May 2026 16:34:37 GMT"
+        },
+        {
+          "title": "Hyperliquid Declares War on Polymarket and Kalshi as It Storms into $240B Predictions Market - TipRanks",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPenhpUzQ4TWdQTHdaai1GTU1lNlRWY1NjVUdMTUJGaFpnVW5GRTRDdGM1SUtrUmt6YkZPUjZZclM5cUUxYUM3STctbEh2cHE4YVc4RVBkanY4ZUdkUkxqZTVNX0JRMEd0MU5CdVI0OEUxRUhSN0tIalIxSkJiYloxeUZqMGZweGVVOG9pclNSLVBmQ3F6OV9kTlZnaTdwUTYyYnNycHNNSktWTDdmUFlZckVUNFdJNmxFWVlQNGpB?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Tue, 05 May 2026 18:31:55 GMT"
         }
       ]
     },
@@ -118,12 +118,6 @@
           "publishedAt": "Thu, 07 May 2026 11:00:42 GMT"
         },
         {
-          "title": "Maryland fights Kalshi sports contracts in court - Baltimore Sun",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1mYlUyeFVvc19ZcmZ2NjZVdy1kMU51S2FJVE1Wd0htYk82d2Z0VEN1a0E2TzFDY2pRczVjLTVJWE02VklURml3MGhmVV96alZQdHNfMzF5RGJnazk0aTExZUx3TVNSel9Bd2hjc1Y5ZHVaWlRLSU4tMENuSQ?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 07 May 2026 23:21:58 GMT"
-        },
-        {
           "title": "Should Polymarket and Kalshi Allow You to Bet on a Crisis? - WSJ",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYUNPcW1neXFlT2ZOY0RoRDJhTk5ueFUyZHhGQ2NIWjlOR3dNZlllaTN4UXFwclozcHlKeGJaY0VkLXphZkdlQlljaEc4RUlPNktoV05KVXBsc0t3bUVmdGk4UWJJS2tNTGtfMXlkeUltQmNRdkJTUWhOLURwUGIxNWJZMm5lUlpQNHdHa1A5OW9EVWhUc2RXRS1R?oc=5",
           "source": "GoogleNews",
@@ -136,6 +130,24 @@
           "publishedAt": "Fri, 08 May 2026 00:05:00 GMT"
         },
         {
+          "title": "NBA Kalshi Promo Code SYRACUSE: Extended $10 Cash Bonus for Lakers-Thunder Game 2 - Syracuse.com",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNDhJSXozbjYyYmZXaDdCSll6MU04Q0t2ZzR2NHM0S3dDM1NUSUd4V1pNeVV3SEVodHlEQ0tmOW0yUFFPS2t4NF9JVkVlYzQ4cjRJZDBNRlp6MHlHcXNOWWNyOWdONW5BSXIxWDJVbnhXLWQ1ZjN5N09JZm1xVEJZRGxVd0hOcWVlOHROQjlTQ0ZqaS1EMVZlbXZLVWtKZjZiNlpvS0xON19WTERRUU1MN1FqQWNheUpMMnpHejNYR1B0T0E?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Fri, 08 May 2026 00:05:00 GMT"
+        },
+        {
+          "title": "Kalshi referral code ALCOM banks $10 bonus for trading on Thunder vs. Lakers Game 2 - AL.com",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPblY5Vy1VZ0Ezd0p4aGw1RkZnUmwwYlB2T1c3SzhIek9VNmFQdXRRb29TVFAxbE5wOTBJTFNPTDZwX2s3bzV6Y1k2Y3dvUFI3N0x0SFVxT1N6bV9PZWVjanh4ZW0xRWNjWm5kdUVZZHptbFpoUXZQbDdXS0NOUWdYVllWeVdWY3pxYmwyUWc4eHd3WDA3V2Zid1o3emkwTXN6TGcyaFZNcHFxSkFJUUZhdm1iaUVwSHgtY2I5LThR?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Fri, 08 May 2026 01:00:00 GMT"
+        },
+        {
+          "title": "Maryland fights Kalshi sports contracts in court - Baltimore Sun",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1mYlUyeFVvc19ZcmZ2NjZVdy1kMU51S2FJVE1Wd0htYk82d2Z0VEN1a0E2TzFDY2pRczVjLTVJWE02VklURml3MGhmVV96alZQdHNfMzF5RGJnazk0aTExZUx3TVNSel9Bd2hjc1Y5ZHVaWlRLSU4tMENuSQ?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Thu, 07 May 2026 23:21:58 GMT"
+        },
+        {
           "title": "Kalshi promo code NYPMAX: Trade $10, get $10 for Rays vs. Red Sox - New York Post",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVnBFNVRRMWdrejhEUGs2eDNyOFVrX1Z5cDI2M3I0TjE1a0ZTX2l5ODE4RkpZTENGRXRnSktwOHZuX3FGNnpoUU1jZm1OT3phTFhBbXhNMnJENXBUV1I3a2k4UHNhY3E4a2RfOFR0cEYyS1NSYmlvY3lkcFFEOGxfY3JWNnJiZzUtYW5nTDFOdTJLT3pTQ0FrTWFGUlI4eTkz?oc=5",
           "source": "GoogleNews",
@@ -146,18 +158,6 @@
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUVZFV2tFTkIwSmQ1T2pPQ2syR1BKRmR2WkwyTUI4a1UwcXZ4aHlXWjFDU05iLTZsYzZkNUVIQVFSd0NIaDhkWEFUbUxsMHFMWFoyT2Y4cENoczJrbFlTb29CSmM0c1ZTSVQzM19HOU82T1lGYjJKX3FjWmhFM29YdVRPZmRlNHVZRVAydmJRVE8zSFBHSmxFS0Nocms?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Thu, 07 May 2026 15:10:00 GMT"
-        },
-        {
-          "title": "Massachusetts top court appears open to state ban on Kalshi sports betting - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaExDTWtiUTdYcG9DaGJzX0dWb1pLYjF6U1dleUtJZU1QTWFDZTNLS1ByTFB5TEtfZjJweThTajZxSFdpUjhrUk85alpxNVQ2Q202aHVtZzRvV2N6RWk3dzloNGxkWjFIaEZ2RmZtd1d1bmtscDNXNlA2ZzctWFh6QVpEUHVfM1huS2pqTksyV19IWWxvLVJObVFxWEdyc0x6OGVRdXFRX3hZUnJlRXVORElWZ1drbG8xdnNuaHV3?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Mon, 04 May 2026 18:33:44 GMT"
-        },
-        {
-          "title": "Kalshi launches features to keep kids off betting platform - The Hill",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOVdobHRSVmtWaVlGTlhVVnkxQWNJcWZpb3A1czk2bC10UUg4dWM0eHJvaElJaVd2UjhPWUxJaHotd3hXYUNHckxpNjNveGg1OGI5dW1MMW9KUGZSeVFsYVgzOWFXcGowbUlVSEJxTTlwUmFfNUhoOXlDUmxfaVh6RdIBhgFBVV95cUxOQm9SOU5iRGlGN0hseFBxdk14RUtRdnVCNVhNOEcybGlUdmRkeU9iRTVjdGxUd1JPdFB6YW5DWUNWMUo4SUY1WGRXYkMtWTh5cTdMV09GZGpfbXppaEd6R0UtZGdPNHlhTTUtcFFEM0JDanVpZzBHRHRKYUJPWnQwRTlZVUxwZw?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Mon, 04 May 2026 15:52:00 GMT"
         }
       ]
     },
@@ -168,22 +168,34 @@
       "spikeScore": 1.7142857142857142,
       "items": [
         {
-          "title": "Prediction markets are gambling, not innovation, and merit state regulation - San Antonio Express-News",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSWhnV3V2bzM3ZV8waXB5QjZiSENtcHY4cERKUTB3SWdubnZnVktCSm1BckRGcmhJTTZjQnBUSVpvTDJZTkI0ekxKLXkycUxzM2Q5bmJyNk5xWFNTQlBneTRoZUpmajBlLUpzb0tiVXE3bTFpZklKT2J4MFJDUmNLc3NJOXFIbnVCaExvM194UEZGYWJyWktDM0lBdUtYd2MxS3FWZWRtUGJUVG5GWnZWSlZoMFhlUVRsTVE?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 07 May 2026 15:47:15 GMT"
-        },
-        {
           "title": "Prediction Market Cheating Gets Creative - WSJ",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRm5NVC1UaXotNVRMUlp6cF9wc1Rka3NNWkx5ZnZQOUU1OEdRa1V3RFhtb0JJNU1STnpBVUNWQWt5UmloYmVKRGZ1WjhUZ2NRRkREdlRHdUs0UHMxN1kxYVY5ZTdLNDJaWEZqRlVJQ0dFUDlQUC1ZbExyQm9vR2E5ZVVBVQ?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Tue, 05 May 2026 21:10:00 GMT"
         },
         {
+          "title": "Prediction markets are gambling, not innovation, and merit state regulation - San Antonio Express-News",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSWhnV3V2bzM3ZV8waXB5QjZiSENtcHY4cERKUTB3SWdubnZnVktCSm1BckRGcmhJTTZjQnBUSVpvTDJZTkI0ekxKLXkycUxzM2Q5bmJyNk5xWFNTQlBneTRoZUpmajBlLUpzb0tiVXE3bTFpZklKT2J4MFJDUmNLc3NJOXFIbnVCaExvM194UEZGYWJyWktDM0lBdUtYd2MxS3FWZWRtUGJUVG5GWnZWSlZoMFhlUVRsTVE?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Thu, 07 May 2026 15:47:15 GMT"
+        },
+        {
           "title": "US SEC review delays first prediction-market ETFs - Reuters",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYlQ3Ql9ZQ1VIM3p5M09QNWFnWThHQzhpV3NUXzQ1ZGloem14NDlaTzhJQlo4VlVPb3ZMd1BzbGVtOVRrUmJtZHg0bVBPNy02QllENnFMQTZGRWp4WGRveGtibnQzbU00VEQwTFhYcWticTctd2w4RzJpWDBiWGlXMDN3TmJ0RTdINFBZemRJN1hKUXlRcjh6QnZFWnkwTjBITkJrTg?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Mon, 04 May 2026 21:45:52 GMT"
+        },
+        {
+          "title": "Prediction Markets Aren’t Likely to Replace Polling - Undark Magazine",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00Y1BkU00yYy1jNHdEN1hIdDYtMkhrRGNMb2U5UEF3VE50Vlhpek9TUUFMNU1CLWJxZFFLNzBpMUxqcXZnMzNTRjZtbklzVy1hSU5na1MwTk1DRnZiUzY2bFNEZUdqSmpk?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Tue, 05 May 2026 07:57:39 GMT"
+        },
+        {
+          "title": "What is Opinion, the project that's been making headlines lately? A 3-minute guide to understanding this new prediction market project. - PANews",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11cUtiTkg2VEVNN0pWRXdEbC1rUU1HRG9YQ3BaZm1ReHczZnVLTXVhcG1TcWxpWHBfV0hwWlB4cGpBRm0wMXAwVEVwX1ZHUldydkdxUG01bFY4RFRjMmlPbnphYmVfS0dUSjhIdk1SZmczRVk2THdXSTdJSGJJSUE?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Tue, 05 May 2026 07:00:00 GMT"
         },
         {
           "title": "SEN DAVE McCORMICK: Prediction markets are booming. Washington must catch up - Fox News",
@@ -198,16 +210,10 @@
           "publishedAt": "Mon, 04 May 2026 17:00:00 GMT"
         },
         {
-          "title": "Opinion | A Journalist Covered a Missile Strike. Then the Death Threats Started. - nytimes.com",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbmRoV09zWmQ1a3o0UGJPcmZLd1NOTDJzOHhkajJuNUlpNk5vSm1uNHByVFhKN1ZMMDFrMmNweEhLa2RzMjFtcnFwVlBNa3h3em5qVnc5dnNuOFBXLVM3MG1reFRtR0xFSktZNk5TTk1YY2psa3RIMmFJUjh1bENOcjZWUQ?oc=5",
+          "title": "Opinion | The Casino That’s Eating the World - nytimes.com",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcVU5X2JyS05wYkF6RmxKZUxJOEo4d19FOFh2MVhmaGRZTkJBMk93ZWs3azhKSWo0eVdCckNrbGJRTTVuaDhNMzVTM1RaNHZGVHMzWTNnREpmcmlRM3FMWmN0bThqaC1lUDdGZEVvR1Zqd3hGQ2RIZkNUb2daSWlGRw?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Wed, 29 Apr 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Opinion | What to do about prediction markets - The Washington Post",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQkUzX2VualBCRUhEbXhRTTFJUmJOU3FrbGpFbHlreGhQRmk3YWhiMjFGZlBtRTl6MHlLZWpIMzM3YWpSakJWcXR0NnJpUXQyenU0bFFTM2pnaDNleVJpUXBzdTJuOGgtSnpTYXFwNHV5TkthVmxZaHEyQVliZTlYM2ZGb1FzMF9JNEZiRENISmltbUFjX2c?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Sat, 25 Apr 2026 07:00:00 GMT"
+          "publishedAt": "Mon, 23 Mar 2026 07:00:00 GMT"
         },
         {
           "title": "Prediction markets can aid Iowa. Don't push them out. | Opinion - The Des Moines Register",
@@ -222,22 +228,16 @@
           "publishedAt": "Mon, 20 Apr 2026 07:00:00 GMT"
         },
         {
-          "title": "Should Polymarket and Kalshi Allow You to Bet on a Crisis? - WSJ",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYUNPcW1neXFlT2ZOY0RoRDJhTk5ueFUyZHhGQ2NIWjlOR3dNZlllaTN4UXFwclozcHlKeGJaY0VkLXphZkdlQlljaEc4RUlPNktoV05KVXBsc0t3bUVmdGk4UWJJS2tNTGtfMXlkeUltQmNRdkJTUWhOLURwUGIxNWJZMm5lUlpQNHdHa1A5OW9EVWhUc2RXRS1R?oc=5",
+          "title": "Opinion raises $20 million as prediction markets draw capital in a weak crypto market - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWTFiUmlNeGN5QnBBNEJJUXFWd2dObXItVXdEeWhDcHNNdDdPX080MUlERnkzTDBJTUVOZWVuR1BicU1fTVZPWlhjM3p5b1BsSjFmSG9CM0Z1dzk2Z192d2d0MzRZUDJneGwwM1pkdGtQN0pCektOQW1XMHI3RllmRUwxeERpTW9uT1E?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Tue, 05 May 2026 21:50:00 GMT"
+          "publishedAt": "Wed, 04 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "Prediction Markets Are Gambling, So States Should Regulate — and Tax — Them - Governing",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaGVKeTk0WHYwVWJwYXRTS1YwS0U4eEREMTFEajA2UWs3X3R2VmZHdk9mRGVrNXowMFlDUFhKX0dlZThkR3JjQ3NrWV9xT1ZTaUpQVHg0dUtaZGJYUzYwWUwyYlFJUkl4MldyN0UtX0xuV0IxeHVmN3piODdFVGlzRHVMWnd1V0MzTnU3dU5tenA5YlltZ1k5UmlNcUZlVGZvaEx3OFJzYw?oc=5",
+          "title": "Opinion | What to do about prediction markets - The Washington Post",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQkUzX2VualBCRUhEbXhRTTFJUmJOU3FrbGpFbHlreGhQRmk3YWhiMjFGZlBtRTl6MHlLZWpIMzM3YWpSakJWcXR0NnJpUXQyenU0bFFTM2pnaDNleVJpUXBzdTJuOGgtSnpTYXFwNHV5TkthVmxZaHEyQVliZTlYM2ZGb1FzMF9JNEZiRENISmltbUFjX2c?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Wed, 15 Apr 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Opinion | Why governments beyond Hong Kong are wary of prediction markets - South China Morning Post",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQT1llQlkyNEtQZER3dTU4Wm0tcnR4QnR2UDFUTDQyMDY0RGFBaXFFNWM4V0VlXzREYjJqWXU0UUJ2eExtZTRZNlNab2I1YlIycXZ1V1hpWmQtYmtLQ1lSdEpXcFBvdnpoSEcxZVZLaWlhMEs5clE2YXYyRjdwVGRvdWZQYmpFbGMyaUc2WGtocDliWC1BUkpha1RVSEFZd3RCREtFSm13aHRDdm5ZenF3TExJX1Q3QUlhdXVXblNBUWLSAcABQVVfeXFMTzk0X1hRelJXWWFQV0lZN2duSEJCdHBlWGh0Vkl5VTZqVFRXTDhBTHU5bHZxd25pZUpfeDJQUDU0aDNBY0VWOFF3Zk9lamVDU3FiTFZHaGlpMVQtemV5a2pUNDByQzdJbjFXUDF6cDhoeHkxQnA5VmRiNWRXN1NDaVBfWHdOc3hkbHZpMG5VZnRRUDNGTEJzWExjeElIZGpyWURrZHM3bEJ4N1hwaFVsZUh3clpvT21DeTBlOHJTTExp?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Fri, 01 May 2026 01:30:08 GMT"
+          "publishedAt": "Sat, 25 Apr 2026 07:00:00 GMT"
         }
       ]
     },
@@ -346,10 +346,10 @@
           "publishedAt": "Wed, 29 Apr 2026 20:54:21 GMT"
         },
         {
-          "title": "Polymarket Faces New Rival as Binance Wallet Tests Prediction Markets - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMHI5dUowOW5xMEx3SFJCM05FQUVqZlhXTG1IQ0p5dVJDRzNBQnJvOUhVaXZ5R0JBb21XNUhRdVAwMW5CR1Q2a2pnS0hEVG5EWU5teHI5M1AyMkpra0JOLTlOUW03ME96TjU5ekxaekhRS0FGNzV6ZjhsYU5VOTI0SXMzY19VOEZWMkY2dmN0RjFDdVBURTl0MkJDWllfdWdvT0ZCMQ?oc=5",
+          "title": "Prediction Markets Are Clearing a Path Through Crypto’s Price Downturn - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRHhXZXJ3R2VVOXpWaVROUk1hLWw4dlBMTm1SeWV4T0pxd2ItTWRwaGlwRGVIVGlLRVVJVjR5TlBaZS1RNS1UX1U5NUhGbWZTSmdzQXZDZDRjS3ljbGZVSkpHVDBYaS1BZUdHOEMzUTBJUEk2NE5lVDRUM1ExTnBMWVp6RVlDa3YwVUsyVXczQ2JrRXIxYnQwUU1nQ3F6b0c4cUVCQWlXbw?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Tue, 31 Mar 2026 07:00:00 GMT"
+          "publishedAt": "Tue, 14 Apr 2026 07:00:00 GMT"
         },
         {
           "title": "Binance Joins Crypto Rivals in Race to Launch Prediction Markets - Finovate",
@@ -382,12 +382,6 @@
           "publishedAt": "Thu, 19 Mar 2026 07:00:00 GMT"
         },
         {
-          "title": "A Guide to Binance Wallet Prediction Markets - Binance",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaXh1QXFMbWVTQXRjd3NSZWh0Zjk5VHFiRWdyR3dlUmhnUjFZeWEzQkNET09pVVFaeDI1Si1WckFyMXpoeUpCbHJYbFNNaV9EOEJ4YnNqNUFSM2xjQ2RuV1pyUnZadlJNcWo1cFAxNXRUNjNEMHRlRXpGOFYyQi0tVFpFTUo4djJQRjBENVVCd2tVdw?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Fri, 17 Apr 2026 07:00:00 GMT"
-        },
-        {
           "title": "Predict.fun lands YZi Labs and Susquehanna Crypto investment to scale BNB Chain prediction markets - Crypto Briefing",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0xZUU1WWNNSkFFOXpidnNaWk1MY2I5SnB6eTFWazFLRDNncng3azRtdG9mbDVVbG14YVJBQmc5VzJvQllEbENmdXltclJZUU1UUVV2SE9IV1RBUnN1eXE5NXkwTkZEblJvLXF3bDdYOEpPZ3BlZXlN?oc=5",
           "source": "GoogleNews",
@@ -398,6 +392,12 @@
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRnZuVzZqQlZlQUNuUFlDXzFMRjZiV0V3VEpJN3J6RkNoWkVsX2IyTy16YUpvSE9RbzNGYVBtZE1oSy1NYkI0NE5JQzZSajRYMU1fZjBUV3RmeXNkMGt4YWtTaDM5Y2ZBY3otOFFnRG5hNUVMNzRuQnJkZ201Y094ZG9IdlFwdmN0VERHLWRxdmdoYi1rMzNZX203cXdJdTdQX1FEUEhnYWdzZw?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Fri, 10 Apr 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Binance Tests In-App Prediction Market Feature via Predict.fun - CoinMarketCap",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRXNWMGd3Z0o5OUFrSEVqTzdqOUhOeWlia25XandraU50UzdNdHZkbDNmZkdmbWE0WTFodjZ2cXBpdTJmejcxT01qR3ZFdmZqcFp5b2tJaWhFNDJPamtuRnZvNjI1OXNjT1ItX2hfZUd4MEhiUGltX2pTMjkzeDFoeWhna2tkUWdIOTQzNE9GYzVYYVhnWXE0TWdWeTRISE42S3hSRG5R?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Tue, 31 Mar 2026 13:22:20 GMT"
         }
       ]
     },
@@ -420,6 +420,12 @@
           "publishedAt": "Thu, 22 Jan 2026 08:00:00 GMT"
         },
         {
+          "title": "Report: Interactive Brokers’ Peterffy May Be Exploring Prediction-Markets Startup - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTmExSjlzY3g4bHVZNzFhQjF3UXFWNjRFUE1YRFlzZmtlUmZNRlhQNHRTUUpHQUZSOENwSXBFdTVCY0hJakdBS0E5NTBCOXp5aHNscllWa3dPWG8xRWsxS25RdEttRi1HSXpCRmZOZ2tMRHFHRzh0a18xNGl2WTRWVm1LUVZlTWNXVGI0S3BraXo1Y280NlVBU0NrNU5CeGFmZUhFTWp5bFBMX0FraGFJVmtVUmtBNUlveDdRenZ5a2ZsY3N2bDdxUE9vbldQRXNLMDg0ZjR2QVBjdmJiS3c?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Thu, 05 Feb 2026 08:00:00 GMT"
+        },
+        {
           "title": "Interactive Brokers Sees 2026 Elections Boosting Prediction Markets - Casino.org",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPblBKX0tON0o2S0daWk1wZGlYcnJHQ1l5aHdtSFk0Ny1sWEVYRW9NT3lCRWlVTTZBdU1xY3JYN0lrX25idEhkNGIzUjhsc0tjd2hHd1dCNDNrU3BQWTBfbjZtYmJHRnBZa2czMkFraG4tTWo4eTh2QjdQbFVHb1lDLVNrT3lzalduVG1aMnBuejhHZ3lqTnR3cHZ6X08?oc=5",
           "source": "GoogleNews",
@@ -438,16 +444,16 @@
           "publishedAt": "Thu, 22 Jan 2026 08:00:00 GMT"
         },
         {
-          "title": "How Interactive Brokers Profits From Fewer, Richer Clients While Robinhood Chases Scale. - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOVW05NXlWNGxGdFhScERkWTczZjB0YS1HUmlBRlhlS1VOY0RzTEZQVndjNnlMRHBoWWNvQS0wSm1HWEEwWXFONXdnNFRWeXpjbjRnczdhdjdwWFdRenAxUFppUTRXNEdxOVRkam9PSkVYYVJyMGw5QmNvWlNWZXc3QWVyUXZ6VzhvWEx2eFdCTEdET1ZQQ2F3SnNGSlBxTjN6dW1TaDY2dllBZFE2N25URjBWbDh4YnBfVmtMQ0plRjhFVWVvWGI3YlRXLTBjanBmc3ZCUmlIMW1EVjVmeTBB?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 31 Jul 2025 07:00:00 GMT"
-        },
-        {
           "title": "Weather the most frequently traded forecast contracts at Interactive Brokers: Founder - Artemis.bm",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSlJwOEtHSkRscGZ4YnNudkJkY04xS0hxUTFtcmZDTW5MSVFmUG9sdGJySUVZSWRsN2I2SlhnMFg5bkF4UnFHX3Y3YldhREtRb19UUFVvNU4tYzZUNTd0eWE5VmhvalkxMFU4Z2dyUWFfeXZ2MWJ3eUktTHJtRkdHa21NVUJtMGViR1VVc1lxblp3djVleUItck9qUTc1M1BSakZrcGhUeV9jX1pEcVNYMzBhSQ?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Tue, 27 Jan 2026 08:00:00 GMT"
+        },
+        {
+          "title": "How Interactive Brokers Profits From Fewer, Richer Clients While Robinhood Chases Scale. - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOVW05NXlWNGxGdFhScERkWTczZjB0YS1HUmlBRlhlS1VOY0RzTEZQVndjNnlMRHBoWWNvQS0wSm1HWEEwWXFONXdnNFRWeXpjbjRnczdhdjdwWFdRenAxUFppUTRXNEdxOVRkam9PSkVYYVJyMGw5QmNvWlNWZXc3QWVyUXZ6VzhvWEx2eFdCTEdET1ZQQ2F3SnNGSlBxTjN6dW1TaDY2dllBZFE2N25URjBWbDh4YnBfVmtMQ0plRjhFVWVvWGI3YlRXLTBjanBmc3ZCUmlIMW1EVjVmeTBB?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Thu, 31 Jul 2025 07:00:00 GMT"
         },
         {
           "title": "Interactive Brokers Canada is the first CIRO dealer to offer forecast contracts by ForecastEx LLC - Borden Ladner Gervais LLP (BLG)",
@@ -472,12 +478,6 @@
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaXFvX2h1RUNMSHRUWkNJU0IyN2I0RDVlVlZrcnIzWFptZWdlRUpkZDZ6SDRzMXkwdzdvTkMxbVo3OVV2OHdTNUE2aEFSQkhDZVFlOXRTQ2ExTlNUVDhEZnNYTjJSRTlIVnY3NENrdTJMNDM3Q1hqZ2cxRHFIUl83QnctclAyLXRIdHJsVE5NNC1ncWVrMkVMcjQ3WjFLbWFtOGFNeg?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Wed, 07 May 2025 07:00:00 GMT"
-        },
-        {
-          "title": "The 11 Billion Contract Explosion: How Robinhood and Interactive Brokers Mainstreamed Prediction Markets - FinancialContent",
-          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNTWJFSjhNakZuYUFFd2xGVVhCekdwdUc0TF92QVZncDdSYlZvdW5hYS1TN0JESEk5U2hwQmtCTThhUi1Oa3B2Ri0tckZCYTlQa2hpd2pnTkxSNkdYOHNkT1FsdUx3YWJpOXVBOFZIbWc4bXI1TXdCcG9BMFlBSGR0MXV6b2tCenpUY0dKSUp6dHJhTkl3UWRoWmpkWVBEM1R2SDBxamJWcUFLQjk3X2ttSUJWZHpNREpRemtLaUZpMnRkMjhoNTU4X3J4cGcyVzhLbmNoN2kwR3N4VUpvZUZDOXhJTW8yZmN6VGZSUURyWGtabEtFSmRpaTM2RjVSdDNiWFExM2FRelhudTg?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Sun, 18 Jan 2026 08:00:00 GMT"
         }
       ]
     },
@@ -518,16 +518,16 @@
           "publishedAt": "Mon, 09 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "Sports are 'gateway' for prediction markets as more institutions join in - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdlFHaDI2dXMzaVlqNElid1V5LVZ5Ym9BSkFFM0hYWFZHZzZUOWFNQUNuZGYxd0hwZHBpeXBlQUpodDVucjhwMDNzUXBINDI5WFROY0lWZWtIUXloSHl6WWhMSjRsdzdSZ25jbGt0QUxtRjBUM1U2NzdsRGVnZ2g1NGdqRWt5MURpTWJKRWVXYXJnTnRvazZmM0pOQ0ZaeWE3QXNMdHczZ1AtVjBHQWJHaXFvaUoxaUpY?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Mon, 30 Mar 2026 07:00:00 GMT"
-        },
-        {
           "title": "What Are Prediction Markets And How to Bet On Real Life Events Using Crypto? - CoinGecko",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5mdndLM1FnMHhkbXhxVTdmdmlBeDBaU3MwUDNyQzU3WDVCU29ZSW9OUDAyMVF6bXhfei1QM1pVMUZVc1RtbG1RS2dNUEZ3Sk52WEJ3Si1YM2h5bXFCa0xXbkhZcW1ZeU5TSko2MENUdUZWalVf?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Mon, 13 Apr 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Canada vs USA Olympic Men's Hockey Prediction: Best Odds at Prediction Markets like Kalshi - Yahoo Sports",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbTJuVHdwd21DalNTN29UamltN3R5TTZhTmhGXzUyWjI3LVFNVHRoNmljbF9CRjEyMkJlMWwtUVMyUGJsT1p4UzFWVmZ4VkxEQ2x6aGRtTkNRblZBUU4ydGtIQVNKRW1Sbmh4MFpZUXZHUjVQSXVHR2FQNGFwTjBNRg?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Sat, 21 Feb 2026 08:00:00 GMT"
         },
         {
           "title": "Odds &amp; predictions for the Big Game 2026 - Kalshi",
