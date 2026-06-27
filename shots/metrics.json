@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T19:43:18.529Z",
+  "generatedAt": "2026-06-27T20:44:29.818Z",
   "markets": [
     {
       "key": "polymarket",
@@ -9,8 +9,8 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-06-27T19:43:19.163Z",
-      "note": "unknown schema"
+      "updatedAt": null,
+      "error": "fetch failed"
     },
     {
       "key": "kalshi",
@@ -20,8 +20,8 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-06-27T19:43:19.338Z",
-      "note": "unknown schema"
+      "updatedAt": null,
+      "error": "fetch failed"
     },
     {
       "key": "opinion",
@@ -31,8 +31,8 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-06-27T19:43:19.512Z",
-      "note": "unknown schema"
+      "updatedAt": null,
+      "error": "fetch failed"
     },
     {
       "key": "myriad",
@@ -42,8 +42,8 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-06-27T19:43:19.689Z",
-      "note": "unknown schema"
+      "updatedAt": null,
+      "error": "fetch failed"
     },
     {
       "key": "predict",
@@ -53,8 +53,8 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-06-27T19:43:19.866Z",
-      "note": "unknown schema"
+      "updatedAt": null,
+      "error": "fetch failed"
     },
     {
       "key": "ibkr",
@@ -64,8 +64,8 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-06-27T19:43:20.182Z",
-      "note": "unknown schema"
+      "updatedAt": null,
+      "error": "fetch failed"
     }
   ]
 }
