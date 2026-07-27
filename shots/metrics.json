@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T20:19:56.081Z",
+  "generatedAt": "2026-07-27T21:37:33.113Z",
   "markets": [
     {
       "key": "polymarket",
@@ -9,7 +9,7 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-07-27T20:19:56.525Z",
+      "updatedAt": "2026-07-27T21:37:33.477Z",
       "note": "unknown schema"
     },
     {
@@ -20,7 +20,7 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-07-27T20:19:56.679Z",
+      "updatedAt": "2026-07-27T21:37:33.601Z",
       "note": "unknown schema"
     },
     {
@@ -31,7 +31,7 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-07-27T20:19:56.837Z",
+      "updatedAt": "2026-07-27T21:37:33.725Z",
       "note": "unknown schema"
     },
     {
@@ -42,7 +42,7 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-07-27T20:19:56.990Z",
+      "updatedAt": "2026-07-27T21:37:33.849Z",
       "note": "unknown schema"
     },
     {
@@ -53,7 +53,7 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-07-27T20:19:57.139Z",
+      "updatedAt": "2026-07-27T21:37:33.976Z",
       "note": "unknown schema"
     },
     {
@@ -64,7 +64,7 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-07-27T20:19:57.413Z",
+      "updatedAt": "2026-07-27T21:37:34.190Z",
       "note": "unknown schema"
     }
   ]
