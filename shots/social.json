@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T09:51:30.373Z",
+  "generatedAt": "2026-08-22T10:19:46.628Z",
   "topics": [
     {
       "keyword": "Polymarket",
@@ -130,16 +130,16 @@
           "publishedAt": "Fri, 21 Aug 2026 14:00:00 GMT"
         },
         {
-          "title": "CME CEO Terrence Duffy trades barbs with CFTC's Selig and Kalshi's COO over prediction market oversight - The Block",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPd3dkcXNiaW1yeEg3Q1k5RTZSdU9WdnRaRTZia29jeC1RU1RZS3h4dEx4Szc2Y0xiSEc4Y1c3bTJWcXBYVEt5OG9pbkxHUTd6RGVxOXZwM2FKbUplZm1qRzFhNzgzc3U2RlBKR1RsUmNHa0RvNU8zSklVYkJKRnpzdWFVN0dRUHh4YXQxSFh0QkFGZEtiNExobnRsdnFPZXh0d2VPQldaUUVON082LXVuZVZ0Y2tVc2lJaE9LcEluNnZ6X3BvX2pmdnBtaUJrVnFTMXk1bG1SQ3NNS0V4VlNkazJwYWl6cmh6RjRoSXowN2U?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 20 Aug 2026 23:39:38 GMT"
-        },
-        {
           "title": "LINDY'S LONG BALLS: Kalshi Odds - OddsShopper",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNM1BVeVYwa3M2S1B1WjVjWlAtcXE2MHdXNTdWUHg5OVZyZTZaSHl0cWJtdFV4eUJqRVpnTEtnUktZc2VHeDMxZng0bzRBVDcxNW5nOHdHSTVrendnenFmbnlQSVNHNHcxSUxpbUtNYmN5ZUVQcDZobkNPOWlSY2VxanA2dklxQTFBS1htcnNzMjZtck85SzVIYS05a2k5Xy1tcjhjTkRPV1Eyc00wT0lOYlNTa2ZweS04S29yd0NlNW5BQzl1OWxaYlVB?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Fri, 21 Aug 2026 19:29:08 GMT"
+        },
+        {
+          "title": "CME CEO Terrence Duffy trades barbs with CFTC's Selig and Kalshi's COO over prediction market oversight - The Block",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPd3dkcXNiaW1yeEg3Q1k5RTZSdU9WdnRaRTZia29jeC1RU1RZS3h4dEx4Szc2Y0xiSEc4Y1c3bTJWcXBYVEt5OG9pbkxHUTd6RGVxOXZwM2FKbUplZm1qRzFhNzgzc3U2RlBKR1RsUmNHa0RvNU8zSklVYkJKRnpzdWFVN0dRUHh4YXQxSFh0QkFGZEtiNExobnRsdnFPZXh0d2VPQldaUUVON082LXVuZVZ0Y2tVc2lJaE9LcEluNnZ6X3BvX2pmdnBtaUJrVnFTMXk1bG1SQ3NNS0V4VlNkazJwYWl6cmh6RjRoSXowN2U?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Thu, 20 Aug 2026 23:39:38 GMT"
         },
         {
           "title": "Kalshi Code OREGONLIVE1: Up to $500 bonus updated for Saturday’s NFL preseason Week 2 slate - OregonLive.com",
@@ -403,9 +403,9 @@
     },
     {
       "keyword": "ForecastEx IBKR forecastex",
-      "last24h": 12,
+      "last24h": 11,
       "baseline7d": 7,
-      "spikeScore": 1.7142857142857142,
+      "spikeScore": 1.5714285714285714,
       "items": [
         {
           "title": "ForecastEx Review (August 2026): IBKR Spinout, $0 Maker Tested - tech-insider.org",
@@ -420,16 +420,16 @@
           "publishedAt": "Thu, 14 May 2026 07:00:00 GMT"
         },
         {
-          "title": "Interactive Brokers Expands Prediction Markets, Unifying Access to Kalshi, CME Group, and ForecastEx - Quantisnow",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNOWpSS210Sjd3aldyc0dNRzJrNDBpYWpTZ2E0TkZqaUd3ekhiU0hEazRwdUlFdkZkVXhjZVJaZGkyb3owODVXNUtBQjM4NGh5bVFEMEgyS3V6WndVcVByWFZ0WjlJSTJzTFA5Vk92a05Ldm9wV3hFU1dPWnpKNldvSm80Skt0bktQaHFmU1BFcWVDUWlqaTBtMTEzSFVwYUxaZHpvVTNuUTRxcXBuM1FDWWhia3pYNmNZQmRlX0ZPRWpYaDhzSlpCT2R6VU01OWhMMzlYMjhWdw?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 14 May 2026 07:00:00 GMT"
-        },
-        {
           "title": "ForecastEx Appoints Renowned Forecaster Dr. Philip Tetlock to Board of Directors - Business Wire",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOYVQzQkh4NnQtSDRDWFcxYjNEbk5MM1pRZzVCTTJCSTRlMTZGSW9hcmpxU2RkaXlLeGYwZ0JjNmN3RlRMdThHbmh5dzZ3aWE2S09vV2J3SjBsOWR5OWltWlllLWd6aW0zOE5nMnRQNGx6VW9VUUNKTGVKQWkzdk8wTGJBU1ZrdlZUQlpFNnJOQ1laamtfLVJDMU9rLUpDUUZHTFFubDRLMTRPU2NLclVwY2J0SHc5ZXRucU40WDRsel9BZU10NkhkalZpeFczYTlVNXJr?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Thu, 22 Jan 2026 08:00:00 GMT"
+        },
+        {
+          "title": "Interactive Brokers launches unified interface for trading prediction markets across Kalshi, CME Group, and ForecastEx - FX News Group",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPUVd0TXN6MUFEU21hNE5iTjBJQXZEeE92aEFKMjB4N0JXUWF1aUJ0bGFkUG5peHNkcGd4ckhGMzRDX3hoLUZfY0lENjJ4MFZGbmFXaXBIWVlDSktSS20wemhkUlZFcEVyUjk3aktjWmtYbHJXaDdkV3Q4aFIyd1RmclExRlNXUHZqOTFINmZ4Q3BzRWFPOXgzVE5NVFMyTWlrTk1rTmxaYk1XeTUtSlh6SGplWFM2anZISGNxdVNpYzZmZWxsM1REU2R1SmZ3cUFXVzh0ZW90b0d1UnI2LVdiRWpxaVVtWTMySHR6MEx1UVVIWWdOTkRpMA?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Thu, 14 May 2026 07:00:00 GMT"
         },
         {
           "title": "What’s it like trading event contracts on Interactive Brokers? - Good Money Guide",
@@ -438,46 +438,40 @@
           "publishedAt": "Wed, 04 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "Weather the most frequently traded forecast contracts at Interactive Brokers: Founder - Artemis.bm",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSlJwOEtHSkRscGZ4YnNudkJkY04xS0hxUTFtcmZDTW5MSVFmUG9sdGJySUVZSWRsN2I2SlhnMFg5bkF4UnFHX3Y3YldhREtRb19UUFVvNU4tYzZUNTd0eWE5VmhvalkxMFU4Z2dyUWFfeXZ2MWJ3eUktTHJtRkdHa21NVUJtMGViR1VVc1lxblp3djVleUItck9qUTc1M1BSakZrcGhUeV9jX1pEcVNYMzBhSQ?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Tue, 27 Jan 2026 08:00:00 GMT"
-        },
-        {
-          "title": "ForecastEx Prediction Market Promo Code &amp; Review August 2026 - Gaming Today",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5DYVZoRjl4VXBkbTgyTllhSXUwUHNPa2RyeWg0ajYwTXZ6Q1Fua1hlaHZERU1ieHZ3a1BKdXFaLUQ0S0dqaEo2X3drS196Y2FKSnkwdmt2THlxaVdSZ1NyWEU1YkRFZjVRNHc?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Tue, 21 Jul 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Interactive Brokers Expands Prediction Markets with Kalshi, CME Group Integration - DeFi Rate",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUzBMeU1wX0NWSS1NVm0zcHlJMzU5aWNLNjVLMmMzcENhZTg3U3diM3lsQy1qaHQ5akd5OFhqeWpvOGExLTZ1cF9UeTNJdjVfTEhVRHRYSG5zcjh5RGQ2TkVobldlR3dDTDNpZTIyeFluZV9wOGZ6Ulc2eU1GeGM4ZmRia1ZCUE5ud01KZ3pMT1d4V2RWZjBrR0ktYmFaUUdRN1JSUQ?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 14 May 2026 07:00:00 GMT"
-        },
-        {
           "title": "Interactive Brokers Sees 2026 Elections Boosting Prediction Markets - Casino.org",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPblBKX0tON0o2S0daWk1wZGlYcnJHQ1l5aHdtSFk0Ny1sWEVYRW9NT3lCRWlVTTZBdU1xY3JYN0lrX25idEhkNGIzUjhsc0tjd2hHd1dCNDNrU3BQWTBfbjZtYmJHRnBZa2czMkFraG4tTWo4eTh2QjdQbFVHb1lDLVNrT3lzalduVG1aMnBuejhHZ3lqTnR3cHZ6X08?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Wed, 14 Jan 2026 08:00:00 GMT"
         },
         {
-          "title": "Top 5 Prediction Markets in the U.S. (2026 Ranked List) - Gambling Insider",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBCSU1rTEJWZGRZME9uS212WlZRV0FDQUQ0UjJBai0weUZhYzZ6WFE5cmsxU0JCWFdHQ2V2QXdGRFJLX3ZEZ2hkQkFHaFVOLUF4aG9qemhZZlJLRHhRQ3dmUkxTWVB2b29JQnpMOHVQLVc3aW53cld4Sjdn?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 22 Jan 2026 08:00:00 GMT"
-        },
-        {
-          "title": "ForecastEx Promo Code: How To Use &amp; Signup On The Platform - LegalSportsReport",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcjZBdGpYMElTS2htbzNXSnhST1lNcWVwM3BneUl1ZWM1dWZOVU9ZbmluRnhTeW1QYVlvai10SGZmOVJ3ZWM5VEJWUGRDVVpuWUJ4QkVjelhUdjJINk1pN0FneU92VHVUejBVZk9MMkkzMlI3cWlXWjhSX2ZFRHp1RTRia1hWX2lydnc?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Mon, 17 Aug 2026 20:20:19 GMT"
-        },
-        {
           "title": "Interactive Brokers Canada is the first CIRO dealer to offer forecast contracts by ForecastEx LLC - Borden Ladner Gervais LLP (BLG)",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOXQ5UTd3bVROcjMtZ0xubXQ0X25KVXZfWk54M1lJYXE3SGlUMk5SYmhZMkU1UVYySzBCT3V4RUhiTjVBekprczZPVmtuVGdoSG5Ua2xwb1Bxc0hITUN5M1hnNmZ6Nl9BaVdyMGFkRWFqUzltWlRka1RNWUxqSHlvRWF0aklXVDdROFVkTXUxdXNwRDAzdlppdW5WVWxvUF8wX1d1UUdiRVJuMmFGYkhEb0I1S0FxclNnSThUTEgxaEdqeUxXc2hIZzJXSmMwSFVVNFdz?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Wed, 02 Apr 2025 07:00:00 GMT"
+        },
+        {
+          "title": "ForecastEx LLC Launches Contracts on U.S. Election Outcomes - Quantisnow",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQckhQNkNJQ1FQMUduVFBUYkI4VHZKTFdzQXRxVGJiaUFCQVd4bTFuUjJsU3NoaUhERllXT19kTXZRdGRvV0kzY3ZJZXdkOTBkLXJyRDQwZFdlcnBuajJVUHM1RUJQS3BQcnZScWRoQzFBLXlVb2hjaWd6eExuOTZCRkZQUjVXRkhmckFVRVp3ZmdJVFZyMGw4S2dqY3NhNDZIQlE?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Thu, 03 Oct 2024 07:00:00 GMT"
+        },
+        {
+          "title": "Interactive Brokers Brings Kalshi, CME, and ForecastEx Under One Roof - The Crypto Times",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdE15OVRUeENwNTRQVmV0el9pSkF1TkRKdEdVMWZ4M0YtUmE1RG1OSTFxNTEyLXhCeEVlMEhBYnVUYlFRX3NJd0Z4cnAwdVc2bGpCOTJ2R1JFUzZBWUJDT1kwTjVmUnRtUzJ3UWlSTHBVMHFNaFgwT1RETmpMTXNhTmw5d2djLWVCZkdKdmRkVHg5aDlHbEU2WWV5T3QtTWhYNUZBRXBfaEJsdw?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Thu, 14 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Interactive Brokers launches multi-venue prediction market platform featuring Kalshi, CME and ForecastEx - Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOT3hGejBUclRQd1d2bm5fajRPOUFXdFVnT2NZOGRDMWFLTzUtSjJPdjdzZXByc3V0SXlPUzR5NWZGS1ZOdTBxSkpWSDZfeE0xRjVGdFRiai1tb1FOakZrZlNnSjJ3X1BVZkdhdzZNUWJnek1iTGtLUWp6ZTRfdlJTSHFCalZfV3drX0FuTWpoSGE3UUp6eWpWMXRYbw?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Thu, 14 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "IBKR Launches ForecastEx: Trade on Economic Calendar Predictions - FinanceFeeds",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOalpCNlNoRk45OTE3VXRCeWNqVlZoQXVIbjJpdk05MnRjTjQ5aW92UXlLUjZqNzlGTXpNSDJib2JjVWZNQ1pjUndsN0ZmdnBNTEI5WGN0a2xrTjg2VzdOd240Vkx5bnhGX1lFNWFtMlFCZE1VbGlKajdQM2dERGJtVElnZUtDTk5OOVRxY2RYYnl5MVk?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Fri, 02 Aug 2024 07:00:00 GMT"
         }
       ]
     },
