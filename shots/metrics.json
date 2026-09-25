@@ -1,71 +1,108 @@
 {
-  "generatedAt": "2026-09-25T05:47:57.845Z",
+  "generatedAt": "2026-09-25T07:02:07.788Z",
   "markets": [
     {
       "key": "polymarket",
       "name": "Polymarket",
       "duneUrl": "https://dune.com/datadashboards/polymarket-overview",
       "queryId": 5802915,
+      "updatedAt": "2026-09-25T07:02:07.788Z",
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-09-25T05:47:58.355Z",
-      "note": "unknown schema"
+      "dailyPretty": null,
+      "weeklyPretty": null,
+      "monthlyPretty": null,
+      "warning": "No recognizable daily/weekly/monthly fields in Dune rows. Update parseVolumes() mapping.",
+      "sampleRowKeys": [
+        "Cumulative Volume",
+        "Volume",
+        "Week"
+      ]
     },
     {
       "key": "kalshi",
       "name": "Kalshi",
       "duneUrl": "https://dune.com/datadashboards/kalshi-overview",
       "queryId": 5802836,
+      "updatedAt": "2026-09-25T07:02:07.788Z",
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-09-25T05:47:58.524Z",
-      "note": "unknown schema"
+      "dailyPretty": null,
+      "weeklyPretty": null,
+      "monthlyPretty": null,
+      "warning": "No recognizable daily/weekly/monthly fields in Dune rows. Update parseVolumes() mapping.",
+      "sampleRowKeys": [
+        "Cumulative Volume",
+        "Volume",
+        "Week"
+      ]
     },
     {
       "key": "opinion",
       "name": "Opinion",
       "duneUrl": "https://dune.com/datadashboards/opinion",
       "queryId": 6047958,
+      "updatedAt": "2026-09-25T07:02:07.788Z",
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-09-25T05:47:58.693Z",
-      "note": "unknown schema"
+      "dailyPretty": null,
+      "weeklyPretty": null,
+      "monthlyPretty": null,
+      "warning": "No recognizable daily/weekly/monthly fields in Dune rows. Update parseVolumes() mapping.",
+      "sampleRowKeys": [
+        "Cumulative Notional Volume",
+        "Day",
+        "Notional Volume"
+      ]
     },
     {
       "key": "myriad",
       "name": "Myriad",
       "duneUrl": "https://dune.com/datadashboards/myriad",
       "queryId": 5756303,
+      "updatedAt": "2026-09-25T07:02:07.788Z",
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-09-25T05:47:58.863Z",
-      "note": "unknown schema"
+      "dailyPretty": null,
+      "weeklyPretty": null,
+      "monthlyPretty": null,
+      "warning": "No recognizable daily/weekly/monthly fields in Dune rows. Update parseVolumes() mapping.",
+      "sampleRowKeys": [
+        "Cumulative USD Volume",
+        "USD Volume",
+        "day"
+      ]
     },
     {
       "key": "predict",
-      "name": "Predict (predict.fun)",
+      "name": "Predict.fun",
       "duneUrl": "https://dune.com/datadashboards/predict-prediction-market-predictfun",
       "queryId": 6365667,
+      "updatedAt": "2026-09-25T07:02:07.788Z",
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-09-25T05:47:59.033Z",
-      "note": "unknown schema"
+      "dailyPretty": null,
+      "weeklyPretty": null,
+      "monthlyPretty": null,
+      "warning": "No recognizable daily/weekly/monthly fields in Dune rows. Update parseVolumes() mapping.",
+      "sampleRowKeys": [
+        "Cumulative Notional Volume",
+        "Day",
+        "Notional Volume"
+      ]
     },
     {
       "key": "ibkr",
       "name": "IBKR ForecastEx",
       "duneUrl": "https://dune.com/datadashboards/ibkr-forecastex",
       "queryId": 6536996,
-      "daily": null,
-      "weekly": null,
-      "monthly": null,
-      "updatedAt": null,
-      "error": "Dune API 402 for query 6536996: {\"error\":\"This api request would exceed your configured datapoint limit per billing cycle. Please visit your subscription settings on dune.com and adjust your limits to perform this request.\"}"
+      "updatedAt": "2026-09-25T07:02:07.788Z",
+      "error": "Dune HTTP 402: {\"error\":\"This api request would exceed your configured datapoint limit per billing cycle. Please visit your subscription settings on dune.com and adjust your limits to perform this request.\"}"
     }
   ]
 }
