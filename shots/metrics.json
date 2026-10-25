@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T21:25:14.587Z",
+  "generatedAt": "2026-10-25T23:26:06.623Z",
   "markets": [
     {
       "key": "polymarket",
@@ -9,7 +9,7 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-10-25T21:25:15.012Z",
+      "updatedAt": "2026-10-25T23:26:06.970Z",
       "note": "unknown schema"
     },
     {
@@ -20,7 +20,7 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-10-25T21:25:15.150Z",
+      "updatedAt": "2026-10-25T23:26:07.078Z",
       "note": "unknown schema"
     },
     {
@@ -31,7 +31,7 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-10-25T21:25:15.290Z",
+      "updatedAt": "2026-10-25T23:26:07.187Z",
       "note": "unknown schema"
     },
     {
@@ -53,7 +53,7 @@
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-10-25T21:25:15.801Z",
+      "updatedAt": "2026-10-25T23:26:07.531Z",
       "note": "unknown schema"
     },
     {
