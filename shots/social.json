@@ -1,85 +1,12 @@
 {
-  "generatedAt": "2026-11-26T21:56:10.378Z",
+  "generatedAt": "2026-11-27T03:56:36.307Z",
   "topics": [
     {
       "keyword": "Polymarket",
-      "last24h": 12,
-      "baseline7d": 7,
-      "spikeScore": 1.7142857142857142,
-      "items": [
-        {
-          "title": "Most Polymarket users lost money betting on the U.S. midterms, report finds - CBS News",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeEFSRzg3TDVWM3ZLa2J0bmlKSVFmc2VFaUZqSl9mTmpIcEdqMnJxT3F4ODd1WldwVXVzWS0yd3lkRlNGTS13LTNZSHB3eFcwV0tuRWV5N1BTQW5XdHE4eTlQcXlLT1hDT0VyYUFSa1pudUcxYjhfdUJtRGE1dTg1TkJka3F1bDA?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Wed, 25 Nov 2026 21:17:00 GMT"
-        },
-        {
-          "title": "2026 NFL Thanksgiving odds, picks, predictions: Use Polymarket promo code CBSSPORTS to score $25 bonus - CBS Sports",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOVk5NVctU0drSm81UVhsSnRZNlVMcTZyT3NhNy1YelVLTFlyXy1RZlZxWTNKc1ZzV1hQanozYjgxbmJPdVY1Z2ZaNkhBMS0xVG85ZEtxcTl4UFUyYnlCejdyWUhBdDFMNWpsWWd6UEkxb3pWZFg4S2xMTDJobnpkcWgxaDNjd2pFYjRqdWpTTXhLY2JfcERLS2FVZ2MzbjhrN2xCSjViWks4aVhtNlhyS1dodUhfRUQtS3hISGI4dFc4LWhFS2szMW5Qamd5UG5W?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 26 Nov 2026 20:06:11 GMT"
-        },
-        {
-          "title": "Polymarket Promo Code FOX: Claim a $25 Bonus for Cowboys vs. Eagles on Thanksgiving - FOX Sports",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQLW41bkFlYzVmdk5OSVF1aEVpc2lJTUxjalI2YVpZeVZhSUQxQ1lUM2pZQTdGbnlJQ0xvMDRRQzJxSHRfSDlISHZlbXM0ZHpQRFlVZVpTMTc4aU5ndWtZaHIyRHZGb1dOcjN3eW02d1BoeGt3QlVEVGlrQW9PeFFtZkVpZ2RHVFJ1RXllRWtSWm9yNFk3NXl4RTZhQUdGX1VrTE9JMDR5TzhoT2hMaDVUa2tlWdIBswFBVV95cUxNNEFoNGVLNHBibG44QWdBZlJHM2VDZkxLTE11ZmVxblpRajJtUDJWZkRBN2hqT1gtUWt6MElpX3c2MWUxUmYzdTdBLU9zLUVQS3ZIbUREMnBPMnV5Uy1LUDRkWmtyWGVQbllrT0JRVjFNSFBJYk1xck9MWktNaGhOQ2ZRMmdhanBnTjBvZjdyY3NPQkROOW5tdWlKQkYxTWxDOWdQZFpia0xZcHpsZ0J3OUlXbw?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 26 Nov 2026 20:30:30 GMT"
-        },
-        {
-          "title": "Polymarket Promo Code AL25BONUS: Get new $25 bonus to trade Eagles vs. Cowboys on Thanksgiving - AL.com",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTUNmczR6RXY4Z3JGN3k2UmE3MDlIM0FONTBFYmRTNjc3eC1PMDBTd2R4aW5wMTZTX2pVVml3YXMydzV0d3JjUFItVXJWeVI2ZEE1SktkSUZndTlGUkpSWF9sR29DYXQ2a0lQdEc4M1hyYU5aOFYwenV3UEpmM3F0WkhXRDRjUS0zaERHaG11TXpPR25kX2hKWDZ6TWNvZ2dTYzVvNktFUDdyZlRZX3ZKOC1IWmdxTTByaTR5QmdTWnoyb2xfYkpmR292aw?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 26 Nov 2026 20:45:00 GMT"
-        },
-        {
-          "title": "Use Kalshi and Polymarket to Trade on Chiefs vs Bills - Saturday Down South",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcE56ZGdGUmNQSFBmMmM3SW1qQ3l0X3Z3d3l6SG5JVjFqMURNdlQzTktBMEIzSUFtY2NMWF96WWxENXZoaE55OFhZbEJsbGVMNl9IMkNpV185U0tmbUwwWVlVcVEtak13c0JwekYzcFNIeWc2bENkcWVqbWltcnBJdVFGWkpiYnlmbEhZdw?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 26 Nov 2026 19:09:00 GMT"
-        },
-        {
-          "title": "Polymarket Invite Code SBWIRE: $25 Bonus for NFL, NBA, Crypto &amp; More (Nov. 26) - USA Today",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR0xOcGxHck56Nkd5M0VSZUhoWUh3VDVMRExMUzFoVjMxWWtSWVRfWU9IRmtOaEdPSDdqdGlUNW05VWVCakVmbldaNGx0UHMwYnZ0M1pCYkRpQm1iZ2lTdHNGUzNBaTlKcVdRRkJEeUYxZEpZUDhEd1dzRkdtZ2JXeTV6eXBzVGlCRTl0Q1VldjlwOTRfZ3lHNWd0OEUyOGM?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 26 Nov 2026 21:47:00 GMT"
-        },
-        {
-          "title": "Texas Tech vs. TCU on Polymarket: Red Raiders Playing for CFP Spot - WTOP News",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVW1Bd0hrUm9QRnlfTlFCMDRSV28tMWZObFdYcFlzckxVNnJueVJ5eHJkYWFsanN2MW10eFdSOHI3Znc3amdoSGRfZS05TDllWms1MW8zcGdxa1dWcm0xVXFncW1WeGVfWkVrSHB5UFllTFFVN1hzUk1SdFlOZ3lZUG5YbTkwV05CUDkweXk1MTNOc09CUnlXa2JiVQ?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 26 Nov 2026 14:57:48 GMT"
-        },
-        {
-          "title": "NVIDIA CEO Jensen Huang Odds on Polymarket: NVIDIA News Today 2026 - Action Network",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeXpzZXBtT0dYNGpMcENBbnJMUmotMVpfc3ptU3g5cDl2V1NaNG1HUVhzVDlzaHlkaDNmTUd0ckdhZ2t6aHRudzlhYWxWWVJETXJNS2c3cHJoRHBBQ3c1NmtNT3RpaTdRQlJnS0pieHdKZld4ekp3STJCcThKOWlDdnlTbmRxMmx0N3p1X1pyMzNIZlR0UmZERjV3NXBBOE5UcFE?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 26 Nov 2026 21:28:00 GMT"
-        },
-        {
-          "title": "Caleb Williams Player Props: Polymarket Promo Code ACTION for $50 Bonus on Bears vs. Lions - FantasyLabs",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNd0o4Mzl4SjVXS3ZMVjJySmZVTW85WW5wVXlPNS1FS2ZTMC1GaXI0TzViX1BodjVEenVNS0xyZk8wOFk4RjNhU3BxNC0tYWM3U0VDb2FFaVpVSU4xNDZQRXozWkhTWDAtLVJxbzJqaVFCQ2tGbEZ5c0FFWVJrM1VUMHRqdXdWdWJpdkstSWI2WG1Ddk51OHB5aEViNEhuQmlWMmlLczJsMktHUEJhSjlKZF95eW5MU2RJNEE0SmRJcVNad2s?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 26 Nov 2026 16:25:45 GMT"
-        },
-        {
-          "title": "Polymarket promo code NYPMAX1: Deposit $10, get $25 for Chiefs vs. Bills - New York Post",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaW81WlhoVDJiX1hFUEY2dWNQTGppOTFyNHBNaE03d3ZMMklsSHQ1dlpsUF9yaURwd0dLWmdJaVFtQjJjN2JSVVZ4SWRNSWc1a0RLS083WjgxRjVMcGpMRWdwNHZub21TeEk0em5xSWk1RnhKeWZ3VHpBckxvU3prMHFEdWlwQWtrNjRNX3ZhcDVOYlBnMGtGX3B2NWpWQkRlb0MwNTBJZXlFZw?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 26 Nov 2026 20:00:00 GMT"
-        },
-        {
-          "title": "Polymarket Promo Code ELITE1: Get $25 Bonus in November 2026 - Elite Sports NY",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1OOUdONVp6V2ZLSmtoaV9aWWp5TmtfcmZsWkJ0UWdkQ1BrWjI4dGF5aU01RVQza1g5RmZWTE95enNzSlBmamtFWjZuWFpPWVRxekJFeUc2OHlBTlhXMjdZSDloOHB4cDVyVDQxcw?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 26 Nov 2026 15:56:18 GMT"
-        },
-        {
-          "title": "Polymarket invite code STAR | $25 bonus for NFL Thanksgiving Games, NCAAF &amp; more - IndyStar",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUmxGUjU3a0tUYmJXYm4ySjM5SHcwRWQzVnN3VmtQT01lRzBKX3VYT0dYdEdVUEk3TTAtUWtFZXZVR293cHJvRXZHM3gxZDFBWWRib3ZVNEQ2M294TUdGQXYzT2tHbnhPZ0xCSXNZa0tXME1hcW1sQjQzYXdzS2VDWkhGQ0ZONVZiWlhLS1VMUUYyOWFUX0s5bjBncW9yZ1IydWlscU5wdUoySmViYzQzOXp2dUZoZEtr?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 26 Nov 2026 10:37:00 GMT"
-        }
-      ]
+      "last24h": 0,
+      "baseline7d": 1,
+      "spikeScore": 0,
+      "items": []
     },
     {
       "keyword": "Kalshi",
@@ -88,34 +15,40 @@
       "spikeScore": 1.7142857142857142,
       "items": [
         {
-          "title": "Kalshi Users Under 21 Lost $8.9 Million in NYC, Probe Finds - Bloomberg.com",
+          "title": "Young New Yorkers Are Losing on Kalshi, City Council Says - The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9fOUY1Ny1oWVZVSzlEcXJqZGwyQzkzOFdXNDRRVmV6eXVHMUNHVklUa3NVSGlzMkZQS3pJZkxpWml1X0dvb0tiTTlfdUlyOUZLbkJHeHJydU9yU1BTbFBLTmt6VzdEYWZfVGxaQ1NFS1hYOWs0c1E?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Tue, 24 Nov 2026 10:04:07 GMT"
+        },
+        {
+          "title": "Kalshi Users Under 21 Lost $8.9 Million in NYC, Probe Finds - Bloomberg",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNY19Va0JuWHdNYjR1S1puOGFaTmZBZkR6ckxfVTR2aUJHUkNYZnZkNHF0XzlkdThldVJ2ZHpKbnoya3hDdmxTRHFmUFJHcUlpa0ZzcE54NDBrZWkyeTFQbHRCTVVCQlg5bjk4WGd3akczX1R2c0RUWGFRcFhBSjdXb2xuUHdPcHF4V256anZQNDIzVFZVUlE2LThNakZLUVktcGwyc3cyZGtoLTFCblFOYXFRMHE?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Tue, 24 Nov 2026 17:55:50 GMT"
         },
         {
-          "title": "Utah moves to drop criminal charges after Kalshi blocks Utah users - KUER",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVVlFOU1ndWJxc0k1U0l4aWFXa3RLRmFDRmpjX1pfQjdyNElzUDB4V1RQSks4bXVjT202WjdYVm1VOThmNXFta1NncUx4MzJ3ckhkVU9RUWNsb0ZaY3JsS0RzS29kS0JnakxoVGEya0tSdVktNndDczRlSWhJTXZIQlNJZGEtVk8xeTlTQjhiTTdWYS1ob0M3bUJQSjlnaUZxYy1XUmhOYmxLLXRxem5qS0hDOA?oc=5",
+          "title": "NYC Kalshi users lost over $52M in 2026 — with young adults accounting for large portion of losses: City Council - New York Post",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcllELUxsTHF5QUo3VzVJYUdOTFF5LTdYcUE0YXJGdnY5aldmcEgzbmJUTlhFSHAwOU9CMFllMExJR0ZxVU9ZN1VINjktN3VmdmpPLW8yNkpqSjRhUzNrbEY1VVFMQUxNQjRIZlNiNVFzdWM3ZlBScC1IQnZIS1NzWE9pQVVHLUtFYmtDRTlkQUtkb0p1N2c?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Tue, 24 Nov 2026 21:02:00 GMT"
+          "publishedAt": "Tue, 24 Nov 2026 21:18:00 GMT"
         },
         {
-          "title": "2026 NFL Thanksgiving odds, predictions, picks: Use Kalshi promo code CBSSPORTS55 for $55 bonus - CBS Sports",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOT2EzdF85ZENTZXh6NEloSzFvOVc3enJQSDNjYkJ6YzduOWlsdVJoaXRaR0pvQ3RkQm1kOVFmc2Q5dklLQUNZOHNRNmUyNFFVSHJfcnhqby1CR2l3YklMTmc1VlM3Ykt5NjF6V1pWZHIwdEFBWi03dFQzSEdyYkJYS3VFaldiUldLQjRaOGtGU3Y0U0lDUGt3RVI5Ul96YVVib3dxaGtOcTdfelJNSE5zY1h3SDY4VVpZcGppOW9CNnpfcGlBb3B5blZ2NC1qNUU?oc=5",
+          "title": "Utah scores win against Kalshi as company halts operations in state - CNN",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQalIzYTZxN3ZBSmNheFVXYUtiaUlRREZKb1BKN0xkM01NSWNOaERsaHdYa1pMQXJOSzV2UFRRZmxjOTZmamZhSUFvN3JZV0phYk9GTjgyWlRRNWtFY29VYjFBdjhSdTlfMktRalczME5vQXZDdkw3QmllTVo1VEpuaVVR?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Thu, 26 Nov 2026 20:08:45 GMT"
+          "publishedAt": "Tue, 24 Nov 2026 19:06:36 GMT"
+        },
+        {
+          "title": "Best Kalshi promo code CBSSPORTS55: Earn $55 bonus for Bills vs. Chiefs, NFL on Thanksgiving Day - CBS Sports",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSHRPTXBlOUY5OEtSZnN5V2V0bTU0VXc3ODRXTG0tSGJibFNXeDZSd01qUDhrVEVoMThNUE9YX0NqYXp2elRhYU16RlFGWFNrWWpsM1F0ZVRrM1VBaXFEa0VGbmdGQlJQQVZ4WmlVYndxN0pEYk9waEZkNTIxNzY1UkhxZ1FfeGkwa3FwTFZPV3k0Yktwclg0Y2dmRWQwUFlubll3VzFxRW0zdklfYjdMZXdGWTNDWVM5V05Bbnpvb3lTRGpmUnY4Sg?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Fri, 27 Nov 2026 00:36:22 GMT"
         },
         {
           "title": "Opinion | Kalshi’s sports bets are everywhere. They’re also likely illegal. - The Washington Post",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVUdlZXl1TkVZanVjcGpfaUpMZ1Y0Y0w3bHlmZlhha2R2dDdZbXhTY2dQMlRpOWNjbjZjb01aU0dWZFhxREFfc2dHRGFzSExlU3lUdUVoQVBCemdCdUZqRWhEcVN0WFJmd3BIckNtRXJ1NUhuZHBINzZkM0lmSWVIcVJ4LUt2VEtva0tzMTVEcDJxTW9DMUdwMG5kMkpVWEc0cUJ3V1ViV2c?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Thu, 26 Nov 2026 20:00:00 GMT"
-        },
-        {
-          "title": "Young New Yorkers Are Losing on Kalshi, City Council Says - The New York Times",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9fOUY1Ny1oWVZVSzlEcXJqZGwyQzkzOFdXNDRRVmV6eXVHMUNHVklUa3NVSGlzMkZQS3pJZkxpWml1X0dvb0tiTTlfdUlyOUZLbkJHeHJydU9yU1BTbFBLTmt6VzdEYWZfVGxaQ1NFS1hYOWs0c1E?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Tue, 24 Nov 2026 10:04:07 GMT"
         },
         {
           "title": "Lakers latest in NBA to establish partnership with Kalshi - ESPN",
@@ -130,10 +63,10 @@
           "publishedAt": "Wed, 25 Nov 2026 15:18:29 GMT"
         },
         {
-          "title": "Federal judge orders Kalshi to block sports betting on tribal lands - Santa Fe New Mexican",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQeW1fVjdkNHBHYkNoNFpHUUp4LVdCTGNHWGQtSElITFFrNE9oY3VWclNLaXpOWmJmXzYzT3BxVklqM2RaU092YTA5TWVsWkZ1WEJTYzBXaVFkOXZlYl9rQjR4Z184bndqTXc0Q0NJY3lWZmN2MnYtbHZfM1dWMnd2N2Y2WGJSeWZ5S3Fod2hMVEJIaW93UVV6eU9RSEROc3loZ0d4WVhObEVMM1o5U2Q4aHhmcTY3YkNCbVBXc3QtXzBiZHRLQ0t5WHRxY0hsclpTV2lDLS14dmI4S1M0VGhRRm9tRG40SFlCM2RodnA4WEx3VUFPOFdyWXoyMA?oc=5",
+          "title": "Danny McBride Stars in Another Kalshi Ad as Annoying Uncle at Thanksgiving (EXCLUSIVE) - Variety",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQmVuYnd3MFNUaGU4MWhudXZkWDNjeElDR2FwSkZtb1N1b0NrbFFFZ3JCYkJRcFRhRmFfM29YWjZDc1g5Q0hXRU1QUGtfaWRXaGJhdmZyVnlpNjZoMzV0RU1vWXNmRjBIVnJ6YVhhRkdfRUtjc3h2dm5BLUVIbmtDaHdLVlNYb0ZR?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Thu, 26 Nov 2026 05:45:00 GMT"
+          "publishedAt": "Wed, 25 Nov 2026 15:00:00 GMT"
         },
         {
           "title": "Most Polymarket users lost money betting on the U.S. midterms, report finds - CBS News",
@@ -142,22 +75,16 @@
           "publishedAt": "Wed, 25 Nov 2026 21:17:00 GMT"
         },
         {
-          "title": "Spurs Extending Lead in Kalshi NBA Finals Market - Sports Illustrated",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQV3ltRkZXM0h3TmdkaldYU01WYmhRM0FrMUtSQU9KYjJ0N2N4Mm9pVmgtR3pBTkJ2aW5uaVh0SUZhNEgxYXl1UG1UM0Y2S2pTT3ZxaWRvLXA4Q2RIYVppSi1IQkJBSk5FdmNuLVEzY0FveXd6MzRBYmpxMUFHOVZ3MGk3UHJEekt3YTFiYXRyWWNHcUpUYjFhaEVVem5KQjU5?oc=5",
+          "title": "Federal judge orders Kalshi to block sports betting on tribal lands - Santa Fe New Mexican",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQeW1fVjdkNHBHYkNoNFpHUUp4LVdCTGNHWGQtSElITFFrNE9oY3VWclNLaXpOWmJmXzYzT3BxVklqM2RaU092YTA5TWVsWkZ1WEJTYzBXaVFkOXZlYl9rQjR4Z184bndqTXc0Q0NJY3lWZmN2MnYtbHZfM1dWMnd2N2Y2WGJSeWZ5S3Fod2hMVEJIaW93UVV6eU9RSEROc3loZ0d4WVhObEVMM1o5U2Q4aHhmcTY3YkNCbVBXc3QtXzBiZHRLQ0t5WHRxY0hsclpTV2lDLS14dmI4S1M0VGhRRm9tRG40SFlCM2RodnA4WEx3VUFPOFdyWXoyMA?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Thu, 26 Nov 2026 14:00:05 GMT"
+          "publishedAt": "Thu, 26 Nov 2026 05:45:00 GMT"
         },
         {
-          "title": "Los Angeles Lakers Announce Partnership with Kalshi - NBA.com",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPT2hscFprVnVKdG9pX05wNDBKWDQyUmNXZ3NROFRvWW15YTBkZEhFSkdTOHlFbTJYUlVzZTRKdGV0b0xwanVnYnc4SUt3QUFHcy02cmpIMG12UkZXQzNTV0QyVXQ2LTltNG40WU1IR1RmYUtCUkxFOWhuRlhtbWpBUg?oc=5",
+          "title": "Analysis: Kalshi Largely Accurate On Trump Mention Markets - Legal Sports Report",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaVpxMGc1eEl4UWlPVy1QSmhVbHd5UE96WkhBMW52X3NoQ0dqSHhaU2I1Zk9ralY3TnB5aDltUThTdFJySDdSNGd3cmNZa0hZUkNldXh1dktlc19GdXVUc3RhWi1zMWJYcDFvSkFrWldNcVQxWmVxdF91TEFBdmExbmFCOHpCTUpnbUl1N1RsM3ZCWlk1N29fVlhXdXIyMkFI?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Tue, 24 Nov 2026 21:00:00 GMT"
-        },
-        {
-          "title": "Utah drops criminal charges against Kalshi founders after company suspended operations in state - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPb2c2MzFtdWdPUTBwbnpzdXhvblIwMlJOM2lrY2JNMDh2UGtiUXljT2FaYzkwSHVoYVVNc3FqWWV4NmdCQ3dUYjlFaW1iTmZDaDhxc2piRTdtTXdTV0hjNnVISmFsTVlGZTNvNm5qSnBMcm5rTGM0U0xjS3VZZzFCMUhvRjMwVjRUb2UwYlFHd0RXdEZISVZOa1FodWlRcUpmWFMxMDJZT3Q5QdIBrwFBVV95cUxOMmZ4NlVlWkZoNTFWaTN4NlhnZ2JiOUVEeFRwaVNpZXVlZWJpUk1Uc0VEMHdwOTJ4WXN3d082dzBBS09tSEdxaERkZUxHNllkZUdJYzgxRVZieXRMa2MxeTlxbVNWbUdLUk1BeFJiTUtMVG9DR0lRbWtwWTVvalFFTFMxUkZGRGMyRURBYVEyaVYzQ1FSZGFVYTQtSnhqYm1lSllEcnlSVk0wVVR0eV9J?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Tue, 24 Nov 2026 18:28:33 GMT"
+          "publishedAt": "Thu, 26 Nov 2026 15:32:58 GMT"
         }
       ]
     },
@@ -192,12 +119,6 @@
           "publishedAt": "Wed, 25 Nov 2026 08:49:11 GMT"
         },
         {
-          "title": "Opinion | Betting on Prediction Markets Is Still Betting - WSJ",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMXd4YlZKWE54TF92ZmV2VlBQWGdlSmpHOXNxbld0RzZ2OWxRdkNmV2NXRVRad2w5Q1hJaE05bGRvNlJKeWVDRm9sU2h2Umk2c29RN1BTdGxldkFxN0Z2bXFUbTVEQmx1dENYcDRoazJBejJVRW9hbkVxM1cwbW1WTmRMb3RwUFRabEZj?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Mon, 02 Nov 2026 08:00:00 GMT"
-        },
-        {
           "title": "CFTC prediction market rule push advances in U.S. review process amid jurisdiction dispute - Traders Union",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaWxHNkwtbWpSWnZHTUJuYjAzTzdLOFNQbGo5MDZFLXZVbkkxejI1TDA3WDFaOFYwZmtObmJLaFM3SVNGV2ZmazBxQm9EcHFxcnB2Q09xQzZiLWZlU0MyRWxXR2RteXM2NUd5eFUwR3dUWnVkV1N4U3pzYnRJZGN0b3kwTTMtM012V0JhZjNuSXRsTHNUV2RhUXlOTXFQekE?oc=5",
           "source": "GoogleNews",
@@ -228,16 +149,22 @@
           "publishedAt": "Thu, 24 Sep 2026 07:00:00 GMT"
         },
         {
+          "title": "Regulating the Prediction Market Boom - The Regulatory Review",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORGlYLWRiYjBjaXk1Z3FIYzdCblhKVzBrRHAtNGtTOFIzZm5rSUZINFlXVW1iSm9sanR3R0RRU2ZNWVNycWJxaWU4Y0N6MDNMNU94Wk9WVDh4M1hrT1JCaENsdW5uY2VGMUhwdkdkX1JhQ1BrQXdRZjlsRm8wRE05LUFrUnhWTkRLTGNtNVIzTQ?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Sat, 08 Aug 2026 07:00:00 GMT"
+        },
+        {
           "title": "Opinion | Is This the Gateway Drug for Gambling? - The New York Times",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9xZXFlV2oydzJ1aE5WOUZFMktCVE0zTld5OEE1X0wwZFJheVNQWE11TTZhekYzWU1rODlGNXJzcm85QmUzR0o5ZHRsci0wN3RoZTM0amJZXy1IWXMyWWJkLTNTSm1sSzgtX3BSYy0xUEU0c3V5OUNodWVTZW0yUQ?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Wed, 28 Oct 2026 07:00:00 GMT"
         },
         {
-          "title": "Regulating the Prediction Market Boom - The Regulatory Review",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORGlYLWRiYjBjaXk1Z3FIYzdCblhKVzBrRHAtNGtTOFIzZm5rSUZINFlXVW1iSm9sanR3R0RRU2ZNWVNycWJxaWU4Y0N6MDNMNU94Wk9WVDh4M1hrT1JCaENsdW5uY2VGMUhwdkdkX1JhQ1BrQXdRZjlsRm8wRE05LUFrUnhWTkRLTGNtNVIzTQ?oc=5",
+          "title": "Prediction market profits are corrupting America, one public figure at a time - The Hill",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ENU10VHFDNWY5eFFNNHBKVjhHektjc2hWT3pVNHFTbS02cFVxV1FfVk9wR0k1b194TThuU1NaaFEyYmp4YzlTcEZXRzZ2eFgyVzhRTXl5Q2FmR0RaNU1mZU1kVEpKclpGYWF6cjU0RVFiYmJRNHpWa25GLTVFUdIBgwFBVV95cUxPQTNzU3ZIZnVxbmFCV0w0Z0R6UG9WQ3REZUItSmNUek0xc1RpQTFQMmlKMFhhcWJ1cXBKSlNSckJRT3hxSE5fU29sZ2hjVTM2YW0yb2JUbno4TjI4TXI4SXM3MFJnT1J0Y2t5LUZ3Wm5scTNVXzBweWRKOWhNTDlNRUxTQQ?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Sat, 08 Aug 2026 07:00:00 GMT"
+          "publishedAt": "Wed, 02 Sep 2026 07:00:00 GMT"
         }
       ]
     },
@@ -328,40 +255,16 @@
       "spikeScore": 1.7142857142857142,
       "items": [
         {
-          "title": "Best Prediction Market Apps &amp; Sites In USA Ranked November 2026 - Goal.com",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQ2RtT010Q1R2QU9LYmQyVjVXTy1TVWJtRDl2UzNSeFFab2VCQlBUZTZXdmxqc01QeWxRMDVobHo3MS1fTEctaU42SFpMTFpENlljN0tGaWU2WFRlVlpHel9ZNmVsNDRNLVBaeUJDaHVlQy1RSGxrSTF5WUhGN1VYc3MzNA?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 26 Nov 2026 18:38:09 GMT"
-        },
-        {
           "title": "Binance Tests In-App Prediction Market Feature via Predict.fun - CoinMarketCap",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRXNWMGd3Z0o5OUFrSEVqTzdqOUhOeWlia25XandraU50UzdNdHZkbDNmZkdmbWE0WTFodjZ2cXBpdTJmejcxT01qR3ZFdmZqcFp5b2tJaWhFNDJPamtuRnZvNjI1OXNjT1ItX2hfZUd4MEhiUGltX2pTMjkzeDFoeWhna2tkUWdIOTQzNE9GYzVYYVhnWXE0TWdWeTRISE42S3hSRG5R?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Sat, 21 Nov 2026 06:07:30 GMT"
         },
         {
-          "title": "SimpleSwap adds Polymarket trading to crypto platform - NEXTPredict",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQa0dpTkFucXRlckdmUXFNNkcxOHlLU3hnaGl0TGZIeTZTdWtjMWNJSXJUbE1fMllweXZLT2NyTnBHRmpZOGNOZm9GQzZzRUpIUmg0TXc5TXZiOTJsNE9EbkVtakVRZThxai1yQW9yQkkzakZNcHZyM2E1eDdYVXMyamY2QVV1Q0lXNGlhNktmNEtMbUpR?oc=5",
+          "title": "Predict.fun Launches Pokémon Prediction Market - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOHJXa3d6eVQycHgyYzZNczl4MHF0QWY2NHFfODZvYXlQZUdqOXg0SVVLN1RhX3NBOFphLXVzY01qX25JMTJRaDU0NUFkSWpldzFBUGhZazZCQ1BkTUtnQy1NRlVkczU3ZFdKNmRXVndEbnR3aTRmc1l2NjY4VFNhSnhIMEptUHRCb0R1Z0xEZ0JaeWpCb2VSSjBDd0llZi1HMmVCVDV2QXJySVBQeVE?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Wed, 25 Nov 2026 15:14:27 GMT"
-        },
-        {
-          "title": "Predict.fun Adds Prediction Event on Amazon’s Year-End 2026 Market Cap - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPM21XX0dyRzkteUJPeHZJc2J3NFZRM1dfVHJNNmFQemNSRFpyd0NXa2tCRWsxbEgzdXhKTmNQdzloNndFWEgtT2dqM3hpTS05NzNMMUd2SHh5TjQtV3E2alI2TS1GUjJHY3FkX0tYNFpDNDFkRXg4WVE5eW0xTXVsSDV5bW5pRVV2NHZ4QTlIRGtNU1BJb3Z1WC02RWhaSHQzaF92QU5JaUJSVHBTTjZ5RVgyRk9nZUF5Z2haMjhRc3FabV83ODM4QTRROXZMdw?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Sat, 21 Nov 2026 04:38:00 GMT"
-        },
-        {
-          "title": "Asia banned crypto and lost it. Prediction markets are next - Tech in Asia",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOF9hWnQ2X1N2U1padkxGcGpYMEdmbjgwTExOVDVDWTNOOEtsc1NQbkQ5dVBiUFlJUzU4ZXV0amV3aEM2ODVOalhwU29kamZBblJISF9xNks1YlBHQVRFZk9BYzdpNG9uR3MwQmJmc2t3TTdMU0VUYThxUk5LaGdoQ1hRVmN6VWNxbzhJSFNZUnpmbHk2dGF4NA?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Wed, 25 Nov 2026 04:16:00 GMT"
-        },
-        {
-          "title": "Predict.fun price today, PREDICT to USD chart, marketcap and volume - CryptoSlate",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5xUnM3UDZBazVDVnpDZUVhZXp4bk0zTjVDUXBuUW1NcklDUW1BSFFGLUViaXZkQXhUOTV0UE5uWjlhdjh5SldmZ2w2MFBIQzZxRTVRbg?oc=5",
-          "source": "GoogleNews",
-          "publishedAt": "Thu, 19 Nov 2026 22:57:48 GMT"
+          "publishedAt": "Mon, 16 Nov 2026 08:00:00 GMT"
         },
         {
           "title": "Hackers Drain $400,000 From Binance-Linked Prediction Market - Yahoo Finance",
@@ -370,10 +273,16 @@
           "publishedAt": "Tue, 27 Oct 2026 07:00:00 GMT"
         },
         {
-          "title": "Polymarket Odds: Fed January Hike, Predict.fun, Heisman - RG.org",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMGNFXzMzRUtqbk5UdEY4TFV2aUpsSHVFMWNBVkd3eGNWTUtSMDJ6UW5ncHJyajhHWlVjNnJMUWVfM3lzYWt5SU92aE1GWnZSNEZ1a2Y2MDRUejNieVJpdlpQRXhhMTVSdTFvR3p2eC1rUkN1ZzV5NnM4VlJKd0ZQRWduNF9zMDBEdzBqakVDNzZsdWJtWjlKb2hqWmpNMWo4cS1zdTlraw?oc=5",
+          "title": "Predict.fun Review: BNB Chain’s On-Chain Prediction Market Explained - NEXTPredict",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4zM3JsaFZ0MzN3dnMzV2ttZl9LQm5uZ0x5MGVtZF9qWm5pbEpsR1lNYTQzOVZ5S3g0M0NBRE83OWlfZ1g5RVd0LWc2R2E3Q01aLU5HN0tuREU?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Wed, 18 Nov 2026 15:24:01 GMT"
+          "publishedAt": "Fri, 30 Oct 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Predict Fun users lose $260K in ‘likely’ ongoing draining incident - Protos | Informed crypto news",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZDNWYkRaX0hiRmQzUjJzdXgzaFExOWpHQXVVSks3ZWNuVUpOMy1LOFJUMFdEbzJHSXI5b1hzdnVUdDVETlpjdl9NSTg2MjA2RUhGdldVQjB1cm4wdnV5LUdiR1JuT1FuRXVNQ3NsR1lDYkhPbzRfN1J6eEpocTdNWDBjVmpMSTJLMG9N?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Tue, 27 Oct 2026 07:00:00 GMT"
         },
         {
           "title": "Binance to launch prediction market feature within its wallet app via Predict.Fun - The Block",
@@ -382,30 +291,48 @@
           "publishedAt": "Tue, 31 Mar 2026 07:00:00 GMT"
         },
         {
-          "title": "Predict.fun (PREDICT) Price Prediction for 2026 to 2031 - Bybit",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5LbHp5MFh1dXNfWldMQk9DVFVDUkdWUmhnNGNlME5vMmpvVURJUVRBZXdWNTh0YWxjaEEtVmNyUVZsN1VqY2lnSjhOSjhvdUVYRmI2OFcwdm1QV2ViQmxLT2p0Y0M?oc=5",
+          "title": "Best Prediction Markets 2026: Regulated Access, Crypto Liquidity and Risk Filters - Bitcoin Foundation",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBoT3ZiNTBWRUxmUGEtVjFDTkhsWnV4SjdTc1htMS1McTFkbENkLVBPeWtUbFQ4S2xNeFBCS3AwMkN6ckZvMHNlbjg4UURTM3FjVFZxdzRUdG93UVVxZzc1WE9IMTlQdWlSVlFVNVdPYmJxTVFCT3VlZFVTT20?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Fri, 20 Nov 2026 04:13:10 GMT"
+          "publishedAt": "Thu, 18 Jun 2026 07:00:00 GMT"
         },
         {
-          "title": "Predict.fun Price, PREDICT Price, Live Charts, and Marketcap: predict-fun price, Predict.fun price, PREDICT price - Coinbase",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE00enhOWVZGLTB1TWJHbDF3SndZalc4cnJzQ1RkaW5JSkJCcTN1U0p1QWtLM2FQMUFDcEhmdkpyR1JBYmNCNl9aRVNOSEw3R0Q2RnY4Vg?oc=5",
+          "title": "Binance enters prediction markets arena via Predict.fun integration - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZXhyRVV1Y0tvQlNBQ1BUdkpDcFdNVWJDQWVjQUlUQ2J2cGx5VEc3YUhFUUQ0OVFPR3NqcFJyZ3hHTHpBbDNHZlkzYUFzRjFGbXktNnM4Y2V3SEIzcEtFYmlndHhrT3hYekUtNXUyUUhnVHlHQ0NOTkpNczlleWIzb1VqaXhxcF9hVUNZUC1Ga2FfNE1neUttWUFldUFKOVNrUERIa3BfbzBKZE80eXBWNg?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Wed, 28 Oct 2026 12:03:29 GMT"
+          "publishedAt": "Thu, 09 Apr 2026 07:00:00 GMT"
         },
         {
-          "title": "Predict.fun Launches Pokémon Prediction Market - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOHJXa3d6eVQycHgyYzZNczl4MHF0QWY2NHFfODZvYXlQZUdqOXg0SVVLN1RhX3NBOFphLXVzY01qX25JMTJRaDU0NUFkSWpldzFBUGhZazZCQ1BkTUtnQy1NRlVkczU3ZFdKNmRXVndEbnR3aTRmc1l2NjY4VFNhSnhIMEptUHRCb0R1Z0xEZ0JaeWpCb2VSSjBDd0llZi1HMmVCVDV2QXJySVBQeVE?oc=5",
+          "title": "In-depth analysis of Predict Fun's acquisition of Probable: BNB prediction market's 'Eastern ambition' - Binance",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ZUUIyaGRDMEVwanJhRHlIS2ZSZmVOcHhocy1RVFQwS3Iwd2t4V2t5YXkzNklDeHdyQl93Q01zeXMzejRrbUd0b2FUcVpSSEdldTFLbWxnNnlkeC1fTThkS2w0Rlo?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Mon, 16 Nov 2026 08:00:00 GMT"
+          "publishedAt": "Mon, 09 Mar 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Binance Enters Prediction Markets With Predict.fun Integration on BNB Chain - www.trendingtopics.eu",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRnZuVzZqQlZlQUNuUFlDXzFMRjZiV0V3VEpJN3J6RkNoWkVsX2IyTy16YUpvSE9RbzNGYVBtZE1oSy1NYkI0NE5JQzZSajRYMU1fZjBUV3RmeXNkMGt4YWtTaDM5Y2ZBY3otOFFnRG5hNUVMNzRuQnJkZ201Y094ZG9IdlFwdmN0VERHLWRxdmdoYi1rMzNZX203cXdJdTdQX1FEUEhnYWdzZw?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Fri, 10 Apr 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Binance Wallet Just Opened On-Chain Prediction Markets to 200M+ Users - CoinMarketCap",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQlFBSXlRZXl1ZkpqNy0xU2VScUlkRnNPeDYydDBjQU54MnhNOElaU1RoU1NPLWJIZ29LQzIzT3ZOTWNsUEl0QTJwdjZSaWdneVFFc1VveWtDQm40dExBU0F3aGdlODBHb2k4TWRyZU1yUVlkekQzYkVpaXJ2X3hKR1lRbVpoS2dvZ1RGOFpGaW5ZMm4tRjFUbzJDSFlpV3RmOS15WTBqUE13S3RyWGNF?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Sat, 14 Nov 2026 13:56:52 GMT"
+        },
+        {
+          "title": "YZi Labs Boosts Stake In Predict.fun - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTUdFMk1tM1VucHZvcDU4b2hfZFVURmJOM0luRTA3cUdCQThkMkstazd0bXdsYWRVVmtRcV9lUjdkY2wwdkJISUgxcjVsd0drQ0dRMHZuTXdMdkZ3ejV5cV9XREJzaXBSTjFBUExHLVVZcXBIR2c1NlNxUXJEcEJObTFXcWZ5Nll6Nm1ITVFCVGtNSE9mTE5IZ05B?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Thu, 02 Apr 2026 07:00:00 GMT"
         }
       ]
     },
     {
       "keyword": "ForecastEx IBKR forecastex",
-      "last24h": 9,
-      "baseline7d": 5,
-      "spikeScore": 1.8,
+      "last24h": 10,
+      "baseline7d": 6,
+      "spikeScore": 1.6666666666666667,
       "items": [
         {
           "title": "ForecastEx Review: Fees, Markets, and How It Works - NEXTPredict",
@@ -450,6 +377,12 @@
           "publishedAt": "Wed, 02 Apr 2025 07:00:00 GMT"
         },
         {
+          "title": "Weather the most frequently traded forecast contracts at Interactive Brokers: Founder - Artemis.bm",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSlJwOEtHSkRscGZ4YnNudkJkY04xS0hxUTFtcmZDTW5MSVFmUG9sdGJySUVZSWRsN2I2SlhnMFg5bkF4UnFHX3Y3YldhREtRb19UUFVvNU4tYzZUNTd0eWE5VmhvalkxMFU4Z2dyUWFfeXZ2MWJ3eUktTHJtRkdHa21NVUJtMGViR1VVc1lxblp3djVleUItck9qUTc1M1BSakZrcGhUeV9jX1pEcVNYMzBhSQ?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Tue, 27 Jan 2026 08:00:00 GMT"
+        },
+        {
           "title": "Aries Launches Prediction Markets Through ForecastEx - PR Newswire",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSmNTaHFnWE9IbWx6WXYtb3E5Z2lBb216SDBkc3lzU1VxdjhxZlpPRVRoMUkyVzJ0dG5yUnZqZzhzcDZJUGZCczJldEhtQWVqRzIwZHhTMjI5N1F5QnV2aGxsT25uZGI1cFlrUVQ4emZqRWh2UzlnWDBBbEozQjlPV2VxMDI5Q2I0Ty1lR2lkX01Pa3ZxVWVCT2VnVWFfRTdkVWtzRzNxS1Q1eXdn?oc=5",
           "source": "GoogleNews",
@@ -465,21 +398,27 @@
     },
     {
       "keyword": "Overtime prediction market",
-      "last24h": 2,
-      "baseline7d": 1,
-      "spikeScore": 2,
+      "last24h": 3,
+      "baseline7d": 2,
+      "spikeScore": 1.5,
       "items": [
         {
-          "title": "Detroit vs Columbus: Overtime - Coinbase",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBpcnZyY0NfN2ZJb3p5ZWFtbWk5amZfbzdQTVN1R3VxYlRZZFBOaTRrUGZfZTFRV3hrdW9NWUFvWURrcl9RbUpIenpJZHRNNnJPa3lzdXk5QWlnYWJHZjRlV1ZGS1JsTDEwM1lwUVdyTEJCUQ?oc=5",
+          "title": "Texas A&amp;M vs Marquette: Overtime - Coinbase",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE16N2I3cTB6RHBmcFVGQzAwODhmLWVMbFpRWHBDd2wwUFl0LVdzZU1KX0IyOXhRVDdFcldvWGJDd0M3OU9BWmx6aV9tbmluTFlWSUZBdE1iTUtldzR1Z3AtUE5tUnoxSTVWNk5FVUdGcHhpdm9Ia2JQRQ?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Thu, 26 Nov 2026 13:21:13 GMT"
+          "publishedAt": "Thu, 26 Nov 2026 22:54:42 GMT"
         },
         {
           "title": "Polymarket CEO says his prediction market is \"the most accurate thing we have as mankind right now.\" - CBS News",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcG92bGZ1S3d4RGhuTnp4TlJpUXZ3cVJXWGtlYk5nb0tvM2haaEhXZGRmdE5HMmxBaUY0Q0dTMHhIS3hqMzN1VXBvSTE1MFdvaXY3anNhelBNT2dzRE50WXRGVXdrRWZkV2taQ181ZWdZTFdkaXl6REQ0ejJuaUstZHRXSlhCUXRXRWdZQk5wdw?oc=5",
           "source": "GoogleNews",
           "publishedAt": "Sun, 30 Nov 2025 08:00:00 GMT"
+        },
+        {
+          "title": "South Carolina vs Clemson: Overtime - Coinbase",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9iSTZFSDhlZFlZNkwtTWo0QjFURGtNa2YwS05RWEcyc2hkTFBnblJ0eUE0LXBYbTc4bEltRnlldG1TU0VVM3BIUElzTlhsU3IzbGkxU0ZjUkxBazFLek9BR3BYeURyLWhWMmY2T3RrYzJVZHJnekxn?oc=5",
+          "source": "GoogleNews",
+          "publishedAt": "Mon, 23 Nov 2026 03:28:11 GMT"
         }
       ]
     },
@@ -496,10 +435,10 @@
           "publishedAt": "Tue, 24 Nov 2026 15:56:00 GMT"
         },
         {
-          "title": "Polymarket Founder Says Trump Jr.’s Involvement Is ‘Heavily Overblown’ - The New York Times",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPY2lhTjZCN3dLbkIxYjQxSzNHbTREZkpwV1MyOTFlRk1JcjNoMnRnaFZNSEtidThDTzN5UXh2TDIwNTlXbEtzT2wwY3R1WW9ySUNNQjQ3X0lxa1ByYUNNT1RRdnNpc0x3Zl9mZ2stSWxrN0wwREd0eEJoSUU3bXhTRjJWa3N4MzlmOC1SWm1qM3BVZjh1QkdaYUZIUjFBOVU?oc=5",
+          "title": "‘Nobody's untouchable anymore’: Prediction markets feel heat from Trump administration - Politico",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ3RxbjMxSUtaRTRqS1NHUUdxYjFYcENxaFNVbmZuOVVmNHZ4d0NBNlhkVURUNkdoMVJBYjM0dVFvajZvSk9pQ0p2WWtoaFRwaWxaMTlJQU1qd190VXN6ZDhQcWRpOWFUcHJLSXQ2WmhidnNqOGYzTjVuTThjUVNpeEFIQmMwX1RK?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Wed, 18 Nov 2026 08:00:00 GMT"
+          "publishedAt": "Mon, 16 Nov 2026 08:00:00 GMT"
         },
         {
           "title": "Donald Trump Jr. Leaves Kalshi Advisory Role Over Conflict With Polymarket - Forbes",
@@ -514,52 +453,52 @@
           "publishedAt": "Tue, 24 Nov 2026 18:05:00 GMT"
         },
         {
-          "title": "Kalshi ends Donald Trump Jr. advisory role, pointing to Polymarket ties - The Hill",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNFBMS1ozdVUtTDB2bVg3al9aTHBRXzdHMTYwVWVTZmU1RWlWVUIzeThwdWRJYlZGQXZRWk9fOHZJMFlpV1g1QVFWbDdDRy1xSTJyRmZTNTVaSDQwSTVLby1vbEVaTXZ4MTBLRFRzYm13cTU2d09tUUJ6X3JNeUhmUdIBhgFBVV95cUxQdnc2SnZSckhhNklxRlpWX2x2eVUweGdPYlAtYmdjN00zX3FwME5jMjc4dk4xMGhacG4zcEphREhzQmJXYVVGZ19JM1FDTlFWNlYyS3hsR3J4WTBLMmhOd2VTQmRwNU5YN3JaaVhEV1Y2OVZiXzBPTHVkYkNuS1JzRVg3enZsUQ?oc=5",
+          "title": "Donald Trump Jr.'s venture capital firm will be major financial backer of Polymarket - NPR",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQjM4YTVWaVVVd3MzOTV0dTM2MmhfaGRuMElLVXJCYTREbmdnMWEyQnk1SVVfVDZLUzd4eEVMTjFEdGRFSjI3dkhFajdnNFVha2hsMkxlT2lkMWI5eDF6ZFZXMlRiYW5tanNwbGJfZFlCZVFzTUEzWmR5T0VqZFZmNVFSZDJ0ZEZUZ1RYMWlkUmFzRVQ0dHBBd3RjNi11QQ?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Thu, 12 Nov 2026 08:00:00 GMT"
+          "publishedAt": "Tue, 01 Sep 2026 07:00:00 GMT"
         },
         {
-          "title": "Trump Prediction Markets: Trading on What Trump will Say or Do - DeFi Rate",
-          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9kQUNrbEE1UTRZZ1E1Vk1KQzZtbVFuVWJvUFByRlFnVEg5Ulh0THc1M095bEdJMjVmZUVjRUVfNzVhMHlTTTFr?oc=5",
+          "title": "Clash Between Prediction Markets and States Sets Off a Furious Political Battle - The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdjd2TTFZdW5heklSQkVMUHRLaGJwZ0VSWHdla2pydGpIaXk4dGQ0S2N3NkRjRFZDOVpmQllVYjVKQUMtQm5MM2hQaE8xNEV3TmFFemJOQTZKLW8xV0tpUmpsWmpTazk1UVBSNjMyaDdPQ3RHd2w3QlVZbDEwdzFIcXRIak45aE1xWUhKQ0ZkZDRyeGZXMjE2MnVxV212YkVvRnVDdEdB?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Tue, 24 Nov 2026 03:32:00 GMT"
+          "publishedAt": "Sat, 29 Aug 2026 07:00:00 GMT"
         },
         {
-          "title": "Kalshi ends Trump Jr.’s advisory role after Polymarket clash - MS NOW",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTnh6SVJ5YjNzVU5icTNhTWZsemo2bEh5UkV3dHl3VGUtRjlKMUhjczdtYjV2NnBCUkRxZ09ISmQ4d0YyclFMeF9zU2p6VUlMejhiWjlhXzR1ZjZ6cl9VMXFIeGRRWkJINlBWVnlVNjR6aGdXdUt6dlpreEJRVFlxWmI0S3EtT1Mtd3hn?oc=5",
+          "title": "Donald Trump Jr.’s Firm Leads $1 Billion Funding Round for Polymarket - The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE44OThUM2Z3OTh5QzdWb1ZvczM2RGkyclJ2eGRrRG5iZUpFS19RWkNBMWR5SUV4M2dvMjRKMzZwM1k5SkRuX1VXNzVMN0tEYmVVX3lyT2JHY0JfSkJqVDRnUldTY3JCSTNoc2lBRHFwdVo0QWt3YXlUNFlrMWtFZw?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Thu, 12 Nov 2026 08:00:00 GMT"
+          "publishedAt": "Mon, 31 Aug 2026 07:00:00 GMT"
         },
         {
-          "title": "Kalshi parts ways with Trump Jr. after his firm deepens its Polymarket bet - The Washington Post",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbW9Td2xIS2VjcXlsWHQ5b0RseXJFS0dhVDFqTm42eGExVmZqbk1mZTVtOVBocHhIaFRxbGZJdkRQTHJlZkl4eEJocXlhY2ZDMU03RXBodkc4aE1YYi1nSkRQb3M5T1AxY01Jc1dqeU9aeE5fdWJ0UXdfWF8wc2NtWVN6RWo4VWNaZy1OWGFNVVBqYUMxd1cwalVJcUxFd0o4d3k1TGVJaFl3NmtKZGdPODVZMHhZMjBhckVCWUFxYzUzNjg?oc=5",
+          "title": "Polymarket follows Kalshi, Trump in suit against Minnesota’s prediction market ban - Courthouse News Service",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSWtGR2tvYkNnSHB2OHNxUEtHeldjcDFMMmpEZ0lCZUpqSlRMMWxCSW9XM0c1STNQS0R2TWxUTWhyOUxMMDY3Z2EwNE5UMVN4Q2l5TExJSjVsWFEyY1R0WGJxVHBUcFhOSklwelJ6Vzc0QTdScFFrU1I5Mm9UNGtTNzMtMVpmOWpEU3ROX2JNazBvZTJWZ3dTMEl2c3RUWnUzRlpvRHhmckVkZm9T?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Thu, 12 Nov 2026 08:00:00 GMT"
+          "publishedAt": "Thu, 04 Jun 2026 07:00:00 GMT"
         },
         {
-          "title": "If Democrats Are Going to Investigate Trump, They Should Start Here - Slate",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPODI0UzdVOFhHaU9makJPLWpPMmlkNXY3aHd6NDJ1a1lGT3VnRm5BcHZxY0padHJLOEdpZzllQmxFb1QxNUdnM0NMcXc4MWY0ZjB6WlBJSUluTEdmVnJ5dk0ybXdZajM4M0pyYllIOHlCajE2N0xXbXNiRnFtUG9Jbl9TU1pDTzI2MU1OeXJEQ0FpbFFrNjY0TkRB?oc=5",
+          "title": "Officials probe whether White House teleprompter operator profited off Trump's words - NPR",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMEJfa2otOW5pR0xxc2NXeXV3VGoxX2lFZVdNYVJqVUxQU1JmdnBfU1I2Y2dGVGtzQklJdXVMbnhYYlFXME1pdENMLVRPQklucnJMU2JjZ25QbzJpcGVvSW9obmJZZjhWMGpJZkZqNzA2TjlqRG5XbjhlTENzSF9nS0pMZzdRQmVBNUh6VXQySUhIS2lsdEJpdDJyRQ?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Mon, 16 Nov 2026 08:00:00 GMT"
+          "publishedAt": "Thu, 16 Jul 2026 07:00:00 GMT"
         },
         {
-          "title": "Exclusive: Donald Trump Jr. explains Kalshi split - Axios",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5sWWFjVFRVdk4tQmtPdGM3UGg3bzBScmEzU3FrYXpWZnBpQmFITlhoUl9sbVJHUnVWeFdMUkQtMWo4R1hiZVdzUWlXMl82UVZkTlY0VXl1azhOaGxKU2UySHNfTFpOa19qcDJwY05jb2hpVVNUcXJYMjFOcTI?oc=5",
+          "title": "U.S. Begins Investigating Polymarket, a Test of a Key Regulator - The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZHNRaEswckcxZjRXbjFDbVhESVFVdFA2QTllSWZOcWlrRFEzWUtNcVFSZ2lEdV9iQzR2TFluMjYtdTNJLWlkZjI2Q0lwcUdFdkxUR3NQOXpZZlgxNUYtN1BIMF8wNWRUOG5ZX21Kb1JtVVRUSDF3LThQNmgxSElBWXJCZHE2RDM0TDF5QjU3SkM?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Tue, 17 Nov 2026 08:00:00 GMT"
+          "publishedAt": "Fri, 26 Jun 2026 07:00:00 GMT"
         },
         {
-          "title": "Kalshi ends Trump Jr.’s advisory role after Polymarket investment - WXLV",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeVpnaEo1NnNoNE9Pa2ZpaHoyYWNuUmtaVnJFNU40VTlSMXo1YWtVbFF6eExROFZsMDA5Y0htTXF0T1Vfd0w4ZjFzWm43cmRKSmY3TkdLMlBuT0VFZlN5ZExQcEp1V3ZhRnFiYU9oWFBmRWxMRFFaUXR5NHU1UVEzMFo4enB0SVpKdDhycWR3akptaFl0NFlHYllTZGdLbzc3?oc=5",
+          "title": "‘Scum’: Trump attacks US states’ efforts to regulate prediction markets - The Guardian",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWUhqOUpKbDk5S0hySllYRG1MOGxCQzVIWXNudHI4ZzlqS1hDNzQ0RWdCNDU3cWhFejd5SnF5Y3FsNzQ3WklGSHl2ZWVtYkdibXVsWHM2N0xuc0dVcWtmcXV3b3J4LWRoZHhCNzdxT2F3WUFlcy1aaFJxM3hlaDdFV19mYzV5UnpkRDZoWG5jcG9OZzZ4?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Thu, 12 Nov 2026 08:00:00 GMT"
+          "publishedAt": "Wed, 27 May 2026 07:00:00 GMT"
         },
         {
-          "title": "'Now is the time': Victorious Democrats vow to rein in prediction markets - Politico",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONDJXOHlKOTJ6SjNDN2dzUUp1eUlHU1dISUtJZERnM2wxMDVQUE9FODUtNjlRQmxKUDc0ZXVEVEZ0YTlhanRBUDN6LWE1Wm1XVTc4OHlaV1B2eFp5SnRsVEhyd1Q5a3NxLW1udHVON245MTNldzRwcDBtemZqbzhNZ3JUT2QtUWNkRVY0d2VHbzZsZzU4angtSjE2WEJEdk5INFZUQ0pQd3U4bG8?oc=5",
+          "title": "Trump administration backs Kalshi and Polymarket as states move to ban prediction markets - PBS",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZzExaE1ybWs4TWc5bjBRWU92V3NGRjMzWmtJaTZrQThKUHNpVjBhRUZRYmY0UWtYODVUMUp6M1dTZlo4X2U4S1BBZVN5ajVWQ19qcFJMcWdzSTJvLW1KYklCUUZNTHgzNjhuZkJ3TlM5bkQxWUVST3hFSFZwbU9GLUd0RnZvOWJkMGVpWkpMcVYtWjVnLVZHR3ROd01PSm9CQUdxZFM4ck00bXVKdGg3VjlGWFRYWVY2SnNDOFNvd1U1Y09NOGfSAcsBQVVfeXFMTV9ma0VZejg1cEtCY1dhTXYtODk0a2hoYTUyUVRLckRjY0ZpY0VoX19uMDJYYTNpUlQ0X3BKM3czUy10Vk5HdDBTQXd1UDZPbXE3TzFWUHZGQm1EU2JySnQtRUdPVDU4eUxhZGV2Y1VoeHBIaWFFd3JsTjlraFZ5NE1VY25icnNTY0VYang1NlpWbHlNRVhVZWc5QkNlN21JNnhXbmNJdWgtVFQyYzhLOF9JWWhBMFlBT0JxbzkwMV9VakZPcnQ1dVJaYVk?oc=5",
           "source": "GoogleNews",
-          "publishedAt": "Sun, 08 Nov 2026 08:00:00 GMT"
+          "publishedAt": "Tue, 17 Feb 2026 08:00:00 GMT"
         }
       ]
     },
