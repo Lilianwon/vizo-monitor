@@ -1,71 +1,86 @@
 {
-  "generatedAt": "2026-11-28T12:58:21.822Z",
+  "generatedAt": "2026-11-28T17:18:31.898Z",
   "markets": [
     {
       "key": "polymarket",
       "name": "Polymarket",
       "duneUrl": "https://dune.com/datadashboards/polymarket-overview",
       "queryId": 5802915,
-      "daily": null,
-      "weekly": null,
-      "monthly": null,
-      "updatedAt": null,
-      "error": "Dune API 404 for query 5802915: {\"error\":\"not found: No execution found for the latest version of the given query\"}"
+      "updatedAt": "2026-11-28T17:18:31.898Z",
+      "error": "Dune HTTP 404: {\"error\":\"not found: No execution found for the latest version of the given query\"}"
     },
     {
       "key": "kalshi",
       "name": "Kalshi",
       "duneUrl": "https://dune.com/datadashboards/kalshi-overview",
       "queryId": 5802836,
+      "updatedAt": "2026-11-28T17:18:31.898Z",
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-11-28T12:58:22.608Z",
-      "note": "unknown schema"
+      "dailyPretty": null,
+      "weeklyPretty": null,
+      "monthlyPretty": null,
+      "warning": "No recognizable daily/weekly/monthly fields in Dune rows. Update parseVolumes() mapping.",
+      "sampleRowKeys": [
+        "Cumulative Volume",
+        "Volume",
+        "Week"
+      ]
     },
     {
       "key": "opinion",
       "name": "Opinion",
       "duneUrl": "https://dune.com/datadashboards/opinion",
       "queryId": 6047958,
+      "updatedAt": "2026-11-28T17:18:31.898Z",
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-11-28T12:58:22.752Z",
-      "note": "unknown schema"
+      "dailyPretty": null,
+      "weeklyPretty": null,
+      "monthlyPretty": null,
+      "warning": "No recognizable daily/weekly/monthly fields in Dune rows. Update parseVolumes() mapping.",
+      "sampleRowKeys": [
+        "Cumulative Notional Volume",
+        "Day",
+        "Notional Volume"
+      ]
     },
     {
       "key": "myriad",
       "name": "Myriad",
       "duneUrl": "https://dune.com/datadashboards/myriad",
       "queryId": 5756303,
-      "daily": null,
-      "weekly": null,
-      "monthly": null,
-      "updatedAt": null,
-      "error": "Dune API 404 for query 5756303: {\"error\":\"not found: No execution found for the latest version of the given query\"}"
+      "updatedAt": "2026-11-28T17:18:31.898Z",
+      "error": "Dune HTTP 404: {\"error\":\"not found: No execution found for the latest version of the given query\"}"
     },
     {
       "key": "predict",
-      "name": "Predict (predict.fun)",
+      "name": "Predict.fun",
       "duneUrl": "https://dune.com/datadashboards/predict-prediction-market-predictfun",
       "queryId": 6365667,
+      "updatedAt": "2026-11-28T17:18:31.898Z",
       "daily": null,
       "weekly": null,
       "monthly": null,
-      "updatedAt": "2026-11-28T12:58:23.003Z",
-      "note": "unknown schema"
+      "dailyPretty": null,
+      "weeklyPretty": null,
+      "monthlyPretty": null,
+      "warning": "No recognizable daily/weekly/monthly fields in Dune rows. Update parseVolumes() mapping.",
+      "sampleRowKeys": [
+        "Cumulative Notional Volume",
+        "Day",
+        "Notional Volume"
+      ]
     },
     {
       "key": "ibkr",
       "name": "IBKR ForecastEx",
       "duneUrl": "https://dune.com/datadashboards/ibkr-forecastex",
       "queryId": 6536996,
-      "daily": null,
-      "weekly": null,
-      "monthly": null,
-      "updatedAt": null,
-      "error": "Dune API 402 for query 6536996: {\"error\":\"This request needs more credits than your Dune plan has left for this billing period. See your usage and extra credits limit in your plan settings on dune.com, or the plans at https://dune.c"
+      "updatedAt": "2026-11-28T17:18:31.898Z",
+      "error": "Dune HTTP 402: {\"error\":\"This request needs more credits than your Dune plan has left for this billing period. See your usage and extra credits limit in your plan settings on dune.com, or the plans at https://dune.c"
     }
   ]
 }
